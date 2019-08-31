@@ -2,6 +2,13 @@ import React from "react";
 
 import "./styles.css";
 
-const Header = () => <header id="main-header">Hello</header>;
+import { Title } from "./styles";
+
+const Header = () => (
+  <Title>
+    Hello world
+    <span>texto menor</span>
+  </Title>
+);
 
 export default Header;
