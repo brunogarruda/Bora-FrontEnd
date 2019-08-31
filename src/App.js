@@ -1,13 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
 
 import "./styles.css";
 
-import Header from "./components/Header/index";
+import Carousel from "./components/Carousel/Carousel";
 
-const App = () => (
-  <div className="App">
-    <Header />
-  </div>
-);
-
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Carousel />
+      </div>
+    );
+  }
+}
 export default App;
