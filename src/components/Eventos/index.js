@@ -14,11 +14,11 @@ class Eventos extends Component{
         return(
             <div>
                 <Jumbotron>
-                    <h1 className="titulo">Próximos rolês perto de você</h1>
+                    <h1>Próximos rolês perto de você</h1>
                     <Container>
                         <Row>
                             <Col lg={3} md={4} xs={12}>
-                            <Card className="card" bg="primary">
+                            <Card className="primary">
                                 <Card.Header><h5>Chutebola 18:00</h5></Card.Header>
                                 
                                 <Card.Footer><Button bg="secondary"></Button></Card.Footer>
