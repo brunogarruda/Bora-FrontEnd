@@ -1,20 +1,17 @@
 import React,{Component} from 'react';
 import Eventos from '../../components/Eventos';
-import Pesquisa from '../../components/CampoPesquisa/index';
+// import Pesquisa from '../../components/CampoPesquisa/index';
+import { Container,Image } from 'react-bootstrap';
+import background from '../../assets/background.svg';
 
 class Home extends Component{
-    constructor(props){
-        super(props);
-        // this.state = {
-
-        // }
-    }
-
     render(){
         return(
             <div>
+            <Image src={background} fluid/>
+                <Container>
                 <Eventos />
-                <Pesquisa />
+                </Container>
             </div>
         );
     }
