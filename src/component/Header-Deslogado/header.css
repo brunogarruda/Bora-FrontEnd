@@ -1,0 +1,13 @@
+.navbar{
+    background-color: #2F004B;
+    height: 50px;
+    
+}
+
+.navbar nav nav.item{
+    color: blue;
+}
+
+.logo{
+    color: blue;
+}
