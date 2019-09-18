@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
-
+import Eventos from '../../components/Eventos';
+import Pesquisa from '../../components/CampoPesquisa/index';
 
 class Home extends Component{
     constructor(props){
@@ -12,7 +13,8 @@ class Home extends Component{
     render(){
         return(
             <div>
-
+                <Eventos />
+                <Pesquisa />
             </div>
         );
     }
