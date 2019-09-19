@@ -1,26 +1,26 @@
 import React,{Component} from 'react';
 import {Card,Button,Container, Row,Col, Jumbotron} from 'react-bootstrap';
-import './eventos.css'
+import './styles.css'
 
 class Eventos extends Component{
 
-    // constructor(props){
-    //     super(props);
-    //     this.state = {
-        
-    //     }
-    // }    
+    constructor(props){
+        super(props);
+        this.state = {
+            eventos: []
+        }
+    }    
     render(){
         return(
             <div>
                 <Jumbotron>
-                    <h1>Próximos rolês perto de você</h1>
+                    <h2>Próximos rolês perto de você</h2>
                     <Container>
                         <Row>
                             <Col lg={3} md={4} xs={12}>
-                            <Card className="primary">
-                                <Card.Header><h5>Chutebola 18:00</h5></Card.Header>
-                                
+                            <Card>
+                                <Card.Header>Chutebola<span id="horario">18:00</span></Card.Header>
+                                <Card.Body><i>Teste</i></Card.Body>
                                 <Card.Footer><Button bg="secondary"></Button></Card.Footer>
                             </Card>
                             </Col>
