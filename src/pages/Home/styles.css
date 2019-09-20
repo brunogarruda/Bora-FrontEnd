@@ -1,0 +1,16 @@
+.faixa{
+    background-color: rgb(47, 0, 75);
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    position: absolute
+}
+
+.barra-pesquisa{
+    position: relative;
+    background-color: black;
+    height: 30px;
+    left: 25%;
+    bottom: 500px;
+    width: 720px;
+}

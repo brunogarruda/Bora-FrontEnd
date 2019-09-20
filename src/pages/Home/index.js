@@ -1,16 +1,23 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 import Eventos from '../../components/Eventos';
-// import Pesquisa from '../../components/CampoPesquisa/index';
-import { Container,Image } from 'react-bootstrap';
-import background from '../../assets/background.svg';
+// import Pesquisa from '../../components/CampoPesquisa/';
+import { Container, Image, Figure } from 'react-bootstrap';
+import background from '../../assets/fundo.png';
+import "./styles.css";
 
-class Home extends Component{
-    render(){
-        return(
+class Home extends Component {
+    render() {
+        return (
             <div>
-            <Image src={background} fluid/>
+                <header>
+                    
+                    <Image src={background} fluid />
+                    <div className="barra-pesquisa">
+                    </div>
+                </header>
+                <div className="faixa"></div>
                 <Container>
-                <Eventos />
+                    <Eventos />
                 </Container>
             </div>
         );
