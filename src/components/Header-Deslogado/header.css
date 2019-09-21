@@ -1,8 +1,36 @@
+/* :root{
+    //declaração de variável com css
+    --minha_cor: red;
+
+    usando a variável
+    var(--minha_cor)
+} */
+
 .navbar{
     background-color: #2F004B;
-    height: 50px;
+    height: 60px;
+}
+.div-logo navbar-brand{
+    text-align: center !important;
+    float: center;
+}
+.logo {
+    color: #00BEFF !important;
+    font-size: 30px;
+    text-decoration: none !important;
     
 }
+
+.botaonav{
+    color: #00BEFF;
+    text-decoration-line: none;
+    float: right !important;
+}
+
+.botaonav:hover{
+    color:#FF7200;
+}
+
 
 .navbar nav nav.item{
     color: blue;

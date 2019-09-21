@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import {Link} from 'react-router-dom';
 import {Navbar,Nav} from 'react-bootstrap';
 import './header.css'
 
@@ -13,13 +14,13 @@ class Header extends Component{
         return(
             <div>
                 <Navbar>
-                    <Navbar.Brand>Bora</Navbar.Brand>
+                    <Navbar.Brand><Link className="logo" to='/'><b>Bora</b></Link></Navbar.Brand>
                     <Nav>
                         <Nav.Item>
-                            <Nav.Link>Login</Nav.Link>
+                            <Link className="botaonav"><b>Login</b></Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link>Cadastre-se</Nav.Link>
+                            <Link className="botaonav"><b>Cadastre-se</b></Link>
                         </Nav.Item>
                     </Nav>
                 </Navbar>
