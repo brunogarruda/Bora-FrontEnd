@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Eventos from '../../components/Eventos';
-// import Pesquisa from '../../components/CampoPesquisa/';
-import { Container, Image, Figure } from 'react-bootstrap';
+import Pesquisa from '../../components/CampoPesquisa/Pesquisa';
+import { Container, Image } from 'react-bootstrap';
 import background from '../../assets/fundo.png';
 import "./styles.css";
 
@@ -10,10 +10,9 @@ class Home extends Component {
         return (
             <div>
                 <header>
-                    
+                    <Pesquisa />
                     <Image src={background} fluid />
-                    <div className="barra-pesquisa">
-                    </div>
+                    <input className="barra-pesquisa" />
                 </header>
                 <div className="faixa"></div>
                 <Container>

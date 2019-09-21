@@ -5,7 +5,7 @@ class Pesquisa extends Component {
   render() {  
     return (
       <div>
-        
+        <input className="teste" placeholder="barra"></input>
       </div>
     );
   }

@@ -8,7 +8,8 @@
 
 .barra-pesquisa{
     position: relative;
-    background-color: black;
+    background-color: white;
+    border-radius: 10px;
     height: 30px;
     left: 25%;
     bottom: 500px;
