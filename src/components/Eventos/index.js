@@ -39,6 +39,162 @@ class Eventos extends Component {
                         </div>
                     </div>
                 </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h6><b>Nome do Evento 18:00</b></h6>
+                            <hr className="barra-evento"></hr>
+                            <Bola className="icone"/>
+                        </div>
+                        <div class="flip-card-back">
+                            <div className="detalhe-evento">
+                                <h6>Futebol</h6>
+                                <p>Data: 20/09/2019  Hora: 00:00</p>
+                                <p>Local: Em qualquer lugar</p>
+                                <p>
+                                    Descrição: blá blá 
+                                </p>
+                            </div>
+                            <Button className="botao-evento">
+                                    <Link><b>Detalhes</b></Link>
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h6><b>Nome do Evento 18:00</b></h6>
+                            <hr className="barra-evento"></hr>
+                            <Bola className="icone"/>
+                        </div>
+                        <div class="flip-card-back">
+                            <div className="detalhe-evento">
+                                <h6>Futebol</h6>
+                                <p>Data: 20/09/2019  Hora: 00:00</p>
+                                <p>Local: Em qualquer lugar</p>
+                                <p>
+                                    Descrição: blá blá 
+                                </p>
+                            </div>
+                            <Button className="botao-evento">
+                                    <Link><b>Detalhes</b></Link>
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h6><b>Nome do Evento 18:00</b></h6>
+                            <hr className="barra-evento"></hr>
+                            <Bola className="icone"/>
+                        </div>
+                        <div class="flip-card-back">
+                            <div className="detalhe-evento">
+                                <h6>Futebol</h6>
+                                <p>Data: 20/09/2019  Hora: 00:00</p>
+                                <p>Local: Em qualquer lugar</p>
+                                <p>
+                                    Descrição: blá blá 
+                                </p>
+                            </div>
+                            <Button className="botao-evento">
+                                    <Link><b>Detalhes</b></Link>
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+                </Row>
+                <Row>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h6><b>Nome do Evento 18:00</b></h6>
+                            <hr className="barra-evento"></hr>
+                            <Bola className="icone"/>
+                        </div>
+                        <div class="flip-card-back">
+                            <div className="detalhe-evento">
+                                <h6>Futebol</h6>
+                                <p>Data: 20/09/2019  Hora: 00:00</p>
+                                <p>Local: Em qualquer lugar</p>
+                                <p>
+                                    Descrição: blá blá 
+                                </p>
+                            </div>
+                            <Button className="botao-evento">
+                                    <Link><b>Detalhes</b></Link>
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h6><b>Nome do Evento 18:00</b></h6>
+                            <hr className="barra-evento"></hr>
+                            <Bola className="icone"/>
+                        </div>
+                        <div class="flip-card-back">
+                            <div className="detalhe-evento">
+                                <h6>Futebol</h6>
+                                <p>Data: 20/09/2019  Hora: 00:00</p>
+                                <p>Local: Em qualquer lugar</p>
+                                <p>
+                                    Descrição: blá blá 
+                                </p>
+                            </div>
+                            <Button className="botao-evento">
+                                    <Link><b>Detalhes</b></Link>
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h6><b>Nome do Evento 18:00</b></h6>
+                            <hr className="barra-evento"></hr>
+                            <Bola className="icone"/>
+                        </div>
+                        <div class="flip-card-back">
+                            <div className="detalhe-evento">
+                                <h6>Futebol</h6>
+                                <p>Data: 20/09/2019  Hora: 00:00</p>
+                                <p>Local: Em qualquer lugar</p>
+                                <p>
+                                    Descrição: blá blá 
+                                </p>
+                            </div>
+                            <Button className="botao-evento">
+                                    <Link><b>Detalhes</b></Link>
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h6><b>Nome do Evento 18:00</b></h6>
+                            <hr className="barra-evento"></hr>
+                            <Bola className="icone"/>
+                        </div>
+                        <div class="flip-card-back">
+                            <div className="detalhe-evento">
+                                <h6>Futebol</h6>
+                                <p>Data: 20/09/2019  Hora: 00:00</p>
+                                <p>Local: Em qualquer lugar</p>
+                                <p>
+                                    Descrição: blá blá 
+                                </p>
+                            </div>
+                            <Button className="botao-evento">
+                                    <Link><b>Detalhes</b></Link>
+                            </Button>
+                        </div>
+                    </div>
+                </div>
                 </Row>
             </div>
         );
