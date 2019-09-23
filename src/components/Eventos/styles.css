@@ -1,9 +1,23 @@
-div-eventos {
-  
+.icone{
+  font-size: large;
+  text-align: center !important;
+  width: 150px !important;
+  height: 150px !important;
 }
+
 h2{
   text-align: center;
   margin: 30px;
+}
+.flip-card-front h6{
+  margin: 10px;
+  color: white;
+}
+
+.barra-evento{
+  width: 200px;
+  border-top: 3px solid white;
+  color: black !important; 
 }
 
 .flip-card {
@@ -12,16 +26,17 @@ h2{
   height: 250px;
   perspective: 1000px;
   margin: 10px;
+  border-radius: 30px;
 }
 
 .flip-card-inner {
   position: relative;
   width: 100%;
   height: 100%;
-  text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 15px;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -35,15 +50,35 @@ h2{
   backface-visibility: hidden;
 }
 
+.detalhe-evento{
+  margin: 20px;
+}
+
+.botao-evento{
+  position: absolute; 
+  background-color: white;
+  width: 250px;
+  align-items: left;
+}
+
+.botao-evento link{
+  text-decoration: none;
+  color: white;
+  align-self: unset;
+
+}
+
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
+  background-color: #34ACE0;
+  color: white;
+  border-radius: 15px;
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #34ACE0;
   color: white;
   transform: rotateY(180deg);
+  border-radius: 15px;
 }
 
 
