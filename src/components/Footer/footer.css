@@ -5,12 +5,22 @@
     usando a variável
     var(--minha_cor)
 } */
-
-.navbar{
-    background-color: #2F004B;
-    height: 60px;
-    max-width: 100VW;
+footer{
+    
+    max-width: 100VW ;
+    background-color: #2F004B ;
+    height: 100px ;
+    display: flex;
+    align-items:center;
 }
+
+footer p {
+    color:white;
+    width: 50vw;
+    margin-left: 25vw;
+    background-color: white;
+}
+
 .div-logo navbar-brand{
     text-align: center !important;
     float: center;
