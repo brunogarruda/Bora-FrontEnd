@@ -1,26 +1,33 @@
-import React, { Component } from 'react';
-import Eventos from '../../components/Eventos';
-import Pesquisa from '../../components/CampoPesquisa/Pesquisa';
-import { Container, Image } from 'react-bootstrap';
-import background from '../../assets/fundo.png';
+import React, { Component } from "react";
+import { Container, Image } from "react-bootstrap";
+import Eventos from "../../components/Eventos";
+import CampoPesquisa from "../../components/CampoPesquisa";
+import background from "../../assets/fundo.png";
 import "./styles.css";
+import { Botoes } from "./styles";
 
 class Home extends Component {
-    render() {
-        return (
-            <div>
-                <header>
-                    <Pesquisa />
-                    <Image src={background} fluid />
-                    <input className="barra-pesquisa" />
-                </header>
-                <div className="faixa"></div>
-                <Container>
-                    <Eventos />
-                </Container>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <>
+        <header>
+          <div className="barra-pesquisa">
+            <CampoPesquisa />
+          </div>
+          <Botoes>
+            <button className="bora">Bora</button>
+            <button className="criar-role">Criar um rolê</button>
+          </Botoes>
+
+          <Image src={background} fluid />
+        </header>
+        <div className="faixa"></div>
+        <Container>
+          <Eventos />
+        </Container>
+      </>
+    );
+  }
 }
 
 export default Home;
