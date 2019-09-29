@@ -2,6 +2,8 @@
   display: grid !important;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
   justify-items: center !important;
+  background-color: #2f004b !important;
+  width: 100%;
 }
 
 .header {
@@ -11,6 +13,11 @@
 .itens {
   background-color: #2f004b !important;
   grid-column-start: 9;
+  color: white !important;
+}
+
+.face {
+  color: red !important;
 }
 
 .logo {

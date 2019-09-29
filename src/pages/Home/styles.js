@@ -1,7 +1,24 @@
 import styled from "styled-components";
 
 export const Botoes = styled.div`
+  .butoes {
+    width: 100%;
+  }
   .bora {
+    position: absolute;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .criar-role {
+    position: absolute;
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 20px;
+  }
+  /* .bora {
     position: absolute;
     width: 15%;
     height: 44px;
@@ -23,5 +40,5 @@ export const Botoes = styled.div`
     box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     border: none;
-  }
+  } */
 `;

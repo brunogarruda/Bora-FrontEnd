@@ -11,7 +11,7 @@ export default function NavBar() {
     <>
       <Layout>
         <Header className="header">
-          <section className="grid-navbar">
+          <nav className="grid-navbar">
             <p className="logo">Bora</p>
             <Menu
               className="itens"
@@ -23,10 +23,10 @@ export default function NavBar() {
               <Menu.Item key="1">Entrar</Menu.Item>
               <Menu.Item key="2">Cadastrar</Menu.Item>
               <Menu.Item key="3">
-                <Face />
+                <Face className="face" />
               </Menu.Item>
             </Menu>
-          </section>
+          </nav>
         </Header>
       </Layout>
     </>
