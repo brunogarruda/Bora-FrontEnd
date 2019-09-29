@@ -1,0 +1,22 @@
+.grid-navbar {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
+  justify-items: center !important;
+}
+
+.header {
+  background-color: #2f004b !important;
+}
+
+.itens {
+  background-color: #2f004b !important;
+  grid-column-start: 9;
+}
+
+.logo {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  margin: 1px 8px 0px;
+  float: left;
+  font-size: 4em;
+}
