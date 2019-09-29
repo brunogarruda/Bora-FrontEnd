@@ -21,13 +21,12 @@ class Home extends Component {
               <button className="criar-role">Criar um rolê</button>
             </div>
           </Botoes>
-
           <Image src={background} fluid />
         </section>
-        <div className="faixa"></div>
+        {/* <div className="faixa"></div>
         <Container>
           <Eventos />
-        </Container>
+        </Container> */}
       </>
     );
   }

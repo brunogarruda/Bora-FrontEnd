@@ -1,34 +1,50 @@
 import React from "react";
-import "./styles.css";
-import "antd/dist/antd.css";
-import { Layout, Menu } from "antd";
-import { Face } from "@material-ui/icons";
+import { Header } from "./styles.js";
 
-const { Header } = Layout;
+const toggleMenu = () => {
+  const burger = document.querySelector(".burger");
+  const nav = document.querySelector(".nav-links");
+  const navLinks = document.querySelectorAll(".nav-links li");
+
+  nav.classList.toggle("nav-active");
+  burger.classList.toggle("toggle");
+
+  navLinks.forEach((link, index) => {
+    if (link.style.animation) {
+      link.style.animation = "";
+    } else {
+      link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 +
+        0.25}s `;
+    }
+  });
+};
 
 export default function NavBar() {
   return (
-    <>
-      <Layout>
-        <Header className="header">
-          <nav className="grid-navbar">
-            <p className="logo">Bora</p>
-            <Menu
-              className="itens"
-              theme="light"
-              mode="horizontal"
-              defaultSelectedKeys={["2"]}
-              style={{ lineHeight: "64px" }}
-            >
-              <Menu.Item key="1">Entrar</Menu.Item>
-              <Menu.Item key="2">Cadastrar</Menu.Item>
-              <Menu.Item key="3">
-                <Face className="face" />
-              </Menu.Item>
-            </Menu>
-          </nav>
-        </Header>
-      </Layout>
-    </>
+    <Header>
+      <header>
+        <nav>
+          <div className="logo">
+            <h4>LOGO</h4>
+          </div>
+          <ul className="nav-links">
+            <li>
+              <a href="google.com">Entrar</a>
+            </li>
+            <li>
+              <a href="google.com">Cadastrar</a>
+            </li>
+            <li>
+              <a href="google.com">Avatar</a>
+            </li>
+          </ul>
+          <div onClick={() => toggleMenu()} className="burger">
+            <div className="line1"></div>
+            <div className="line2"></div>
+            <div className="line3"></div>
+          </div>
+        </nav>
+      </header>
+    </Header>
   );
 }
