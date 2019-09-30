@@ -8,43 +8,30 @@
 footer{
     
     max-width: 100VW ;
-    background-color: #2F004B ;
-    height: 100px ;
     display: flex;
     align-items:center;
 }
 
-footer p {
-    color:white;
-    width: 50vw;
-    margin-left: 25vw;
-    background-color: white;
+footer {
+    background-color: #2F004B !important ;
 }
 
-.div-logo navbar-brand{
-    text-align: center !important;
-    float: center;
+.footer-item {
+    
+    color:white;
+    width: 50vw;
+    /*margin-left: 25vw;*/
 }
-.logo {
-    color: #00BEFF !important;
+
+.borda-teste {
+    border: 1px  groove  rgb(255,0,255);
+}
+
+
+.logo-rodape {
+    color:white;
     font-size: 30px;
     text-decoration: none !important;
     
 }
 
-.botaonav{
-    color: #00BEFF;
-    text-decoration-line: none;
-    float: right !important;
-}
-
-.botaonav:hover{
-    color:#FF7200;
-}
-.navbar nav nav.item{
-    color: blue;
-}
-
-.logo{
-    color: blue;
-}
