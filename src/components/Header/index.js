@@ -22,29 +22,27 @@ const toggleMenu = () => {
 export default function NavBar() {
   return (
     <Header>
-      <header>
-        <nav>
-          <div className="logo">
-            <h4>LOGO</h4>
-          </div>
-          <ul className="nav-links">
-            <li>
-              <a href="google.com">Entrar</a>
-            </li>
-            <li>
-              <a href="google.com">Cadastrar</a>
-            </li>
-            <li>
-              <a href="google.com">Avatar</a>
-            </li>
-          </ul>
-          <div onClick={() => toggleMenu()} className="burger">
-            <div className="line1"></div>
-            <div className="line2"></div>
-            <div className="line3"></div>
-          </div>
-        </nav>
-      </header>
+      <nav>
+        <div className="logo">
+          <h4>BORA</h4>
+        </div>
+        <ul className="nav-links">
+          <li>
+            <a href="google.com">Entrar</a>
+          </li>
+          <li>
+            <a href="google.com">Cadastrar</a>
+          </li>
+          <li>
+            <a href="google.com">Avatar</a>
+          </li>
+        </ul>
+        <div onClick={() => toggleMenu()} className="burger">
+          <div className="line1"></div>
+          <div className="line2"></div>
+          <div className="line3"></div>
+        </div>
+      </nav>
     </Header>
   );
 }

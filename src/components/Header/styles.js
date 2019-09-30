@@ -1,18 +1,25 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
-  header {
-    background-color: blue;
-    min-height: 8vh;
-  }
   nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: #2f004b;
+    min-height: 8vh;
   }
 
   li {
     margin: 2% 5% 0%;
+  }
+
+  .logo {
+    font-size: 2em;
+    color: white;
+  }
+
+  .logo h4 {
+    font-size: 2.5rem;
   }
 
   .nav-links {
@@ -22,11 +29,11 @@ export const Header = styled.header`
   }
 
   .nav-links a {
-    color: black;
+    color: white;
   }
 
   .burger div {
-    background-color: black;
+    background-color: white;
     width: 25px;
     height: 3px;
     margin: 5px;
@@ -62,7 +69,7 @@ export const Header = styled.header`
 
       height: 92vh;
       top: 8vh;
-      background-color: blue;
+      background-color: #2f004b;
       z-index: 1;
       display: flex;
       flex-direction: column;
