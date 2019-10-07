@@ -11,30 +11,18 @@
     height: 60px;
     max-width: 100VW;
 }
-.div-logo navbar-brand{
-    text-align: center !important;
-    float: center;
-}
 .logo {
     color: #00BEFF !important;
     font-size: 30px;
-    text-decoration: none !important;
-    
+    text-decoration: none !important;  
 }
 
-.botaonav{
+.nav-item a{
     color: #00BEFF;
     text-decoration-line: none;
-    float: right !important;
+    align-items: right !important;
 }
 
 .botaonav:hover{
     color:#FF7200;
-}
-.navbar nav nav.item{
-    color: blue;
-}
-
-.logo{
-    color: blue;
 }
