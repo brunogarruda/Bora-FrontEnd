@@ -15,9 +15,9 @@ class Eventos extends Component {
      }
 
 componentDidMount(){
-    axios.get(`http://localhost:8080/categoria`)
+    axios.get(`http://localhost:8080/eventos`)
     .then(res => {
-        const eventos = res.data;
+        const eventos = res;
         console.log(eventos);
         this.setState({eventos});
     })
@@ -25,9 +25,12 @@ componentDidMount(){
 
     render() {
         return (
+            <Container>
             <div class="div-eventos">
                 <h2>Próximos rolês perto de você</h2>
                 <Row>
+                {/* Faz o for para repertir os cards */}
+                {/* { this.state.eventos.map((evento) => {})} */}
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -52,6 +55,7 @@ componentDidMount(){
                 </div>
                 </Row>
             </div>
+            </Container>
         );
     }
 }

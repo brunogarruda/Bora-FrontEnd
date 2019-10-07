@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import { Container, Image } from "react-bootstrap";
+import {Image } from "react-bootstrap";
 import Eventos from "../../components/Eventos";
 import CampoPesquisa from "../../components/CampoPesquisa";
 import background from "../../assets/fundo.png";
 import "./styles.css";
 import { Botoes } from "./styles";
+import Login from '../../components/Modal-Login'
 
 class Home extends Component {
   render() {
@@ -22,9 +23,8 @@ class Home extends Component {
           <Image src={background} fluid />
         </header>
         <div className="faixa"></div>
-        <Container>
           <Eventos />
-        </Container>
+          <Login />
       </>
     );
   }

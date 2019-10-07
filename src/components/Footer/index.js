@@ -1,6 +1,4 @@
 import React,{Component} from 'react';
-import {Link} from 'react-router-dom';
-import {Navbar,Nav} from 'react-bootstrap';
 import './footer.css'
 
 class Footer extends Component{
@@ -25,8 +23,6 @@ class Footer extends Component{
                             <img />
                         </div>
                     </div>
-                    
-
                 </footer>
             </div>
         );

@@ -1,3 +1,8 @@
+.div-eventos{
+  margin-top: 100px;
+  height: 900px;
+}
+
 .icone{
   font-size: large;
   text-align: center !important;
@@ -65,6 +70,7 @@ h2{
   text-decoration: none;
   color: white;
   align-self: unset;
+  position: absolute;
 
 }
 
