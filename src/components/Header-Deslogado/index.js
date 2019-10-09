@@ -10,9 +10,18 @@ class Header extends Component {
         super(props);
         this.state = {
             mostrarLogin: false,
-            MostarCadastro: true
+            mostrarCadastro: false
         }
     }
+
+mostrarModalLogin = (e) => {
+    this.setState({mostrarLogin: true});
+}
+
+mostrarModalCadastro = (e) => {
+    this.setState({mostrarCadastro: true});
+}
+
     render() {
         return (
             <>
@@ -20,15 +29,15 @@ class Header extends Component {
                 <Navbar.Brand><Link className="logo" to='/'><b>Bora</b></Link></Navbar.Brand>
                 <Nav>
                     <Nav.Item>
-                        <Link className="botaonav"><b>Login</b></Link>
+                        <a className="botaonav" onClick={(e) => {this.mostrarModalLogin()}}><b>Login</b></a>
                     </Nav.Item>
                     <Nav.Item>
-                        <Link className="botaonav" onClick={() => this.setState.mostrar = true}><b>Cadastre-se</b></Link>
+                        <a className="botaonav" onClick={(e) => {this.mostrarModalCadastro()}}><b>Cadastre-se</b></a>
                     </Nav.Item>
                 </Nav>
             </Navbar>
-            <Login mostrarLogin={this.state.MostarCadastro}/>
-            <Cadastro MostarCadastro={this.state.MostarCadastro}/>
+            <Login mostrar={this.state.mostrarLogin}/>
+            <Cadastro mostrar={this.state.mostrarCadastro}/>
             </>
         );
     }

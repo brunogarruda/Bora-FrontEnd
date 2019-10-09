@@ -5,13 +5,16 @@ import { Modal, Button, Form} from 'react-bootstrap';
 class Login extends Component {
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {
+            usuario: '',
+            senha: ''
+        }
     }
-
     render() {
         return (
             <>
                 <Modal size="lg" show={this.props.mostrar}>
+                {this.props.children}
                     <Modal.Header closeButton>
                         <Modal.Title>Bem Vindo</Modal.Title>
                     </Modal.Header>
@@ -23,7 +26,7 @@ class Login extends Component {
                             
                             <Form.Label for="usuario">Senha</Form.Label>
                             <Form.Control type="password" placeholder="Digite sua senha"
-                                    value={this.state.usuario} onChange={(e) => this.setState({ senha: e.target.value })} />  
+                                    value={this.state.senha} onChange={(e) => this.setState({ senha: e.target.value })} />  
                         </Form>
                     </Modal.Body>
                     <Modal.Footer>
