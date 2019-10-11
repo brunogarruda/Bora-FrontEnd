@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch,Redirect } from 'react-router-dom';
-import Header from './components/Header-Deslogado'
-import Home from './pages/Home';
 import Footer from './components/Footer';
 import { isAuthenticated } from "./services/auth";
+import Header from "./components/Header";
+import Home from "./pages/Home";
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
     <Route
