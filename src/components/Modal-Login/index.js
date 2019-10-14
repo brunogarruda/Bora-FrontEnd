@@ -30,7 +30,7 @@ class Login extends Component {
                         </Form>
                     </Modal.Body>
                     <Modal.Footer>
-                        <Button variant="secondary">
+                        <Button variant="secondary" onClick={(e) => {this.props.mostrarFuncao()}}>
                             Close
                         </Button>
                         <Button variant="primary">

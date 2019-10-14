@@ -44,7 +44,7 @@ class Cadastro extends Component {
                         </Form>
                     </Modal.Body>
                     <Modal.Footer>
-                        <Button variant="secondary" onClick={(e) => { this.onClose(e) }}>
+                        <Button variant="secondary" onClick={(e) => {this.props.mostrarFuncao()}}>
                             Close
                         </Button>
                         <Button variant="primary">
