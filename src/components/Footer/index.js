@@ -1,15 +1,15 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 import './footer.css'
 
-class Footer extends Component{
-    constructor(props){
+class Footer extends Component {
+    constructor(props) {
         super(props);
         this.state = {
 
         }
-    } 
-    render(){
-        return(
+    }
+    render() {
+        return (
             <div>
                 <footer>
                     <div className="footer-item">
@@ -18,9 +18,6 @@ class Footer extends Component{
                         </div>
                         <p>Fale com a gente</p>
                         <div className="redes-sociais-icons">
-                            <img  />
-                            <img />
-                            <img />
                         </div>
                     </div>
                 </footer>
