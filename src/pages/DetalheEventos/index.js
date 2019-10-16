@@ -25,12 +25,12 @@ export default class DetalheEvento extends Component {
         } catch (e) {
             console.log(e);
         }
-        try{
+        try {
             api.get(`participantes/${id}`)
-            .then(res =>{
-                this.setState({participante: res.data});
-            })
-        }catch(e){
+                .then(res => {
+                    this.setState({ participante: res.data });
+                })
+        } catch (e) {
             console.log(e);
         }
 
@@ -62,7 +62,7 @@ export default class DetalheEvento extends Component {
                                     <b>Data:</b> {this.state.evento.dataHoraInicio}
                                 </p>
                                 <p>
-                                    <b>Endereço:</b> 
+                                    <b>Endereço:</b>
                                 </p>
                                 {/*                                     
                                 {this.state.evento.endereco.rua}, {this.state.evento.endereco.numero} - {this.state.evento.endereco.bairro} -
@@ -79,8 +79,11 @@ export default class DetalheEvento extends Component {
                 <div className="row">
                     <h3>Quem vai</h3>
                     <ul>
-                        {this.state.participantes.map(participante =>(
+                        {this.state.participantes.map(participante => (
+                            <>
+                                <p>Participantes</p>
                                 <li>{participante.nome}</li>
+                            </>
                         ))}
                         <li></li>
                     </ul>
