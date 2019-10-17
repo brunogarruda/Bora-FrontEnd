@@ -1,29 +1,7 @@
 import React, { useState } from "react";
 import { Header } from "./styles.js";
-import { makeStyles } from '@material-ui/core/styles';
-import Modal from '@material-ui/core/Modal';
-import Icon from '@material-ui/core/Icon';
-
-function getModalStyle() {
-  const top = 50;
-  const left = 50;
-
-  return {
-    top: `${top}%`,
-    left: `${left}%`,
-    transform: `translate(-${top}%, -${left}%)`,
-  };
-}
-const useStyles = makeStyles(theme => ({
-  paper: {
-    position: 'absolute',
-    width: 400,
-    backgroundColor: theme.palette.background.paper,
-    border: '2px solid #000',
-    boxShadow: theme.shadows[5],
-    padding: theme.spacing(2, 4, 3),
-  },
-}));
+import { Modal } from '../Modal';
+import { useModal } from "../Modal/component/useModal.js";
 
 const toggleMenu = () => {
   const burger = document.querySelector(".burger");
@@ -44,18 +22,10 @@ const toggleMenu = () => {
 };
 
 export default function NavBar() {
-  const classes = useStyles();
-  const [modalStyle] = useState(getModalStyle);
-
-  const [open, setOpen] = useState(false);
-
-  const handleOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false)
-  }
+  const {
+    open,
+    openModal,
+    closeModal } = useModal();
   return (
     <Header>
       <nav>
@@ -64,7 +34,7 @@ export default function NavBar() {
         </div>
         <ul className="nav-links">
           <li>
-            <a onClick={handleOpen}>Entrar</a>
+            <a onClick={openModal}>Entrar</a>
           </li>
           <li>
             <a href="google.com">Cadastrar</a>
@@ -80,19 +50,9 @@ export default function NavBar() {
         </div>
       </nav>
       <Modal
-        aria-labelledby="simple-modal-title"
-        aria-describedby="simple-modal-description"
         open={open}
-        onClose={handleClose}
+        close={closeModal}
       >
-        <div style={modalStyle} className={classes.paper}>
-          <Icon onClick={handleClose}>close</Icon>
-          <h2 id="simple-modal-title">Text in a modal</h2>
-          <p id="simple-modal-description">
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          </p>
-
-        </div>
       </Modal>
     </Header>
   );

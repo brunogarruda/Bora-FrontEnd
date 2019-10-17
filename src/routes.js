@@ -19,7 +19,7 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
   />
 );
 
-const Routes = () => {
+export const Routes = () => {
   return (
     <BrowserRouter>
       <Header />
@@ -33,4 +33,4 @@ const Routes = () => {
     </BrowserRouter>
   );
 }
-export default Routes;
+
