@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
-import api from '../../services/api';
-import { thisExpression } from '@babel/types';
-
+import {api} from '../../services/api';
 
 
 export default class DetalheEvento extends Component {

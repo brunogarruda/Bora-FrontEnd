@@ -3,9 +3,9 @@ import {Image } from "react-bootstrap";
 import Eventos from "../../components/Eventos";
 import CampoPesquisa from "../../components/CampoPesquisa";
 import Login from '../../components/Modal-Login'
-import bg from "../../assets/bg.png";
+import bg from "../../assets/bg.svg";
 import { Banner } from "./styles";
-
+//Lobster
 class Home extends Component {
   render() {
     return (

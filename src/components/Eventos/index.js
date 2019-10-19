@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Bola from '@material-ui/icons/SportsSoccerSharp';
-import api from '../../services/api';
+import { api } from '../../services/api';
 import './styles.css';
 
 class Eventos extends Component {

@@ -22,6 +22,14 @@ export const Banner = styled.div`
     font-weight: 700;
     color: white;
     margin-top: 3%;
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 94px;
+    font-size: 75px;
+    align-items: center;
+    display: flex;
+    text-align: justify;
   }
 
   .img {
@@ -32,7 +40,7 @@ export const Banner = styled.div`
   .barra-pesquisa {
     margin-top: 12%;
     width: 60%;
-    height: 8vh;
+    height: 5vh;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
