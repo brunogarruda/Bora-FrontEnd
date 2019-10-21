@@ -10,7 +10,7 @@ class Footer extends Component {
     }
     render() {
         return (
-            <div>
+            <>
                 <footer>
                     <div className="footer-item">
                         <div className="logo-rodape">
@@ -21,7 +21,7 @@ class Footer extends Component {
                         </div>
                     </div>
                 </footer>
-            </div>
+            </>
         );
     }
 }

@@ -46,10 +46,8 @@ class Eventos extends Component {
                                             {item.endereco.rua}, {item.endereco.numero} - {item.endereco.bairro} -
                                             {item.endereco.cidade}/{item.endereco.estado}
                                         </p>
-                                        Descrição do evento:
-                                            <p>{item.descricaoEvento}</p>
                                     </div>
-                                    <button className="btn btn-light" classNameName="botao-evento">
+                                    <button className="btn btn-light btn-block" classNameName="botao-evento">
                                         <Link to={`/detalheEventos/${item.idEvento}`}><b>Detalhes</b></Link>
                                     </button>
                                 </div>
