@@ -1,8 +1,5 @@
-/* eslint-disable react/no-this-in-sfc */
-/* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState } from "react";
 import Icon from "@material-ui/core/Icon";
-import axios from "axios";
 import { ModalStyle } from "./styles";
 
 import { api } from "../../services/api";
@@ -61,33 +58,6 @@ export default function Modal({ open, close }) {
         />
         <button type="submit">salvar</button>
       </form>
-
-      {/* <form>
-        <label htmlFor="estado">Estado:</label>
-        <input type="text" id="estado" />
-
-        <label htmlFor="privado">privado:</label>
-        <input type="radio-button" id="privado" />
-        <button type="submit">salvar</button>
-      </form> */}
     </ModalStyle>
   ) : null;
 }
-
-// const [evento, setEvento] = useState({
-//   idEvento: 0,
-//   nome: "",
-//   dataHoraInicio: "",
-//   dataHoraFim: "",
-//   descricaoEvento: "",
-//   senha: "",
-//   endereco: {
-//     rua: "",
-//     numero: "",
-//     cep: "",
-//     bairro: "",
-//     cidade: "",
-//     estado: ""
-//   },
-//   privado: false
-// });
