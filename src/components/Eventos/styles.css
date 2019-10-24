@@ -1,6 +1,6 @@
-.div-eventos{
-  margin-top: 100px;
-  height: 900px;
+.content{
+  display: flex;
+  flex-direction: row;
 }
 
 .icone{
@@ -22,7 +22,7 @@ h2{
 .barra-evento{
   width: 200px;
   border-top: 3px solid white;
-  color: black !important; 
+  color: black !important;
 }
 
 .flip-card {
@@ -60,7 +60,7 @@ h2{
 }
 
 .botao-evento{
-  position: absolute; 
+  position: absolute;
   background-color: white;
   width: 250px;
   align-items: left;
@@ -91,12 +91,12 @@ h2{
 
 /* .jumbotron{
   background-color: gray;
-  
+
 }
 
 .jumbotron h2{
     text-align: center;
-    
+
     padding-top: -40px
 }
 

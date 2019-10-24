@@ -1,7 +1,10 @@
-import React, { useState } from "react";
-import { Header } from "./styles.js";
-import { Modal } from '../Modal';
-import { useModal } from "../Modal/component/useModal.js";
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+import React from "react";
+import { Header } from "./styles";
+import Modal from "../Modal";
+import { useModal } from "../Modal/component/useModal";
 
 const toggleMenu = () => {
   const burger = document.querySelector(".burger");
@@ -15,17 +18,13 @@ const toggleMenu = () => {
     if (link.style.animation) {
       link.style.animation = "";
     } else {
-      link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 +
-        0.25}s `;
+      link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.25}s `;
     }
   });
 };
 
 export default function NavBar() {
-  const {
-    open,
-    openModal,
-    closeModal } = useModal();
+  const { open, openModal, closeModal } = useModal();
   return (
     <Header>
       <nav>
@@ -34,26 +33,22 @@ export default function NavBar() {
         </div>
         <ul className="nav-links">
           <li>
-            <a onClick={openModal}>Entrar</a>
+            <p onClick={openModal}>Entrar</p>
           </li>
           <li>
-            <a href="google.com">Cadastrar</a>
+            <p>Cadastrar</p>
           </li>
           <li>
-            <a href="google.com">Avatar</a>
+            <p>Avatar</p>
           </li>
         </ul>
         <div onClick={() => toggleMenu()} className="burger">
-          <div className="line1"></div>
-          <div className="line2"></div>
-          <div className="line3"></div>
+          <div className="line1" />
+          <div className="line2" />
+          <div className="line3" />
         </div>
       </nav>
-      <Modal
-        open={open}
-        close={closeModal}
-      >
-      </Modal>
+      <Modal open={open} close={closeModal} />
     </Header>
   );
 }

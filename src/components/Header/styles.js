@@ -28,7 +28,7 @@ export const Header = styled.header`
     width: 47%;
   }
 
-  .nav-links a {
+  .nav-links p {
     color: white;
   }
 
