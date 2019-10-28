@@ -18,7 +18,6 @@ export default class DetalheEvento extends Component {
         try {
             api.get(`eventos/${id}`)
                 .then(res => {
-                    console.log(res.data);
                     this.setState({
                         evento: res.data,
                         endereco: res.data.endereco

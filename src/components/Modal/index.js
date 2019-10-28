@@ -8,6 +8,5 @@ export const Modal = ({ open, close }) => open ? (
             <div className="modal"></div>
             <Icon onClick={close}>close</Icon>
         </div>
-        <p>teste</p>
     </ModalStyle>
 ) : null;
