@@ -128,12 +128,10 @@ class Home extends Component {
             </div>
           </section>
         </Banner>
-        <div className="faixa"></div>
+        <div className="faixa" />
         <Eventos />
         <Login />
       </main>
     );
   }
 }
-
-export default Home;
