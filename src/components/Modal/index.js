@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import Icon from "@material-ui/core/Icon";
 import { ModalStyle } from "./styles";
@@ -61,3 +62,19 @@ export default function Modal({ open, close }) {
     </ModalStyle>
   ) : null;
 }
+=======
+import React from "react";
+import Icon from "@material-ui/core/Icon";
+import { ModalStyle } from "./styles";
+
+export const Modal = ({ open, close }) =>
+  open ? (
+    <ModalStyle>
+      <div>
+        <div className="modal" />
+        <Icon onClick={close}>close</Icon>
+      </div>
+      <p>teste</p>
+    </ModalStyle>
+  ) : null;
+>>>>>>> 2dececf26d9c5d2c136e455d285135c19d2c2769
