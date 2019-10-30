@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  bora-server:
+    image: bora-server
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8877:8877
