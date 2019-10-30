@@ -9,7 +9,7 @@ import { api } from "../../services/api";
 import { login } from "../../services/auth";
 import { Link } from "react-router-dom";
 
-class Home extends Component {
+export default class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {

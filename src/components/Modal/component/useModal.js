@@ -1,18 +1,31 @@
 import { useState } from "react";
 
 export const useModal = () => {
-  const [open, setOpen] = useState(false);
+  const [login, setLogin] = useState(false);
+  const [cadastro,setCadastro]=useState(false)
 
-  const openModal = () => {
-    setOpen(true);
+  const openLogin = () => {
+    setLogin(true);
   };
 
-  const closeModal = () => {
-    setOpen(false);
+  const closeLogin = () => {
+    setLogin(false);
   };
+
+  const openCadastro = () => {
+    setCadastro(true);
+  };
+
+  const closeCadastro = () => {
+    setCadastro(false);
+  };
+  
   return {
-    open,
-    openModal,
-    closeModal
+    login,
+    openLogin,
+    closeLogin,
+    cadastro,
+    openCadastro,
+    closeCadastro
   };
 };

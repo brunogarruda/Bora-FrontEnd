@@ -3,8 +3,9 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import React from "react";
 import { Header } from "./styles";
-import Modal from "../Modal";
+import { ModalCadastro, ModalLogin } from "../Modal";
 import { useModal } from "../Modal/component/useModal";
+import { changeConfirmLocale } from "antd/lib/modal/locale";
 
 const toggleMenu = () => {
   const burger = document.querySelector(".burger");
@@ -24,7 +25,21 @@ const toggleMenu = () => {
 };
 
 export default function NavBar() {
-  const { open, openModal, closeModal } = useModal();
+  const { login, openLogin, closeLogin, cadastro, openCadastro, closeCadastro } = useModal();
+
+  const ativaLogin = () => {
+    if (cadastro) {
+      closeCadastro()
+      return openLogin()
+    }
+  }
+
+  const ativaCadastro = () => {
+    if (login) {
+      closeLogin()
+      return openCadastro()
+    }
+  }
   return (
     <Header>
       <nav>
@@ -33,10 +48,10 @@ export default function NavBar() {
         </div>
         <ul className="nav-links">
           <li>
-            <p onClick={openModal}>Entrar</p>
+            <p onClick={cadastro ? ativaLogin : openLogin}>Entrar</p>
           </li>
           <li>
-            <p>Cadastrar</p>
+            <p onClick={login ? ativaCadastro : openCadastro}>Cadastrar</p>
           </li>
           <li>
             <p>Avatar</p>
@@ -48,7 +63,8 @@ export default function NavBar() {
           <div className="line3" />
         </div>
       </nav>
-      <Modal open={open} close={closeModal} />
+      <ModalLogin open={login} close={closeLogin} />
+      <ModalCadastro open={cadastro} close={closeCadastro} />
     </Header>
   );
 }
