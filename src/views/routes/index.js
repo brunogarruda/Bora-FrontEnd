@@ -2,11 +2,12 @@ const router = require('express').Router()
 const home = require('../../controllers/home')
 const grupos = require('../../controllers/grupos')
 
-module.exports = index => {
+module.exports.index = app => {
   router.get('/', home.index)
-  index.use(router)
+  app.use(router)
 }
-module.exports = eventos => {
+
+module.exports.eventos = app => {
   router.get('/eventos', home.index)
-  eventos.use(router)
+  app.use(router)
 }

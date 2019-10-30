@@ -3,7 +3,7 @@ const { createEngine } = require('express-react-views')
 const morgan = require('morgan')
 const multer = require('multer')
 const express = require('express')
-const routes = require('../views/routes')
+const { index, eventos } = require('../views/routes')
 
 module.exports = app => {
   app.set('port', process.env.PORT || 3000)
@@ -23,7 +23,8 @@ module.exports = app => {
   )
   app.use(express.json())
 
-  routes(app)
+  index(app)
+  eventos(app)
 
   app.use('/public', express.static(path.join(__dirname, '../public')))
 
