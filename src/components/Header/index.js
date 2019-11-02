@@ -5,7 +5,6 @@ import React from "react";
 import { Header } from "./styles";
 import { ModalCadastro, ModalLogin } from "../Modal";
 import { useModal } from "../Modal/component/useModal";
-import { changeConfirmLocale } from "antd/lib/modal/locale";
 
 const toggleMenu = () => {
   const burger = document.querySelector(".burger");
@@ -29,17 +28,17 @@ export default function NavBar() {
 
   const ativaLogin = () => {
     if (cadastro) {
-      closeCadastro()
-      return openLogin()
+      closeCadastro();
+      return openLogin();
     }
-  }
+  };
 
   const ativaCadastro = () => {
     if (login) {
-      closeLogin()
-      return openCadastro()
+      closeLogin();
+      return openCadastro();
     }
-  }
+  };
   return (
     <Header>
       <nav>

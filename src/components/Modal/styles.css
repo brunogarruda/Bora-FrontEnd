@@ -1,36 +1,103 @@
 .modal {
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding-top: 100px; /* Location of the box */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content */
 .modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+background-color: #fefefe;
+margin: auto;
+padding: 20px;
+border: 1px solid #888;
+width: 80%;
+height: 534px;
+
 }
 
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+.modal-login{
+  background-image: url("../../assets/bg-login.svg");
+  background-repeat: no-repeat;
+
 }
 
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
+.modal-cadastro{
+  background-image: url("../../assets/bg-cadastro.svg");
+  background-repeat: no-repeat;
+
+}
+
+
+
+
+.modal-title-login {
+  font-size: 1.5rem;
+  margin-top: 5rem;
+}
+
+.modal-title-cadastro {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.input-form {
+  height: 2.5rem;
+  width: 279px;
+  border: 0.125rem solid #222;
+  border-radius: 0.375rem;
+  background: transparent;
+  padding: 0 0.625rem;
+  letter-spacing: 0.0625rem;
+  font-size: 0.875rem;
+  color: #222;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  margin-right: 14%;
+  padding-top: 19%;
+}
+
+.btn{
+  width: 278px;
+height: 38px;
+}
+
+.input-login{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+
+}
+
+.icon-close{
+  position: absolute;
+  left: 86%;
+
+}
+
+.login{
+  display: flex;
+  position: absolute;
+  left: 56%;
+
+}
+
+.input-cadastro{
+  display: flex;
+  flex-direction: column;
+  margin-top: 7px;
+
 }

@@ -2,7 +2,16 @@ import { useState } from "react";
 
 export const useModal = () => {
   const [login, setLogin] = useState(false);
-  const [cadastro,setCadastro]=useState(false)
+  const [cadastro,setCadastro]=useState(false);
+  const [eventoModal,setEventoModal] = useState(false);
+
+  const openEvento = ()=>{
+    setEventoModal(true);
+  };
+
+  const closeEvento = ()=>{
+    setEventoModal(false);
+  };
 
   const openLogin = () => {
     setLogin(true);
@@ -19,13 +28,16 @@ export const useModal = () => {
   const closeCadastro = () => {
     setCadastro(false);
   };
-  
+
   return {
     login,
     openLogin,
     closeLogin,
     cadastro,
     openCadastro,
-    closeCadastro
+    closeCadastro,
+    eventoModal,
+    openEvento,
+    closeEvento
   };
 };
