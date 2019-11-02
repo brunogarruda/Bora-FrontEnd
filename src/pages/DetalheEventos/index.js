@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import './style.css';
-import { api } from '../../services/api';
+import React, { Component } from "react";
+import "./style.css";
+import { api } from "../../services/api";
 
 
 export default class DetalheEvento extends Component {
@@ -10,7 +10,7 @@ export default class DetalheEvento extends Component {
             evento: [],
             participantes: [],
             endereco: []
-        }
+        };
     }
 
     componentDidMount() {
@@ -22,12 +22,12 @@ export default class DetalheEvento extends Component {
                         evento: res.data,
                         endereco: res.data.endereco
                     });
-                })
+                });
         } catch (e) {
             console.log(e);
         }
     }
-    
+
     render() {
         return (
             <div className="container">
@@ -39,8 +39,8 @@ export default class DetalheEvento extends Component {
                     </div>
                     <div className="col-lg-6 col-sm-12">
                         <div className="col-lg-12 col-sm-12">
-                            <button className="btn btn-danger btn-lg" >Não Vou</button>
-                            <button className="btn btn-primary btn-lg"type="submit">Bora!</button>
+                            <button className="btn btn-danger btn-lg">Não Vou</button>
+                            <button className="btn btn-primary btn-lg" type="submit">Bora!</button>
                         </div>
                         <div className="row">
                             <div className="col-lg-2 col-sm-2">
@@ -49,10 +49,30 @@ export default class DetalheEvento extends Component {
                             </div>
                             <div className="col-lg-10 col-sm-10">
                                 <h5><b>Data</b></h5>
-                                <p><b>Inicio:  </b>{this.state.evento.dataHoraInicio}</p>
-                                <p><b>Termino: </b>{this.state.evento.dataHoraFim}</p>
+                                <p>
+<b>Inicio:  </b>
+{this.state.evento.dataHoraInicio}
+                                </p>
+                                <p>
+<b>Termino: </b>
+{this.state.evento.dataHoraFim}
+                                </p>
                                 <h5><b>Endereço</b></h5>
-                                <p>{this.state.endereco.rua},{this.state.endereco.numero} - {this.state.endereco.bairro} - {this.state.endereco.cidade}/{this.state.endereco.estado}</p>
+                                <p>
+{this.state.endereco.rua}
+,
+{this.state.endereco.numero}
+{" "}
+- 
+{" "}
+{this.state.endereco.bairro}
+{" "}
+- 
+{" "}
+{this.state.endereco.cidade}
+/
+{this.state.endereco.estado}
+                                </p>
                             </div>
                         </div>
                         <div className="col-lg-12 col-sm-12">
@@ -69,10 +89,10 @@ export default class DetalheEvento extends Component {
                                 <li>{participante.nome}</li>
                             </>
                         ))}
-                        <li></li>
+                        <li />
                     </ul>
                 </div>
             </div>
-        )
+        );
     }
 }
