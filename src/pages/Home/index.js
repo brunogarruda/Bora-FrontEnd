@@ -6,10 +6,10 @@ import Login from '../../components/Modal-Login'
 import bg from "../../assets/bg.svg";
 import { Banner } from "./styles";
 import { api } from "../../services/api";
-import { login } from "../../services/auth";
+import { login, logout } from "../../services/auth";
 import { Link } from "react-router-dom";
 
-class Home extends Component {
+export default class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -31,14 +31,27 @@ class Home extends Component {
   }
 
   logar = () => {
-    let apelido = this.state.login;
+    let apelido = this.state.apelido;
     let senha = this.state.senha;
+    try {
+      api.post("auth",
+        { apelido, senha })
+        .then(res => {
+          localStorage.setItem('login', apelido);
+          localStorage.setItem('senha', senha);
+          login(res.data.token);
+          alert("Teste");
+        })
+    } catch (e) {
+      alert("Errou");
+    }
+  }
 
-    api.post("auth",
-      { apelido, senha })
-      .then(res => {
-        login(res.data.token);
-      })
+  componentDidMount = () => {
+    var login = localStorage.getItem('login');
+    var senha = localStorage.getItem('senha');
+    document.getElementById('apelido').value = login;
+    document.getElementById('senha').value = senha;
   }
 
   cadastrarUsuario = () => {
@@ -53,6 +66,7 @@ class Home extends Component {
           console.log(res);
         })
     } catch (e) {
+      alert("Erro");
     }
   }
 
@@ -61,11 +75,11 @@ class Home extends Component {
     return (
       <main>
         <Banner>
-          <form onSubmit={this.logar}>
+          <form>
             <h2>Bem vindo</h2>
             <div className="form-group">
               <label htmlFor="login">Email ou Apelido</label>
-              <input type="text" onChange={this.handleChange} required="true" className="form-control" id="login" placeholder="Digite seu email ou apelido" />
+              <input type="text" onChange={this.handleChange} required="true" className="form-control" id="apelido" placeholder="Digite seu email ou apelido" />
             </div>
             <div className="form-group">
               <label htmlFor="senha">Senha</label>
@@ -75,11 +89,10 @@ class Home extends Component {
               <input type="checkbox" class="form-check-input" id="lembrar"></input>
               <label class="form-check-label" htmlFor="lembrar">Lembrar de mim</label>
             </div>
-            <button type="submit" class="btn btn-primary">Logar</button>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" onClick={this.logar}>Logar</button>
           </form>
 
-          <form onSubmit={this.cadastrarUsuario}>
+          <form>
             <h2>Crie sua conta</h2>
             <ul>
               <li id="erroCadastro"></li>
@@ -109,10 +122,9 @@ class Home extends Component {
               <input type="password" required="true" className="form-control" id="confirmarSenha" placeholder="Digite seu email ou apelido" />
               <small></small>
             </div>
-            <button type="submit" class="btn btn-primary">Cadastrar</button>
+            <button type="submit" class="btn btn-primary" onClick={this.cadastrarUsuario} >Cadastrar</button>
             <small>Já tem uma conta? <Link>Clique Aqui!</Link></small>
           </form>
-
 
           <section className="context">
             <Image className="img" src={bg} fluid />
