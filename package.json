@@ -2,13 +2,17 @@
   "name": "bora-frontend",
   "version": "0.1.1",
   "private": true,
-  "husky":{
-    "hooks":{
-      "pre-commit":"lint-staged"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
   },
-  "lint-staged":{
-    "src/**/*.js":["eslint --fix","git add"]
+  "lint-staged": {
+    "src/**/*.js": [
+      "eslint --fix",
+      "cross-env CI=true yarn test --bail --findRelatedTests",
+      "git add"
+    ]
   },
   "dependencies": {
     "@material-ui/core": "^4.4.3",
@@ -42,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^6.0.3",
     "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.4.0",
