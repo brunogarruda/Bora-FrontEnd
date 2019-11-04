@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import  Home  from "./pages/Home";
 import DetalheEvento from "./pages/DetalheEventos";
 import Perfil from "./pages/Perfil";
+import Evento from "./pages/CadastraEventos"
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route
@@ -26,6 +27,8 @@ export const Routes = () => (
       <Route exact path="/" component={Home} />
       <Route exact path="/detalheEventos/:id" component={DetalheEvento} />
       <PrivateRoute exact path="/perfil" component = {Perfil}  />
+      <Route exact path="/evento" component= {Evento} />
+      <Route exact path="/evento/:id" component= {Evento} />
       <Route path="*" component={() => <h1>Page not found</h1>} />
     </Switch>
     <Footer />

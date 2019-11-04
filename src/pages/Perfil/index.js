@@ -63,6 +63,7 @@ class Perfil extends Component {
                     </div>
                     <div className="col-lg-4 col-sm-12" id="perfil">
                         <h4>Perfil</h4>
+                        <img src="..." alt="..." class="rounded-circle" />
                         <label>Nome</label>
                         <p>{this.state.usuario.nome}</p>
                         <label>Apelido</label>
