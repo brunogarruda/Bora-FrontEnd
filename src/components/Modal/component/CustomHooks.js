@@ -24,6 +24,7 @@ export const useSignUpForm = (callback,validate) => {
       ...inputs,
       [event.target.name]: event.target.value
     }));
+    console.log(inputs);
   };
 
   return {

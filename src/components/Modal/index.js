@@ -17,8 +17,12 @@ import validade from "./component/LoginFormValidationRules";
 export const Modal = ({ open, close }) => {
   const [Evento, setEvento] = useState({
     nome: "",
-    dataHoraInicio: "",
-    dataHoraFim: ""
+    dataInicio: "",
+    dataFim: "",
+    descricaoEvento:"",
+    senha:"",
+    endereco:"",
+    categoria:""
   });
 
   const onChange = event => {
@@ -33,7 +37,7 @@ export const Modal = ({ open, close }) => {
     console.log(Evento);
 
     await api
-      .post("eventos", Evento)
+      .post("eventos/v1/api/eventos", Evento)
       .then(res => setEvento(res.data))
       .catch(err => console.error(err));
   }
@@ -44,7 +48,8 @@ export const Modal = ({ open, close }) => {
           <div className="icon-close">
             <Icon onClick={close}>close</Icon>
           </div>
-          <form onSubmit={onSubmit}>
+          {/* <form onSubmit={onSubmit}> */}
+          <form>
             <h2>Cadastrar evento</h2>
             <div className="input-login">
               <label htmlhtmlFor="nome">nome</label>
@@ -57,26 +62,66 @@ export const Modal = ({ open, close }) => {
               />
             </div>
             <div className="input-login">
-              <label htmlhtmlFor="nome">Data Hora</label>
+              <label htmlhtmlFor="dataInicio">Data Inicio</label>
               <input
-                id="dataHoraInicio"
-                name="dataHoraInicio"
-                value={Evento.dataHoraInicio}
-                placeholder="Digite o dataHoraInicio do evento"
+                id="dataInicio"
+                name="dataInicio"
+                value={Evento.dataInicio}
+                placeholder="Digite a data inicio do evento"
                 onChange={onChange}
               />
             </div>
             <div className="input-login">
-              <label htmlhtmlFor="nome">Data Fim</label>
+              <label htmlhtmlFor="dataFim">Data Fim</label>
               <input
-                id="dataHoraFim"
-                name="dataHoraFim"
-                value={Evento.dataHoraFim}
-                placeholder="Digite a dataHoraFim do evento"
+                id="dataFim"
+                name="dataFim"
+                value={Evento.dataFim}
+                placeholder="Digite a data fim do evento"
                 onChange={onChange}
               />
             </div>
-            <button type="button">salvar</button>
+            <div className="input-login">
+              <label htmlhtmlFor="descricaoEvento">Descricao do Evento</label>
+              <input
+                id="descricaoEvento"
+                name="descricaoEvento"
+                value={Evento.descricaoEvento}
+                placeholder="Digite a descricao do evento"
+                onChange={onChange}
+              />
+            </div>
+            <div className="input-login">
+              <label htmlhtmlFor="senha">senha do Evento</label>
+              <input
+                id="senha"
+                name="senha"
+                value={Evento.senha}
+                placeholder="Digite a senha do evento"
+                onChange={onChange}
+              />
+            </div>
+            <div className="input-login">
+              <label htmlhtmlFor="endereco">endereco do Evento</label>
+              <input
+                id="endereco"
+                name="endereco"
+                value={Evento.endereco}
+                placeholder="Digite o endereco do evento"
+                onChange={onChange}
+              />
+            </div>
+            <div className="input-login">
+              <label htmlhtmlFor="categoria">categoria do Evento</label>
+              <input
+                id="categoria"
+                name="categoria"
+                value={Evento.categoria}
+                placeholder="Digite a categoria do evento"
+                onChange={onChange}
+              />
+            </div>
+            <button onClick={onSubmit} type="button">salvar</button>
           </form>
         </div>
       </div>
@@ -91,7 +136,7 @@ export const ModalLogin = ({ open, close }) => {
   });
 
   const logar = async () => {
-    await api.post("/auth/v1/api/login", inputs).then(res => {
+    await api.post("login", inputs).then(res => {
       console.log(res.data);
     });
   };
@@ -162,7 +207,7 @@ export const ModalCadastro = ({ open, close }) => {
 
   const cadastrar = async () => {
     if (!handleSubmit()) {
-      await api.post("/auth/v1/api/usuarios", inputs).then(res => {
+      await api.post("auth/v1/api/usuarios", inputs).then(res => {
         console.log(res.data);
       });
     } else {
