@@ -12,7 +12,7 @@ export default class CadastraEventos extends Component {
     render() {
         return (
             <>
-                <h2>Cadastrar um novo Evento</h2>
+                <h2>Editar o Evento</h2>
                 <div class="container">
                     <form>
                         <div className="form-group">

@@ -34,7 +34,7 @@ export default class Home extends Component {
     let apelido = this.state.apelido;
     let senha = this.state.senha;
     try {
-      api.post("auth",
+      api.post("/auth",
         { apelido, senha })
         .then(res => {
           localStorage.setItem('login', apelido);
@@ -60,7 +60,7 @@ export default class Home extends Component {
     let celular = this.state.celular;
     let senha = this.state.senha;
     try {
-      api.post("/api/usuarios",
+      api.post("/usuarios",
         { apelido, email, celular, senha })
         .then(res => {
           console.log(res);
