@@ -14,7 +14,7 @@ export default class Eventos extends Component {
 
     componentDidMount() {
         try {
-            api.get("eventos")
+            api.get("/eventos/eventosHome")
                 .then(res => {
                     this.setState({ eventos: res.data })
                 })

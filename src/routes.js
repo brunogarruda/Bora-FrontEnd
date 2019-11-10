@@ -7,6 +7,7 @@ import  {Home} from "./pages/Home";
 import DetalheEvento from "./pages/DetalheEventos";
 import Perfil from "./pages/Perfil";
 import EditarEvento from "./pages/EditarEventos"
+import PaginaNaoEncontrada from "./pages/PaginaNaoEncontrada"
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route
@@ -28,7 +29,7 @@ export const Routes = () => (
       <Route exact path="/detalheEventos/:id" component={DetalheEvento} />
       <PrivateRoute exact path="/perfil" component = {Perfil}  />
       <Route exact path="/evento/:id" component= {EditarEvento} />
-      <Route path="*" component={() => <h1>Page not found</h1>} />
+      <Route path="*" component={PaginaNaoEncontrada} />
     </Switch>
     <Footer />
   </BrowserRouter>
