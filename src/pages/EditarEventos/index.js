@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import banner from '../../assets/bg-editarEvento.png';
 
 
 export default class CadastraEventos extends Component {
@@ -12,6 +13,7 @@ export default class CadastraEventos extends Component {
     render() {
         return (
             <>
+            <img src={banner}/>
                 <h2>Editar o Evento</h2>
                 <div class="container">
                     <form>
