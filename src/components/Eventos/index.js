@@ -14,8 +14,9 @@ class Eventos extends Component {
 
     componentDidMount() {
         try {
-            api.get("/eventosHome")
+            api.get("/eventos/eventosHome")
                 .then(res => {
+                        
                     this.setState({ eventos: res.data })
                 })
         } catch (e) {

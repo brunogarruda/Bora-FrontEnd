@@ -17,7 +17,7 @@ class Perfil extends Component {
     componentDidMount = () => {
         var login = localStorage.getItem('login');
         var token = getToken();
-        api.get(`/api/usuarios/${login}`)
+        api.get(`/usuarios/usuario/${login}`)
             .then(res => {
                 this.setState({usuario: res.data});
                 console.log(res.data);

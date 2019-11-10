@@ -22,6 +22,10 @@ export default class Home extends Component {
     }
   }
 
+  popUp = () => {
+
+  }
+
   handleChange = (event) => {
     const state = Object.assign({}, this.state);
     let field = event.target.id;
@@ -89,7 +93,7 @@ export default class Home extends Component {
               <input type="checkbox" class="form-check-input" id="lembrar"></input>
               <label class="form-check-label" htmlFor="lembrar">Lembrar de mim</label>
             </div>
-            <button type="submit" class="btn btn-primary" onClick={this.logar}>Logar</button>
+            <button type="text" class="btn btn-primary" onClick={this.logar}>Logar</button>
           </form>
 
           <form>
@@ -122,7 +126,7 @@ export default class Home extends Component {
               <input type="password" required="true" className="form-control" id="confirmarSenha" placeholder="Digite seu email ou apelido" />
               <small></small>
             </div>
-            <button type="submit" class="btn btn-primary" onClick={this.cadastrarUsuario} >Cadastrar</button>
+            <button type="text" class="btn btn-primary" onClick={this.cadastrarUsuario} >Cadastrar</button>
             <small>Já tem uma conta? <Link>Clique Aqui!</Link></small>
           </form>
 
@@ -136,13 +140,30 @@ export default class Home extends Component {
             </div>
             <div className="butoes">
               <button className="bora">Bora</button>
-              <button className="criar-role">Criar um rolê</button>
+              <button data-toggle="modal" data-target="#myModal" type="button" className="criar-role">Criar um rolê</button>
             </div>
           </section>
         </Banner>
         <div className="faixa" />
         <Eventos />
         <Login />
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+              </div>
+              <div class="modal-body">
+                <p>Some text in the modal.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </main>
     );
   }

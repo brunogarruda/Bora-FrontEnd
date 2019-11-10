@@ -26,7 +26,7 @@ export const Routes = () => (
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/detalheEventos/:id" component={DetalheEvento} />
-      <PrivateRoute exact path="/perfil" component = {Perfil}  />
+      <Route exact path="/perfil/:id" component = {Perfil}  />
       <Route exact path="/evento/:id" component= {Evento} />
       <Route path="*" component={() => <h1>Page not found</h1>} />
     </Switch>
