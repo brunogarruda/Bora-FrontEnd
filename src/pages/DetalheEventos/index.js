@@ -32,7 +32,7 @@ export default class DetalheEvento extends Component {
     render() {
         return (
             <>
-            <img src={banner}/>
+                <img src={banner} />
                 <div className="container">
                     <div className="row" id="detalheEventos">
                         <div className="col-lg-6 col-sm-12">
@@ -64,17 +64,13 @@ export default class DetalheEvento extends Component {
                                     <p>
                                         {this.state.endereco.rua}
                                         ,
-{this.state.endereco.numero}
-                                        {" "}
+                                        {this.state.endereco.numero}
                                         -
-{" "}
                                         {this.state.endereco.bairro}
-                                        {" "}
                                         -
-{" "}
                                         {this.state.endereco.cidade}
                                         /
-{this.state.endereco.estado}
+                                        {this.state.endereco.estado}
                                     </p>
                                 </div>
                             </div>

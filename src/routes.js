@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import Footer from "./components/Footer";
 import { isAuthenticated } from "./services/auth";
 import Header from "./components/Header";
+import HeaderSignUp from "./components/HeaderSignUp";
 import  {Home} from "./pages/Home";
 import DetalheEvento from "./pages/DetalheEventos";
 import Perfil from "./pages/Perfil";
@@ -23,7 +24,7 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
 
 export const Routes = () => (
   <BrowserRouter>
-    <Header />
+  {(isAuthenticated() ?     <Header /> :     <HeaderSignUp />)}
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/detalheEventos/:id" component={DetalheEvento} />
