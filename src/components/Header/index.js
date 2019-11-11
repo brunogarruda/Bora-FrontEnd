@@ -54,12 +54,6 @@ export default function NavBar() {
         </div>
         <ul className="nav-links">
           <li>
-            <p onClick={cadastro ? ativaLogin : openLogin}>Entrar</p>
-          </li>
-          <li>
-            <p onClick={login ? ativaCadastro : openCadastro}>Cadastrar</p>
-          </li>
-          <li>
             <Link to={`/perfil/${localStorage.getItem("login")}`}>Perfil</Link>
           </li>
           <li>
