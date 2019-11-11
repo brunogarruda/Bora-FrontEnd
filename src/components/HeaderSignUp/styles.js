@@ -20,6 +20,7 @@ export const Header = styled.header`
 
   .logo h4 {
     font-size: 2.5rem;
+    color: white;
   }
 
   .nav-links {

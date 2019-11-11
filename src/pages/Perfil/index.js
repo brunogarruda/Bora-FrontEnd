@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import './index.css';
 import { api } from '../../services/api';
-import { getToken } from '../../services/auth'
-import Bola from '@material-ui/icons/SportsSoccerSharp';
+import { getToken } from '../../services/auth';
 
-class Perfil extends Component {
+export default class Perfil extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -17,18 +16,20 @@ class Perfil extends Component {
     componentDidMount = () => {
         var login = localStorage.getItem('login');
         var token = getToken();
-        api.get(`/api/usuarios/${login}`)
+        api.get(`/usuarios/usuario/${login}`)
             .then(res => {
                 this.setState({usuario: res.data});
+                this.setState({criado: res.data.eventosCriados})
                 console.log(res.data);
             })
     }
 
     render() {
         return (
+            <>
             <div className="container">
                 <div className="row justify-content-around">
-                    <div className="col-lg-7 col-sm-12" id="eventos">
+                    <div className="col-lg-7 col-sm-12" id="perfil-eventos">
                         <h4>Meus Eventos</h4>
                         <div className="row justify-content-around">
                             <div className="col-lg-6">
@@ -36,34 +37,12 @@ class Perfil extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <h6>Eventos que eu criei</h6>
-                                <div className="flip-card">
-                                    <div className="flip-card-inner">
-                                        <div className="flip-card-front">
-                                            <h6><b>Nome Evento</b></h6>
-                                            <hr className="barra-evento"></hr>
-                                            <Bola className="icone" />
-                                        </div>
-                                        <div className="flip-card-back">
-                                            <div className="detalhe-evento">
-                                                <h6></h6>
-                                                <p><b>Início:</b> <br />
-                                                    <b>Termino:</b>
-                                                </p>
-                                                <p><b>Endereço: </b>
-                                                </p>
-                                            </div>
-                                            <button className="btn btn-light btn-block" classNameName="botao-evento">
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
 
                     </div>
-                    <div className="col-lg-4 col-sm-12" id="perfil">
+                    <div className="col-lg-4 col-sm-12" id="perfil-perfil">
                         <h4>Perfil</h4>
-                        <img src="..." alt="..." class="rounded-circle" />
                         <label>Nome</label>
                         <p>{this.state.usuario.nome}</p>
                         <label>Apelido</label>
@@ -76,8 +55,7 @@ class Perfil extends Component {
                     </div>
                 </div>
             </div>
+            </>
         );
     }
 }
-
-export default Perfil;

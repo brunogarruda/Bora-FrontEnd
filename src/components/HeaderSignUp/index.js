@@ -5,7 +5,8 @@ import React from "react";
 import { Header } from "./styles";
 import { ModalCadastro, ModalLogin } from "../Modal";
 import { useModal } from "../Modal/component/useModal";
-
+import {Link} from "react-router-dom";
+ 
 const toggleMenu = () => {
   const burger = document.querySelector(".burger");
   const nav = document.querySelector(".nav-links");
@@ -43,7 +44,7 @@ export default function NavBar() {
     <Header>
       <nav>
         <div className="logo">
-          <h4>BORA</h4>
+        <Link to='/'><h4>BORA</h4></Link>
         </div>
         <ul className="nav-links">
           <li>
