@@ -5,6 +5,8 @@ import React from "react";
 import { Header } from "./styles";
 import { ModalCadastro, ModalLogin } from "../Modal";
 import { useModal } from "../Modal/component/useModal";
+import { Link } from 'react-router-dom';
+import {logout} from '../../services/auth';
 
 const toggleMenu = () => {
   const burger = document.querySelector(".burger");
@@ -39,11 +41,16 @@ export default function NavBar() {
       return openCadastro();
     }
   };
+
+  const deslogar = () => {
+    logout();
+  }
+  
   return (
     <Header>
       <nav>
         <div className="logo">
-          <h4>BORA</h4>
+          <Link to='/'><h4>BORA</h4></Link>
         </div>
         <ul className="nav-links">
           <li>
@@ -53,7 +60,10 @@ export default function NavBar() {
             <p onClick={login ? ativaCadastro : openCadastro}>Cadastrar</p>
           </li>
           <li>
-            <p>Avatar</p>
+            <Link to={`/perfil/${localStorage.getItem("login")}`}>Perfil</Link>
+          </li>
+          <li>
+            <p onClick={deslogar}>Sair</p>
           </li>
         </ul>
         <div onClick={() => toggleMenu()} className="burger">
