@@ -3,10 +3,7 @@ import './style.css';
 import { api } from '../../services/api';
 import { getToken } from '../../services/auth';
 import homem from '../../assets/bg-perfil-homem.jpg';
-import mulher from '../../assets/bg-perfil-mulher.png';
-import { Link } from 'react-router-dom';
-import DirectionsRunIcon from '@material-ui/icons/DirectionsRun';
-import Eventos from '../../components/Eventos';
+import mulher from '../../assets/bg-perfil-mulher.png'
 
 export default class Perfil extends Component {
     constructor(props) {
@@ -67,7 +64,7 @@ export default class Perfil extends Component {
                         <div className="col-lg-4 col-sm-12">
                             <h2 className="perfil-titulo">Perfil</h2>
                             <div className="col-lg-12 col-sm-12 perfil-perfil">
-                                <img src={this.state.usuario.apelido == "thi" ? homem : mulher} className='perfil-foto' />
+                                <img src={this.state.usuario.apelido === "thi" ? homem : mulher} className='perfil-foto' />
                                 <div>
                                     <label className="perfil-label">Nome</label>
                                     <p className="perfil-info">{this.state.usuario.nome}</p>
