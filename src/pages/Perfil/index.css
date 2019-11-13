@@ -1,16 +1,19 @@
-#eventos{
-   float: left;
-   border: 1px solid black;
-   height: 500px;
-   margin-top: 20px;
-   margin-bottom: 20px;
+.div-perfil{
+    margin-top: 30px;
+    height: 600px;
 }
 
-#perfil{
-    float: right;
-    border: 1px solid black;
-    height: 500px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.perfil-perfil{
+    border: black solid 1px;
+    width: 510px;
 }
 
+.eventosParticipados{
+    border: black solid 1px;
+    height: 250px;
+}
+
+.eventosCriados{
+    border: black solid 1px;
+    height: 250px;
+}

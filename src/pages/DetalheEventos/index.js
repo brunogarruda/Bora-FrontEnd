@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import "./style.css";
 import { api } from "../../services/api";
+import QueryBuilderIcon from '@material-ui/icons/QueryBuilder';
+import LocationOnIcon from '@material-ui/icons/LocationOn';
 import banner from '../../assets/bg-detalheEventos.png';
+import { Link } from 'react-router-dom';
 
 
 export default class DetalheEvento extends Component {
@@ -21,7 +24,8 @@ export default class DetalheEvento extends Component {
                 .then(res => {
                     this.setState({
                         evento: res.data,
-                        endereco: res.data.endereco
+                        endereco: res.data.endereco,
+                        participantes: res.data.participantes
                     });
                 });
         } catch (e) {
@@ -33,24 +37,30 @@ export default class DetalheEvento extends Component {
         return (
             <>
                 <img src={banner} />
-                <div className="container">
+                <div className="container div-detalheEventos">
+                    <h2 className='detalheEvento-titulo'><b>{this.state.evento.nome}</b></h2>
                     <div className="row" id="detalheEventos">
-                        <div className="col-lg-6 col-sm-12">
-                            <h1><b>{this.state.evento.nome}</b></h1>
+                        <div className="col-lg-6 col-md-12 col-sm-12">
+
                             <h5><b>Descrição</b></h5>
                             <p>{this.state.evento.descricaoEvento}</p>
                         </div>
-                        <div className="col-lg-6 col-sm-12">
-                            <div className="col-lg-12 col-sm-12">
-                                <button className="btn btn-danger btn-lg">Não Vou</button>
-                                <button className="btn btn-primary btn-lg" type="submit">Bora!</button>
+                        <div className="col-lg-6 col-md-12 col-sm-12">
+                            <div className='row'>
+                                <div className="col-lg-6 col-md-6 col-sm-6">
+                                    <Link to="/">
+                                        <button className="btn btn-lg botao-naovou">Não Vou</button>
+                                    </Link>
+                                </div>
+                                <div className="col-lg-6 col-md-6 col-sm-6">
+                                    <button className="btn btn-primary btn-lg botao-bora" type="submit">Bora!</button>
+                                </div>
                             </div>
-                            <div className="row">
-                                <div className="col-lg-2 col-sm-2">
-                                    icone
-                                    icone
-                            </div>
-                                <div className="col-lg-10 col-sm-10">
+                            <div className="row detalheEventos-data">
+                                <div className="col-lg-1 col-md-1 col-sm-1">
+                                    <QueryBuilderIcon className="detalheEvento-icone" />
+                                </div>
+                                <div className="col-lg-11 col-md-11 col-sm-11">
                                     <h5><b>Data</b></h5>
                                     <p>
                                         <b>Inicio:  </b>
@@ -60,6 +70,13 @@ export default class DetalheEvento extends Component {
                                         <b>Termino: </b>
                                         {this.state.evento.dataHoraFim}
                                     </p>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-lg-1 col-sm-1">
+                                    <LocationOnIcon />
+                                </div>
+                                <div className="col-lg-11 col-md-11 col-sm-11">
                                     <h5><b>Endereço</b></h5>
                                     <p>
                                         {this.state.endereco.rua}
@@ -81,15 +98,11 @@ export default class DetalheEvento extends Component {
                     </div>
                     <div className="row">
                         <h3>Quem vai</h3>
-                        <ul>
-                            {this.state.participantes.map(participante => (
-                                <>
-                                    <p>Participantes</p>
+                            {/* {this.state.participantes.map(participante => (
+                                <ul>
                                     <li>{participante.nome}</li>
-                                </>
-                            ))}
-                            <li />
-                        </ul>
+                                </ul>
+                            ))} */}
                     </div>
                 </div>
             </>

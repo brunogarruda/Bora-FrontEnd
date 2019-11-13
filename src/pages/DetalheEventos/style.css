@@ -1,3 +1,26 @@
-#detalheEventos{
-    height: 400px;
+.div-detalheEventos{
+    height: 500px;
+    margin-top: 20px;
+}
+
+.botao-naovou{
+    background: linear-gradient(to right,#980000,#FF9212);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.botao-bora{
+    background: linear-gradient(to right,#6AC2E9,#5A25CB);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.detalheEventos-data{
+    margin-top: 20px;
+}
+
+.detalheEvento-titulo{
+    color: #FF7200;
+    text-align: left !important;
+    margin-left: 0px;
 }

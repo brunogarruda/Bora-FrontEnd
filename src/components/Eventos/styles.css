@@ -3,14 +3,27 @@
   flex-direction: row;
 }
 
+#topico-evento{
+  height: 40px;
+}
+
+.btn {
+  width: 100% !important;
+}
+
+.div-eventos{
+  height: 700px;
+  margin-top: 180px;
+}
+
 .icone{
-  font-size: large;
+  margin-left: 40px;
   text-align: center !important;
   width: 150px !important;
   height: 150px !important;
 }
 
-h2{
+.eventos-titulo{
   text-align: center;
   margin: 30px;
 }
@@ -22,7 +35,6 @@ h2{
 .barra-evento{
   width: 200px;
   border-top: 3px solid white;
-  color: black !important;
 }
 
 .flip-card {
@@ -55,7 +67,7 @@ h2{
   backface-visibility: hidden;
 }
 
-.detalhe-evento{
+.detalhe-evento-card{
   margin: 20px;
 }
 

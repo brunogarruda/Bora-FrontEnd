@@ -21,7 +21,7 @@ export default class EditarEventos extends Component{
                         evento: res.data,
                         endereco: res.data.endereco
                     });
-                    console.log(this.evento);
+                    console.log(res);
                 });
         } catch (e) {
             console.log(e);
