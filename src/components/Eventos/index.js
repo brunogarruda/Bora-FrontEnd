@@ -50,6 +50,9 @@ export default class Eventos extends Component {
                                     <button className="btn btn-light btn-block" classNameName="botao-evento">
                                         <Link to={`/detalheEventos/${item.idEvento}`}><b>Detalhes</b></Link>
                                     </button>
+                                    {this.props.criado == 1 ? <button className="btn btn-light btn-block" classNameName="botao-evento">
+                                        <Link to={`/detalheEventos/${item.idEvento}`}><b>Editar</b></Link>
+                                    </button> : null}
                                 </div>
                             </div>
                         </div>

@@ -1,0 +1,65 @@
+.div-perfil{
+    margin-top: 30px;
+    height: 600px;
+}
+
+.perfil-titulo{
+    color: #FF7200;
+    font-weight: bold;
+}
+
+.titulo-perfil-evento{
+    color: #2F004B;
+    font-weight: bold;
+}
+
+.perfil-label{
+    font-weight: bold;
+    margin: 0px;
+}
+
+.perfil-info{
+    color: #2F004B;
+    font-weight: bold;
+    margin-bottom: 2px; 
+}
+
+.perfil-perfil{
+    border: black solid 1px;
+    width: 510px;
+    height: 525px;
+}
+
+.eventosParticipados{
+    border: black solid 1px;
+    height: 250px;
+}
+
+.eventosCriados{
+    border: black solid 1px;
+    height: 250px;
+}
+
+.perfil-foto{
+    border-radius: 218px;
+    height: 211px;
+    border: 2px solid black;
+    box-shadow: 2px 2px grey;
+    margin-bottom: 5px;
+    margin-left: 60px;
+}
+/* card */
+
+.perfil-card {
+    background-color: transparent;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 30px;
+  }
+
+.perfil-card-front {
+    background-color: #34ACE0;
+    color: white;
+    border-radius: 15px;
+  }
