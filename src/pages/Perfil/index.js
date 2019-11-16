@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './style.css';
 import { api } from '../../services/api';
 import { getToken } from '../../services/auth';
+import Evento from '../../components/Eventos';
 import homem from '../../assets/bg-perfil-homem.jpg';
 import mulher from '../../assets/bg-perfil-mulher.png'
 
@@ -29,6 +30,14 @@ export default class Perfil extends Component {
             })
     }
 
+    eventosCriado = () => {
+        document.getElementById("perfil-titulo-evento").innerHTML = "Eventos que eu criei"
+    }
+
+    eventosParticipados = () => {
+        document.getElementById("perfil-titulo-evento").innerHTML = "Eventos que participei"
+    }
+
     render() {
         return (
             <>
@@ -37,27 +46,18 @@ export default class Perfil extends Component {
                         <div className="col-lg-7 col-sm-12" id="perfil-eventos">
                             <h2 className="perfil-titulo">Meus Eventos</h2>
                             <div className="row">
-                                <div className="col-lg-12 col-md-12 col-sm-12 eventosParticipados">
-                                    <h6 className="titulo-perfil-evento">Eventos que eu participei</h6>
+                                <div id="eventosCriados" className="col-lg-12 col-md-12 col-sm-12 eventosParticipados">
+                                    <h6 className="titulo-perfil-evento" id="perfil-titulo-evento"></h6>
                                     <div className="row">
-                            
-
-                                        {/* <Eventos/> */}
-                                        {/* <div className="perfil-card">
-                                            <div className="perfil-card-front">
-                                                <h6 id="topico-evento"><b>aaaaaa</b></h6>
-                                                <hr className="barra-evento"></hr>
-                                                <DirectionsRunIcon className="icone" />
-                                            </div>
-                                        </div> */}
+                                        <div className="col-lg-4">
+                                            {/* <div className="perfil-card">
+                                                <div className="perfil-card-front">
+                                                    <h6 id="topico-evento"><b>aaaaa</b></h6>
+                                                    <hr className="barra-evento"></hr>
+                                                </div>
+                                            </div> */}
+                                        </div>
                                     </div>
-
-                                </div>
-                            </div>
-                            <br />
-                            <div className="row">
-                                <div className="col-lg-12 col-md-12 col-sm-12 eventosCriados">
-                                    <h6 className="titulo-perfil-evento">Eventos que eu criei</h6>
                                 </div>
                             </div>
                         </div>
@@ -74,6 +74,17 @@ export default class Perfil extends Component {
                                     <p className="perfil-info">{this.state.usuario.celular}</p>
                                     <label className="perfil-label">Email</label>
                                     <p className="perfil-info">{this.state.usuario.email}</p>
+                                    <div>
+                                        <h5>Visualizar Eventos:</h5>
+                                        <div className="row">
+                                            <div className="col-lg-6">
+                                                <button className="btn" onClick={this.eventosCriado}>Eventos Criados</button>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <button className="btn" onClick={this.eventosParticipados}>Eventos Participados</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
