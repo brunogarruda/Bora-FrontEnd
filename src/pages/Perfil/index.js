@@ -71,7 +71,7 @@ export default class Perfil extends Component {
                                                             </p>
                                                         </div>
                                                         <button className="btn btn-light btn-block botao-evento">
-                                                            <Link to={`/detalheEventos/${item.idEvento}`}><b>Detalhes</b></Link>
+                                                            <Link to={`/eventos/detalhe/${item.idEvento}`}><b>Detalhes</b></Link>
                                                         </button>
                                                     </div>
                                                 </div>
@@ -98,10 +98,11 @@ export default class Perfil extends Component {
                                         <h5>Visualizar Eventos:</h5>
                                         <div className="row">
                                             <div className="col-lg-6">
-                                                <button className="btn" onClick={this.eventosCriado}>Eventos Criados</button>
+                                                <button className="btn btn-sm botao-naovou" onClick={this.eventosCriado}>Eventos Criados</button>
                                             </div>
+                                            <br/>
                                             <div className="col-lg-6">
-                                                <button className="btn" onClick={this.eventosParticipados}>Eventos Participados</button>
+                                                <button className="btn btn-sm botao-bora" onClick={this.eventosParticipados}>Eventos Participados</button>
                                             </div>
                                         </div>
                                     </div>

@@ -27,7 +27,8 @@
 .perfil-perfil{
     border: black solid 1px;
     width: 510px;
-    height: 525px;
+    height: 550px;
+    margin-bottom: 10px;
 }
 
 .eventosParticipados{

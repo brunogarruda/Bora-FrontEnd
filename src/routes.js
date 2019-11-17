@@ -27,9 +27,9 @@ export const Routes = () => (
   {(isAuthenticated() ?     <Header /> :     <HeaderSignUp />)}
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact path="/detalheEventos/:id" component={DetalheEvento} />
+      <Route exact path="/eventos/detalhe/:id" component={DetalheEvento} />
       <PrivateRoute exact path="/perfil/:id" component = {Perfil}  />
-      <Route exact path="/evento/:id" component= {EditarEvento} />
+      <Route exact path="/eventos/editar/:id" component= {EditarEvento} />
       <Route path="*" component={PaginaNaoEncontrada} />
     </Switch>
     <Footer />
