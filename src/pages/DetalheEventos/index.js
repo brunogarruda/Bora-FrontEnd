@@ -33,6 +33,10 @@ export default class DetalheEvento extends Component {
         }
     }
 
+    navigateBack = () =>{
+        window.history.back()
+    }
+
     render() {
         return (
             <>
@@ -48,7 +52,7 @@ export default class DetalheEvento extends Component {
                         <div className="col-lg-6 col-md-12 col-sm-12">
                             <div className='row'>
                                 <div className="col-lg-6 col-md-6 col-sm-6">
-                                    <Link to="/">
+                                    <Link onClick={this.navigateBack}>
                                         <button className="btn btn-lg botao-naovou">Não Vou</button>
                                     </Link>
                                 </div>

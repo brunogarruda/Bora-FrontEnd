@@ -54,6 +54,9 @@ label, input {
     margin-bottom: 8vh;
 }
 
+#div-senha{
+    display: 'none';
+}
 
 
 

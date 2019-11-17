@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './style.css';
 import { api } from '../../services/api';
 import { getToken } from '../../services/auth';
-import Evento from '../../components/Eventos';
+import { Link } from 'react-router-dom';
+import DirectionsRunIcon from '@material-ui/icons/DirectionsRun';
 import homem from '../../assets/bg-perfil-homem.jpg';
 import mulher from '../../assets/bg-perfil-mulher.png'
 
@@ -39,6 +40,7 @@ export default class Perfil extends Component {
     }
 
     render() {
+        console.log(this.participante);
         return (
             <>
                 <div className="container div-perfil">
@@ -47,16 +49,34 @@ export default class Perfil extends Component {
                             <h2 className="perfil-titulo">Meus Eventos</h2>
                             <div className="row">
                                 <div id="eventosCriados" className="col-lg-12 col-md-12 col-sm-12 eventosParticipados">
-                                    <h6 className="titulo-perfil-evento" id="perfil-titulo-evento"></h6>
+                                    <h6 className="titulo-perfil-evento" id="perfil-titulo-evento">Eventos que eu criei</h6>
                                     <div className="row">
-                                        <div className="col-lg-4">
-                                            {/* <div className="perfil-card">
-                                                <div className="perfil-card-front">
-                                                    <h6 id="topico-evento"><b>aaaaa</b></h6>
-                                                    <hr className="barra-evento"></hr>
+                                        {this.state.criado.map(item => (
+                                            <div key={item.idEvento} className="flip-card">
+                                                <div className="flip-card-inner">
+                                                    <div className="flip-card-front">
+                                                        <h6 id="topico-evento"><b>{item.nome}</b></h6>
+                                                        <hr className="barra-evento"></hr>
+                                                        <DirectionsRunIcon className="icone" />
+                                                    </div>
+                                                    <div className="flip-card-back">
+                                                        <div className="detalhe-evento-card">
+                                                            <h6></h6>
+                                                            <p><b>Início:</b> {item.dataHoraInicio} <br />
+                                                                <b>Termino:</b> {item.dataHoraFim}
+                                                            </p>
+                                                            <p><b>Endereço: </b>
+                                                                {item.endereco.rua}, {item.endereco.numero} - {item.endereco.bairro} -
+                                                                    {item.endereco.cidade}/{item.endereco.estado}
+                                                            </p>
+                                                        </div>
+                                                        <button className="btn btn-light btn-block botao-evento">
+                                                            <Link to={`/detalheEventos/${item.idEvento}`}><b>Detalhes</b></Link>
+                                                        </button>
+                                                    </div>
                                                 </div>
-                                            </div> */}
-                                        </div>
+                                            </div>
+                                        ))}
                                     </div>
                                 </div>
                             </div>
