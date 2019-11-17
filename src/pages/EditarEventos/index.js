@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import banner from "../../assets/bg-editarEvento.png";
 import { api } from "../../services/api";
+import ViaCep from 'react-via-cep';
 import "./style.css";
 
 export default class EditarEventos extends Component {
@@ -22,13 +23,14 @@ export default class EditarEventos extends Component {
             estado: '',
             numero: '',
             rua: '',
-            categoria: [],
+            categoria: 'Festas',
+            categorias: [],
         };
     }
 
     componentDidMount() {
         const { id } = this.props.match.params;
-        api.get('categoria').then(res => { this.setState({ categoria: res.data }) });
+        api.get('categoria').then(res => { this.setState({ categorias: res.data }) });
 
         api.get(`eventos/${id}`).then(res => {
             console.log(res);
@@ -40,6 +42,7 @@ export default class EditarEventos extends Component {
                 recorrencia: res.data.recorrencia,
                 dataHoraFim: res.data.dataHoraFim,
                 dataHoraInicio: res.data.dataHoraInicio,
+                categoria: res.data.categoria,
                 //endereço
                 bairro: res.data.endereco.bairro,
                 cep: res.data.endereco.cep,
@@ -48,14 +51,36 @@ export default class EditarEventos extends Component {
                 numero: res.data.endereco.numero,
                 rua: res.data.endereco.rua
             })
-            this.eventoPrivado();
         });
     }
 
-    alterarEvento = () =>{
+    alterarEvento = () => {
         const { id } = this.props.match.params;
 
-        api.put(`eventos/${id}`)
+        var dados = {
+            nome: this.state.nome,
+            descricaoEvento: this.state.descricaoEvento,
+            privado: this.state.privado,
+            senha: this.state.senha,
+            recorrencia: this.state.recorrencia,
+            dataHoraFim: this.state.dataHoraFim,
+            dataHoraInicio: this.state.dataHoraInicio,
+            categoria: this.state.categoria,
+            endereco: {
+                bairro: this.state.bairro,
+                cep: this.state.cep,
+                cidade: this.state.cidade,
+                estado: this.state.estado,
+                numero: this.state.numero,
+                rua: this.state.rua
+            }
+        }
+        debugger;
+
+        api.put(`eventos/${id}`, { dados })
+            .then(res => {
+                console.log(res);
+            })
     }
 
     eventoPrivado = () => {
@@ -77,6 +102,7 @@ export default class EditarEventos extends Component {
             [name]: value
         });
     }
+
     navigateBack = () => {
         window.history.back()
     }
@@ -90,43 +116,44 @@ export default class EditarEventos extends Component {
                     <form>
                         <div className="form-group">
                             <div className="groupinput">
-                                <label className="labelForm active" htmlFor="nomeEvento">Nome do evento</label>
-                                <input className="inputForm" name="nome" type="text" className="form-control" onChange={this.handleInputChange} value={this.state.nome} placeholder="Inclua um nome curto e claro" />
+                                <label className="labelForm active" htmlFor="nome">Nome do evento</label>
+                                <input className="inputForm" name="nome" id="nome" type="text" className="form-control" onChange={this.handleInputChange} value={this.state.nome} placeholder="Inclua um nome curto e claro" />
                             </div>
                             <div className="groupinput">
-                                <label className="labelForm" htmlFor="">Descrição</label>
-                                <textarea className="inputForm" type="text" name="descricaoEvento" className="form-control" onChange={this.handleInputChange} value={this.state.descricaoEvento} placeholder="Inclua o endereço do evento" rows="3" />
+                                <label className="labelForm" htmlFor="descricaoEvento">Descrição</label>
+                                <textarea className="inputForm" type="text" name="descricaoEvento" name="descricaoEvento" className="form-control" onChange={this.handleInputChange} value={this.state.descricaoEvento} placeholder="Inclua o endereço do evento" rows="3" />
                             </div>
                             <div className="form-row">
                                 <div className="form-group col-lg-10">
-                                    <label className="labelForm" htmlFor="">Logradouro</label>
-                                    <input className="inputForm" name="rua" type="text" className="form-control" onChange={this.handleInputChange} value={this.state.rua} placeholder="Inclua o endereço do evento" />
+                                    <label className="labelForm" htmlFor="rua">Logradouro</label>
+                                    <input className="inputForm" name="rua" id="rua" type="text" className="form-control" onChange={this.handleInputChange} value={this.state.rua} placeholder="Inclua o endereço do evento" />
                                 </div>
                                 <div className="form-group col-lg-2">
-                                    <label className="labelForm" htmlFor="">Numero</label>
-                                    <input className="inputForm" type="text" name="numero" className="form-control" onChange={this.handleInputChange} value={this.state.numero} placeholder="Inclua o endereço do evento" />
+                                    <label className="labelForm" htmlFor="numero">Numero</label>
+                                    <input className="inputForm" type="text" id="numero" name="numero" className="form-control" onChange={this.handleInputChange} value={this.state.numero} placeholder="Inclua o endereço do evento" />
                                 </div>
                             </div>
                             <div className="form-row">
                                 <div className="form-group col-lg-4">
-                                    <label className="labelForm" htmlFor="">Bairro</label>
-                                    <input className="inputForm" type="text" name="bairro" className="form-control" onChange={this.handleInputChange} value={this.state.bairro} placeholder="Inclua o endereço do evento" />
+                                    <label className="labelForm" htmlFor="bairro">Bairro</label>
+                                    <input className="inputForm" type="text" id="bairro" name="bairro" className="form-control" onChange={this.handleInputChange} value={this.state.bairro} placeholder="Inclua o endereço do evento" />
                                 </div>
                                 <div className="form-group col-lg-4">
-                                    <label className="labelForm" htmlFor="">Cidade</label>
-                                    <input className="inputForm" type="text" className="form-control" name="cidade" onChange={this.handleInputChange} value={this.state.cidade} placeholder="Inclua o endereço do evento" />
+                                    <label className="labelForm" htmlFor="cidade">Cidade</label>
+                                    <input className="inputForm" type="text" id="cidade" className="form-control" name="cidade" onChange={this.handleInputChange} value={this.state.cidade} placeholder="Inclua o endereço do evento" />
                                 </div>
                                 <div className="form-group col-lg-4">
-                                    <label className="labelForm" htmlFor="">CEP</label>
-                                    <input className="inputForm" type="text" className="form-control" name="cep" onChange={this.handleInputChange} value={this.state.cep} placeholder="Inclua o endereço do evento" />
+                                    <label className="labelForm" htmlFor="cep">CEP</label>
+                                    <input className="inputForm" type="text" id="cep" className="form-control" name="cep" onChange={this.handleInputChange} value={this.state.cep} placeholder="Inclua o endereço do evento" />
                                 </div>
                             </div>
                             <div className="groupinput">
                                 <label className="labelForm">Categoria</label>
-                                <select className="inputForm" className="custom-select">
-                                    {this.state.categoria.map(item => (
+                                <select className="inputForm" name="categoria" onChange={this.handleInputChange} value={this.state.categoria} className="custom-select">
+                                    {this.state.categorias.map(item => (
                                         <option key={item.nomeCategoria}
-                                        >{item.nomeCategoria}</option>
+                                        >
+                                            {item.nomeCategoria}</option>
 
                                     ))};
                                 </select>
@@ -137,7 +164,7 @@ export default class EditarEventos extends Component {
                                     <option>Ocorre uma vez</option>
                                 </select>
                             </div>
-                            
+
                             <div className="form-row">
                                 <div className="col-lg-4">
                                     <div className="form-check">
@@ -154,10 +181,9 @@ export default class EditarEventos extends Component {
                             </div>
                         </div>
                         <div className="groupinput groupinputButton">
-                            <button className="botao-deixa-pra-la" type="button" onClick={this.navigateBack}>Não Vou</button>
-                            <button className="botao-pronto">Pronto</button>
+                            <button className="botao-deixa-pra-la" type="button" onClick={this.navigateBack}>Não Editar</button>
+                            <button className="botao-pronto" type="button" onClick={this.alterarEvento}>Pronto</button>
                         </div>
-
                     </form>
                 </div>
             </>
