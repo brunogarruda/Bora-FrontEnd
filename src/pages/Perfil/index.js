@@ -81,7 +81,7 @@ export default class Perfil extends Component {
                         <div className="col-lg-4 col-sm-12">
                             <h2 className="perfil-titulo">Perfil</h2>
                             <div className="col-lg-12 col-sm-12 perfil-perfil">
-                                <img src={this.state.usuario.apelido === "thi" ? homem : mulher} className='perfil-foto' />
+                                <img alt="imagem do perfil" src={this.state.usuario.apelido === "thi" ? homem : mulher} className='perfil-foto' />
                                 <div>
                                     <label className="perfil-label">Nome</label>
                                     <p className="perfil-info">{this.state.usuario.nome}</p>

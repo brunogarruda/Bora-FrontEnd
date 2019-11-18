@@ -90,7 +90,7 @@ export default class DetalheEvento extends Component {
                                     <input type="password" required="true" className="form-control" id="confirmarSenha" placeholder="Digite seu email ou apelido" />
                                     <small></small>
                                 </div>
-                                <button type="button" class="btn botao-bora" onClick={this.cadastrarUsuario} >Cadastrar</button>
+                                <button type="button" className="btn botao-bora" onClick={this.cadastrarUsuario} >Cadastrar</button>
                                 <small>Já tem uma conta? <Link className="perfil-info" to="/login">Clique Aqui!</Link></small>
                             </form>
                         </div>
