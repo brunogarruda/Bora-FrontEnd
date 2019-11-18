@@ -40,7 +40,7 @@ export default class DetalheEvento extends Component {
     render() {
         return (
             <>
-                <img src={banner} />
+                <img alt="Banner Topo edição evento"src={banner} />
                 <div className="container div-detalheEventos">
                     <h2 className='detalheEvento-titulo'><b>{this.state.evento.nome}</b></h2>
                     <div className="row" id="detalheEventos">

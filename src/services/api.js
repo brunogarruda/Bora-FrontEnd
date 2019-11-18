@@ -4,6 +4,11 @@ import { getToken } from "./auth";
 
 export const api = axios.create({
   baseURL: "http://localhost:8080/api/",
+  header : {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "DELETE, POST, GET, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+  }
 });
 
 // headers: {

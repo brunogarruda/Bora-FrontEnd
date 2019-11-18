@@ -38,7 +38,6 @@ export default class Eventos extends Component {
                                 </div>
                                 <div className="flip-card-back">
                                     <div className="detalhe-evento-card">
-                                        <h6></h6>
                                         <p><b>Início:</b> {item.dataHoraInicio} <br />
                                             <b>Termino:</b> {item.dataHoraFim}
                                         </p>

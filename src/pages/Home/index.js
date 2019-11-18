@@ -1,13 +1,10 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import Eventos from "../../components/Eventos";
 import CampoPesquisa from "../../components/CampoPesquisa";
 import Login from "../../components/Modal-Login";
 import bg from "../../assets/bg.svg";
 import { Banner } from "./styles";
-import { api } from "../../services/api";
-import { login } from "../../services/auth";
 import {useModal} from "../../components/Modal/component/useModal";
 import {Modal} from "../../components/Modal";
 

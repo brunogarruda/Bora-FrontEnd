@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
 import { api } from '../../services/api';
-import { getToken } from '../../services/auth';
 import { Link } from 'react-router-dom';
 import DirectionsRunIcon from '@material-ui/icons/DirectionsRun';
 import homem from '../../assets/bg-perfil-homem.jpg';
@@ -19,7 +18,6 @@ export default class Perfil extends Component {
 
     componentDidMount = () => {
         var login = localStorage.getItem('login');
-        var token = getToken();
         api.get(`/usuarios/usuario/${login}`)
             .then(res => {
                 this.setState({
@@ -61,7 +59,6 @@ export default class Perfil extends Component {
                                                     </div>
                                                     <div className="flip-card-back">
                                                         <div className="detalhe-evento-card">
-                                                            <h6></h6>
                                                             <p><b>Início:</b> {item.dataHoraInicio} <br />
                                                                 <b>Termino:</b> {item.dataHoraFim}
                                                             </p>

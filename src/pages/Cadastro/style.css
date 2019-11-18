@@ -1,0 +1,10 @@
+.cadastro-div{
+    height: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.cadastro-label{
+    font-weight: bold;
+    color: #2F004B;
+}

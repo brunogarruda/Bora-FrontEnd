@@ -48,10 +48,10 @@ export default function NavBar() {
         </div>
         <ul className="nav-links">
           <li>
-            <p onClick={cadastro ? ativaLogin : openLogin}>Entrar</p>
+            <Link to="/login" >Entrar</Link>
           </li>
           <li>
-            <p onClick={login ? ativaCadastro : openCadastro}>Cadastrar</p>
+            <Link to="/cadastro">Cadastrar</Link>
           </li>
         </ul>
         <div onClick={() => toggleMenu()} className="burger">

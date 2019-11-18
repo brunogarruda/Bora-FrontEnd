@@ -7,8 +7,10 @@ import HeaderSignUp from "./components/HeaderSignUp";
 import  {Home} from "./pages/Home";
 import DetalheEvento from "./pages/DetalheEventos";
 import Perfil from "./pages/Perfil";
-import EditarEvento from "./pages/EditarEventos"
-import PaginaNaoEncontrada from "./pages/PaginaNaoEncontrada"
+import EditarEvento from "./pages/EditarEventos";
+import PaginaNaoEncontrada from "./pages/PaginaNaoEncontrada";
+import Cadastro from './pages/Cadastro';
+import Login from './pages/Login';
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route
@@ -30,6 +32,8 @@ export const Routes = () => (
       <Route exact path="/eventos/detalhe/:id" component={DetalheEvento} />
       <PrivateRoute exact path="/perfil/:id" component = {Perfil}  />
       <Route exact path="/eventos/editar/:id" component= {EditarEvento} />
+      <Route exact path="/cadastro" component={Cadastro} />
+      <Route exact path="/login" Component={Login} />
       <Route path="*" component={PaginaNaoEncontrada} />
     </Switch>
     <Footer />
