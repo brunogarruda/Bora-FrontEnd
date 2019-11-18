@@ -25,21 +25,21 @@ const toggleMenu = () => {
 };
 
 export default function NavBar() {
-  const { login, openLogin, closeLogin, cadastro, openCadastro, closeCadastro } = useModal();
+  // const { login, openLogin, closeLogin, cadastro, openCadastro, closeCadastro } = useModal();
 
-  const ativaLogin = () => {
-    if (cadastro) {
-      closeCadastro();
-      return openLogin();
-    }
-  };
+  // const ativaLogin = () => {
+  //   if (cadastro) {
+  //     closeCadastro();
+  //     return openLogin();
+  //   }
+  // };
 
-  const ativaCadastro = () => {
-    if (login) {
-      closeLogin();
-      return openCadastro();
-    }
-  };
+  // const ativaCadastro = () => {
+  //   if (login) {
+  //     closeLogin();
+  //     return openCadastro();
+  //   }
+  // };
   return (
     <Header>
       <nav>
@@ -60,8 +60,8 @@ export default function NavBar() {
           <div className="line3" />
         </div>
       </nav>
-      <ModalLogin open={login} close={closeLogin} />
-      <ModalCadastro open={cadastro} close={closeCadastro} />
+      {/* <ModalLogin open={login} close={closeLogin} />
+      <ModalCadastro open={cadastro} close={closeCadastro} /> */}
     </Header>
   );
 }

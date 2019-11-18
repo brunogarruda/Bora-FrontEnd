@@ -11,6 +11,7 @@ import EditarEvento from "./pages/EditarEventos";
 import PaginaNaoEncontrada from "./pages/PaginaNaoEncontrada";
 import Cadastro from './pages/Cadastro';
 import Login from './pages/Login';
+import NavbarDeslogado from './components/NavbarDeslogado';
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route
@@ -26,14 +27,14 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
 
 export const Routes = () => (
   <BrowserRouter>
-  {(isAuthenticated() ?     <Header /> :     <HeaderSignUp />)}
+  {(isAuthenticated() ?     <Header /> :     <NavbarDeslogado />)}
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/eventos/detalhe/:id" component={DetalheEvento} />
       <PrivateRoute exact path="/perfil/:id" component = {Perfil}  />
       <Route exact path="/eventos/editar/:id" component= {EditarEvento} />
       <Route exact path="/cadastro" component={Cadastro} />
-      <Route exact path="/login" Component={Login} />
+      <Route exact path="/login" component={Login} />
       <Route path="*" component={PaginaNaoEncontrada} />
     </Switch>
     <Footer />
