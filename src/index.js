@@ -3,8 +3,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./global.css";
-// import { App } from "./App";
-import Teste from "./components/teste";
+import { App } from "./App";
+// import {EventosCard} from './components/Eventos'
+// import {Home} from "./pages/Home"
+// import Teste from "./components/teste";
 // import {Signup} from "./components/Signup";
 
-ReactDOM.render(<Teste />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));

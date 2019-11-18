@@ -116,3 +116,8 @@ export const Banner = styled.div`
     }
   }
 `;
+export const EventosContainer = styled.div`
+div{
+  margin:10% 0% -10%;
+}
+`;
