@@ -4,7 +4,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./global.css";
 // import { App } from "./App";
-import Teste from "./components/teste";
+import { Maps } from "./components/Maps";
 // import {Signup} from "./components/Signup";
 
-ReactDOM.render(<Teste />, document.getElementById("root"));
+ReactDOM.render(<Maps />, document.getElementById("root"));

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable no-console */
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
@@ -42,30 +43,13 @@ export default class Eventos extends Component {
                   <div className="detalhe-evento">
                     <h6 />
                     <p>
-                      <b>Início:</b>
-{" "}
-{item.dataHoraInicio}
-{" "}
-<br />
-                      <b>Termino:</b>
-{" "}
-{item.dataHoraFim}
+                      <b>Início:</b> {item.dataHoraInicio} <br />
+                      <b>Termino:</b> {item.dataHoraFim}
                     </p>
                     <p>
                       <b>Endereço: </b>
-                      {item.endereco.rua}
-,
-{" "}
-{item.endereco.numero}
-{" "}
--
-{" "}
-{item.endereco.bairro}
-{" "}
--
-{item.endereco.cidade}
-/
-{item.endereco.estado}
+                      {item.endereco.rua}, {item.endereco.numero} - {item.endereco.bairro} -
+                      {item.endereco.cidade}/{item.endereco.estado}
                     </p>
                   </div>
                   <button className="btn btn-light btn-block" classNameName="botao-evento">
