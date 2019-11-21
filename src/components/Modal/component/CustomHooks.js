@@ -2,7 +2,7 @@
 /* eslint-disable no-shadow */
 import { useState, useEffect } from "react";
 
-export const useSignUpForm = (callback,validate) => {
+export const usePostService = (callback,validate) => {
   const [inputs, setInputs] = useState({});
   const [errors,setErrors]=useState({});
   const [isSubmitting,setIsSubmitting] = useState(false);

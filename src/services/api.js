@@ -14,7 +14,7 @@ import { getToken } from "./auth";
 //   }
 // });
 export const api = axios.create({
-  baseURL: "http://localhost:8080/api/",
+  baseURL: "http://localhost:8080/v1/api/",
   headers: {
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
