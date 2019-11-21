@@ -8,7 +8,7 @@ import bg from "../../assets/bg.svg";
 import { Banner, EventosContainer } from "./styles";
 // import { api } from "../../services/api";
 // import { login } from "../../services/auth";
-import { useModal } from "../../components/Modal/component/useModal";
+import { useModal } from "../../components/hooks/useModal";
 import { Modal } from "../../components/Modal";
 
 

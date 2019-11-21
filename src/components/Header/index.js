@@ -5,7 +5,7 @@
 import React from "react";
 import { Header } from "./styles";
 import { ModalCadastro, ModalLogin } from "../Modal";
-import { useModal } from "../Modal/component/useModal";
+import { useModal } from "../hooks/useModal";
 
 const toggleMenu = () => {
   const burger = document.querySelector(".burger");

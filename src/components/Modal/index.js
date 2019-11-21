@@ -1,3 +1,7 @@
+/* eslint-disable no-useless-escape */
+/* eslint-disable no-use-before-define */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable quotes */
 /* eslint-disable no-unused-expressions */
 /* eslint-disable no-console */
@@ -11,60 +15,31 @@ import Icon from '@material-ui/core/Icon';
 import { Link } from 'react-router-dom';
 import './styles.css';
 import InputMask from 'react-input-mask';
-import { TimePicker } from 'antd';
-import { TextField, makeStyles } from '@material-ui/core';
+import { TextField } from '@material-ui/core';
+import useForm from 'react-hook-form';
 import { api } from '../../services/api';
 import { login } from '../../services/auth';
-import { usePostService } from './component/CustomHooks';
+import { useCustomForm } from '../hooks/useCustomForm';
 import validade from './component/LoginFormValidationRules';
-// import "./botoes.css";
+import { BotaoSubmit } from '../hooks/useBotao';
 
 export const Modal = ({ open, close }) => {
-  const useStyles = makeStyles(theme => ({
-    container: {
-      display: 'flex',
-      flexWrap: 'wrap'
-    },
-    textField: {}
-  }));
-
-  const { inputs, hanldeInputChange } = usePostService({
+  const { inputs, hanldeInputChange } = useCustomForm({
     titulo: '',
     descricao: '',
     endereco: '',
     dataInicio: '',
     categoria: '',
-    // categoria: {
-    //   nome: ""
-    // },
-    usuario: 1
+    usuario: ''
   });
-  // const [Evento, setEvento] = useState({
-  //   titulo: "",
-  //   dataInicio: "",
-  //   dataFim: "",
-  //   descricaoEvento: "",
-  //   senha: "",
-  //   endereco: "",
-  //   categoria: ""
-  // });
-
-  // const onChange = event => {
-  //   setEvento({
-  //     ...Evento,
-  //     [event.target.name]: event.target.value
-  //   });
-  // };
 
   const cadastrarEvento = async () => {
-    // event.preventDefault();
     console.log(inputs);
     await api
       .post('eventos', inputs)
       .then(res => console.log(res))
       .catch(err => console.error(err));
   };
-  const format = 'HH:mm';
 
   return open ? (
     <div className="modal">
@@ -118,9 +93,9 @@ export const Modal = ({ open, close }) => {
           <div className="botoes">
             <button>Deixa pra lá</button>
             {/* <Teste /> */}
-            <button className="gb gb-bordered hover-slide hover-fill reverse" id="gb9">
-              Pronto
-            </button>
+            {/* <button className="gb gb-bordered hover-slide hover-fill reverse" id="gb9"> */}
+            <BotaoSubmit>Pronto</BotaoSubmit>
+            {/* </button> */}
           </div>
         </form>
       </div>
@@ -228,7 +203,7 @@ export const Modal = ({ open, close }) => {
 };
 
 export const ModalLogin = ({ open, close }) => {
-  const { inputs, hanldeInputChange } = usePostService({
+  const { inputs, hanldeInputChange } = useCustomForm({
     apelido: '',
     senha: ''
   });
@@ -291,25 +266,29 @@ export const ModalLogin = ({ open, close }) => {
 };
 
 export const ModalCadastro = ({ open, close }) => {
-  const { inputs, hanldeInputChange, errors, handleSubmit } = usePostService(
-    {
-      nome: '',
-      apelido: '',
-      email: '',
-      celular: '',
-      senha: ''
-    },
-    validade
-  );
+  const { register, errors, handleSubmit, watch } = useForm();
 
-  const cadastrar = async () => {
-    if (!handleSubmit()) {
-      await api.post('auth/v1/api/usuarios', inputs).then(res => {
-        console.log(res.data);
-      });
-    } else {
-      handleSubmit();
-    }
+  // const { inputs, hanldeInputChange, errors, handleSubmit } = useCustomForm(
+  //   {
+  //     nome: '',
+  //     apelido: '',
+  //     email: '',
+  //     celular: '',
+  //     senha: ''
+  //   },
+  //   validade
+  // );
+
+  const onSubmit = async () => {
+    await api.post('auth/v1/api/usuarios', register).then(res => {
+      console.log(res.data);
+    });
+  };
+
+  const erros = () => {
+    // const boxMsgErro = document.querySelector(".box-msg-erro");
+    // boxMsgErro.classList.add('box-msg-erro');
+    return alert('w');
   };
 
   // const cadastrar = async () => {
@@ -323,103 +302,144 @@ export const ModalCadastro = ({ open, close }) => {
   return open ? (
     <div className="modal">
       <div className="modal-content modal-cadastro">
-        <div className="login">
-          <div className="icon-close">
-            <Icon onClick={close}>close</Icon>
+        <Icon className="icon-close" onClick={close}>
+          close
+        </Icon>
+        <h2 className="modal-title-cadastro">Cadastrar usuario</h2>
+        <small
+          className={
+            (errors.apelido && errors.apelido.message) ||
+            (errors.nome && errors.nome.message) ||
+            (errors.email && errors.email.message) ||
+            (errors.senha && errors.senha.message)
+              ? 'box-msg-erro'
+              : 'msg-error'
+          }
+        >
+          {errors.apelido && errors.apelido.message}
+          <br />
+          {errors.nome && errors.nome.message}
+          <br />
+          {errors.email && errors.email.message}
+          <br />
+          {errors.senha && errors.senha.message}
+        </small>
+        {/* <form onSubmit={cadastrar} className="cadastro-usuario-form"> */}
+        <form onSubmit={handleSubmit(onSubmit)} className="cadastro-usuario-form">
+          {/* <form onSubmit={cadastrar} className="form-group"> */}
+          <div className="input-apelido">
+            <label htmlFor="apelido">Apelido</label>
+            <input
+              type="text"
+              className="input-form"
+              id="apelido"
+              name="apelido"
+              maxLength="20"
+              ref={register({
+                required: 'Escolha um apelido legal para voce ser conhecido mais facilmente',
+                minLength: {
+                  value: 2,
+                  message: 'Tente um apelido mais comprido'
+                },
+                maxLength: {
+                  value: 20,
+                  message: 'Tamanho maximo é 20'
+                }
+              })}
+              placeholder="Escolha um apelido"
+            />
           </div>
-          <form className="form-group">
-            {/* <form onSubmit={cadastrar} className="form-group"> */}
-            <h2 className="modal-title-cadastro">Cadastro</h2>
-            <div className="input-cadastro">
-              <label htmlFor="apelido">Apelido</label>
-              <input
-                type="text"
-                className="input-form"
-                required
-                id="apelido"
-                name="apelido"
-                onChange={hanldeInputChange}
-                value={inputs.apelido || ''}
-                placeholder="Digite o seu usuário"
-              />
-              {errors.apelido && <p>{errors.apelido}</p>}
-            </div>
-            <div className="input-cadastro">
-              <label htmlFor="apelido">Nome</label>
-              <input
-                type="text"
-                className="input-form"
-                required="true"
-                id="nome"
-                name="nome"
-                onChange={hanldeInputChange}
-                value={inputs.nome}
-                placeholder="Digite o seu nome"
-              />
-            </div>
-            <div className="input-cadastro">
-              <label htmlFor="email">Email</label>
-              <input
-                type="text"
-                required="true"
-                className="input-form"
-                onChange={hanldeInputChange}
-                value={inputs.email || ''}
-                id="email"
-                name="email"
-                placeholder="Digite seu email"
-              />
-              {errors.email && <p>{errors.email}</p>}
-            </div>
+          <div className="input-nome">
+            <label htmlFor="apelido">Nome</label>
+            <input
+              type="text"
+              className="input-form"
+              maxLength="20"
+              ref={register({
+                pattern: {
+                  value: /^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/,
+                  message: 'Acho que seu nome não esta correto'
+                }
+              })}
+              id="nome"
+              name="nome"
+              placeholder="Digite o seu nome"
+            />
+          </div>
+          <div className="input-email">
+            <label htmlFor="email">Email</label>
+            <input
+              type="email"
+              className="input-form"
+              id="email"
+              name="email"
+              maxLength="30"
+              placeholder="Informe seu email"
+              ref={register({
+                required: 'Por favor, informe seu email, precisamos dele',
+                pattern: {
+                  value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+                  message: 'Acho que seu email nao esta correto, tente novamente'
+                }
+              })}
+            />
+          </div>
+          <div className="input-celular">
+            <label htmlFor="celular">Celular</label>
+            <InputMask
+              mask="(99) 9999-9999"
+              type="text"
+              className="input-form"
+              ref={register}
+              id="celular"
+              name="celular"
+              placeholder="Digite seu celular"
+            />
+          </div>
+          <div className="input-senha">
+            <label htmlFor="senha">Senha</label>
+            <input
+              type="password"
+              // required="true"
+              ref={register({
+                required:"Sem senha voce nao ira acessar nosso site!",
+                minLength: {
+                  value: 8,
+                  message: 'Senhas curtas são mais faceis de serem descobertas'
+                },
+                validate: value => value === watch('senha')
+              })}
+              className="input-form"
+              id="senha"
+              name="senha"
+              placeholder="Digite sua senha"
+            />
+          </div>
+          <div className="input-confSenha">
+            <label htmlFor="email">Confimar Senha</label>
+            <input
+              type="password"
+              // required="true"
+              className="input-form"
+              id="conf-senha"
+              placeholder="Digite a senha novamente"
+            />
+          </div>
+          {/* <div onClick={cadastrar} className="btn"> */}
+          <div className="btn">
+            {/* <BotaoSubmit onClick={handleSubmit}>Cadastrar</BotaoSubmit> */}
+            <BotaoSubmit>Cadastrar</BotaoSubmit>
+          </div>
+          {/* <button onClick={cadastrar} type="button" className="btn"> */}
 
-            <div className="input-cadastro">
-              <label htmlFor="celular">Celular</label>
-              <input
-                type="text"
-                required="true"
-                className="input-form"
-                id="celular"
-                name="celular"
-                onChange={hanldeInputChange}
-                value={inputs.celular}
-                placeholder="Digite seu celular"
-              />
-            </div>
-
-            <div className="input-cadastro">
-              <label htmlFor="senha">Senha</label>
-              <input
-                type="password"
-                required="true"
-                className="input-form"
-                id="senha"
-                name="senha"
-                onChange={hanldeInputChange}
-                value={inputs.senha}
-                placeholder="Digite sua senha"
-              />
-            </div>
-
-            <div className="input-cadastro">
-              <label htmlFor="email">Confimar Senha</label>
-              <input
-                type="text"
-                required="true"
-                className="input-form"
-                id="conf-senha"
-                placeholder="Digite a senha novamente"
-              />
-            </div>
-            <button onClick={cadastrar} type="button" className="btn">
-              {/* <button type="submit" className="btn"> */}
-              Cadastrar
-            </button>
-            <small>
-              Já tem uma conta?
-              <Link>Clique Aqui!</Link>
-            </small>
-          </form>
-        </div>
+          {/* <button type="submit" className="btn"> */}
+          {/* Cadastrar */}
+          {/* </button> */}
+          <small className="link-login">
+            Já tem uma conta?
+            <Link>Clique Aqui!</Link>
+          </small>
+        </form>
       </div>
     </div>
   ) : null;
