@@ -12,6 +12,7 @@ import { useModal } from "../../components/hooks/useModal";
 import { Modal } from "../../components/Modal";
 
 
+
 export default function Home(){
   const { eventoModal, openEvento, closeEvento } = useModal();
   return (

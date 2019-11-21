@@ -199,6 +199,11 @@
   font-size: 0.875rem;
   color: #222;
 }
+.login{
+  display: flex;
+  position: absolute;
+  left: 56%;
+}
 
 .form-group {
   display: flex;

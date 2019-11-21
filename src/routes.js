@@ -1,37 +1,51 @@
 // import React, { lazy, Suspense } from "react";
-import React, {Suspense } from "react";
-import { MemoryRouter as Router, Route, Switch, BrowserRouter } from "react-router-dom";
+import React, { Suspense } from "react";
+import { MemoryRouter as Router, Route, Switch, BrowserRouter, Redirect } from "react-router-dom";
+import { isAuthenticated } from "./services/auth";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
-import { history } from "./history";
+import HeaderSignUp from "./components/HeaderSignUp";
 import Home from "./pages/Home";
-// const Post = lazy(() => import('./components/Loading/Post'))
-// const Home = lazy(() => import('./pages/Home'))
+import DetalheEvento from "./pages/DetalheEventos";
+import Perfil from "./pages/Perfil";
+import EditarEvento from "./pages/EditarEventos";
+import PaginaNaoEncontrada from "./pages/PaginaNaoEncontrada";
+import Cadastro from "./pages/Cadastro";
+import Login from "./pages/Login";
+import NavbarDeslogado from "./components/NavbarDeslogado";
 
-function WaitingComponent(Component) {
-  return props => (
-    <Suspense fallback={<div>Loading...</div>}>
-      <Component {...props} />
-    </Suspense>
-  );
-}
+const PrivateRoute = ({ component: Component, ...rest }) => (
+  <Route
+    {...rest}
+    render={props =>
+      isAuthenticated() ? (
+        <Component {...props} />
+      ) : (
+        <Redirect to={{ pathname: "/", state: { from: props.location } }} />
+      )}
+  />
+);
 
 export const Routes = () => (
   <BrowserRouter>
     <Header />
-    <Router history={history}>
-      <Switch>
-        <Route path="/" exact component={WaitingComponent(Home)} />
-      </Switch>
-    </Router>
+    {/* {(isAuthenticated() ?     <Header /> :     <NavbarDeslogado />)} */}
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/eventos/detalhe/:id" component={DetalheEvento} />
+      <PrivateRoute exact path="/perfil/:id" component={Perfil} />
+      <Route exact path="/eventos/editar/:id" component={EditarEvento} />
+      <Route exact path="/cadastro" component={Cadastro} />
+      <Route exact path="/login" component={Login} />
+      <Route path="*" component={PaginaNaoEncontrada} />
+    </Switch>
+    <Footer />
   </BrowserRouter>
 );
 
 // export const Routes = () => (
 
 // )
-
-
-
 
 // import React from "react";
 // import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";

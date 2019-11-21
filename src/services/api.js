@@ -17,13 +17,19 @@ export const api = axios.create({
   baseURL: "http://localhost:8080/v1/api/",
   headers: {
     "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
-    "Access-Control-Allow-Credentials": true,
-    "crossorigin": true,
-    "Accept": "application/json",
-    "Content-Type": "application/json"
+    "Access-Control-Allow-Methods": "DELETE, POST, GET, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
   }
 });
+
+// headers: {
+//   "Access-Control-Allow-Origin": "*",
+//   "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+//   "Access-Control-Allow-Credentials": true,
+//   "crossorigin": true,
+//   "Accept": "application/json",
+//   "Content-Type": "application/json"
+// }
 
 // api.interceptors.request.use(async config => {
 //   const token = getToken();
