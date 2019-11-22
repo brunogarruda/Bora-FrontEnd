@@ -3,7 +3,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./global.css";
-import { App } from "./App";
+// import { App } from "./App";
+// import Map from "./components/Maps/map";
+// import DetalheEvento from "./pages/DetalheEvento";
+import Slide from "./Test/NetflixSlider/Slider";
 // import {Teste} from "./components/Modal/teste";
 
 // import {EventosCard} from './components/Eventos'
@@ -11,4 +14,4 @@ import { App } from "./App";
 // import Teste from "./components/teste";
 // import {Signup} from "./components/Signup";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Slide />, document.getElementById("root"));

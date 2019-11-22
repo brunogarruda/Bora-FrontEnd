@@ -1,14 +1,71 @@
-import React, { Component } from "react";
+/* eslint-disable import/order */
+import React, {useState } from "react";
 import { Image } from "react-bootstrap";
-import banner from "../../assets/bg.svg";
+import bg from "../../assets/bg.svg";
 import { api } from "../../services/api";
 import "./style.css";
+import banner from "../../assets/bg-editar-evento.jpg";
+import { LocationOn, Today, QueryBuilder } from "@material-ui/icons";
+import Maps from "../../components/Maps/map";
+import Carousel from "../../components/Carousel/Carousel";
 
-export default function EditarEvento() {
+export default function DetalheEvento() {
+  const [evento, setEvento] = useState({});
+
   return (
     <main>
-      <Image className="img-banner" src={banner} alt="img" />
-      <h2 className="titulo-editar-evento" />
+      <Image src={banner} alt="detalhe-evento" />
+      <section className="container conteudo-detalhe">
+        <small className="data-detalhe-evento">Segunda-feira, 9 de Setembro de 2019</small>
+        <h1 className="titulo-detalhe-evento">Titulo do evento</h1>
+        <div className="icon-calendar">
+          <Today style={{ fontSize: 100 }} amplitude />
+        </div>
+        <div className="botoes-detalhe-evento">
+          <button className="botao-detalhe-evento-nao">Não vou</button>
+          <button className="botao-detalhe-evento-bora">Bora</button>
+        </div>
+        <section className="descricao-detalhe-evento">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quas, quia sed enim hic
+          rem quidem ab modi ipsum earum. Explicabo accusantium itaque vero a consectetur nisi hic
+          ducimus cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quas, quia
+          sed enim hic rem quidem ab modi ipsum earum. Explicabo accusantium itaque vero a
+          consectetur nisi hic ducimus cum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Officia quas, quia sed enim hic rem quidem ab modi ipsum earum. Explicabo accusantium
+          itaque vero a consectetur nisi hic ducimus cum.
+        </section>
+        <section className="info-horario-detalhe-evento">
+          <div className="horario-detalhe-evento">
+            <p>
+              Segunda-feira, 9 de Setembro de 2019
+              <br />
+              19:30 ate 22:00
+              <br />
+A cada 2ª Segunda-feira do mês
+            </p>
+            <span className="icon-relogio">
+              <QueryBuilder />
+            </span>
+          </div>
+
+          <div className="local-detalhe-evento">
+            <p>
+              Garoa Hacker CLube
+              <br />
+              Rua Costa Carvalho, 567, Fundos -
+              <br />
+              Pinheiros - São Paulo
+            </p>
+            <span className="icon-location">
+              <LocationOn />
+            </span>
+          </div>
+        </section>
+        <section className="container google-maps-detalhe">
+            <Maps />
+        </section>
+        <Carousel />
+      </section>
     </main>
   );
 }
