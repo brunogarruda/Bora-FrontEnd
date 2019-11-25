@@ -4,6 +4,7 @@
   grid-template-rows: auto;
   align-items: center;
   padding: 3%;
+  position: relative;
 }
 
 .titulo-detalhe-evento {
@@ -18,6 +19,7 @@
   display: flex;
   justify-content: center;
 }
+
 .icon-calendar {
   display: grid;
   grid-column-start: 1;
@@ -46,35 +48,59 @@
   grid-column-end: 4;
   grid-row-start: 2;
   margin-left: -15%;
-    text-align: justify;
+  text-align: justify;
 }
 
-.info-horario-detalhe-evento{
+.info-horario-detalhe-evento {
   grid-row-start: 2;
   grid-column-start: 4;
   padding: 20%;
   grid-column-end: 6;
 }
-.icon-location{
+.icon-location {
   margin-left: -109%;
 }
 
-.icon-relogio{
+.icon-relogio {
   margin-left: -120%;
 }
-.horario-detalhe-evento{
+.horario-detalhe-evento {
   display: flex;
   align-items: center;
 }
 
-.local-detalhe-evento{
+.local-detalhe-evento {
   display: flex;
   align-items: center;
   margin-top: 3%;
 }
 
-.google-maps-detalhe{
-  grid-row-start: 3
+.google-maps-detalhe {
+  grid-row-start: 3;
+}
+.carousel-section {
+  grid-row-start: 2;
+}
+
+.section-car-detalhe{
+  position: relative;
+  margin-top: 19%;
+  padding: 2%;
+}
+
+.titulo-quem-vai {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #2f004b;
+
+  mix-blend-mode: normal;
 }
 
 /* .titulo-editar-evento {

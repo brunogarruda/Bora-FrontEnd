@@ -1,3 +1,6 @@
+/* eslint-disable import/no-named-as-default */
+/* eslint-disable import/no-named-as-default-member */
+/* eslint-disable no-unused-vars */
 // import React, { lazy, Suspense } from "react";
 import React, { Suspense } from "react";
 import { MemoryRouter as Router, Route, Switch, BrowserRouter, Redirect } from "react-router-dom";
@@ -6,9 +9,9 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeaderSignUp from "./components/HeaderSignUp";
 import Home from "./pages/Home";
-import DetalheEvento from "./pages/DetalheEventos";
+import DetalheEvento from "./pages/DetalheEvento";
 import Perfil from "./pages/Perfil";
-import EditarEvento from "./pages/EditarEventos";
+import EditarEvento from "./pages/EditarEvento";
 import PaginaNaoEncontrada from "./pages/PaginaNaoEncontrada";
 import Cadastro from "./pages/Cadastro";
 import Login from "./pages/Login";

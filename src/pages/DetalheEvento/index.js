@@ -1,5 +1,13 @@
+/* eslint-disable react/jsx-one-expression-per-line */
+/* eslint-disable block-scoped-var */
+/* eslint-disable vars-on-top */
+/* eslint-disable no-var */
+/* eslint-disable no-unreachable */
+/* eslint-disable prefer-const */
+/* eslint-disable no-plusplus */
 /* eslint-disable import/order */
-import React, {useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useRouteMatch, useParams } from "react-router-dom";
 import { Image } from "react-bootstrap";
 import bg from "../../assets/bg.svg";
 import { api } from "../../services/api";
@@ -7,17 +15,63 @@ import "./style.css";
 import banner from "../../assets/bg-editar-evento.jpg";
 import { LocationOn, Today, QueryBuilder } from "@material-ui/icons";
 import Maps from "../../components/Maps/map";
-import Carousel from "../../components/Carousel/Carousel";
+import { Carousel } from "../../components/Carousel/Carousel";
+import data from "../../components/Eventos/data/eventos2.json";
+import usuarios from "../../components/Eventos/data/usuariosLimit10";
 
-export default function DetalheEvento() {
-  const [evento, setEvento] = useState({});
+export default function DetalheEvento(paramName, path) {
+  var id = useRouteMatch().params;
+  var id2 = parseInt(id.id);
+  // const [usuario,setUsuario] = useState([]);
+  // const [evento, setEvento] = useState({});
+
+  for (let i = 0; i < data.length; i++) {
+    if (data[i].idEvento === id2) {
+      var element = data[i];
+    }
+  }
+
+  // var te = usuarios;
+  // for (let i = 199; i < usuarios.length; i++) {
+  //   var sa = usuarios[i];
+  // }
+
+  // // const fun = ()=>{
+  // //   setUsuario(sa);
+  // // };
+  // setUsuario(sa);
+
+  // console.log(usuario);
+
+  // let dados = data.filter(res=>{
+  //   const final = res.idEvento==id;
+  //   console.log(final);
+  // });
+
+  // const te = data;
+  // for (let i = 0; i < te.length; i++) {
+  //   var sa = te;
+  // }
+
+  // useEffect(() => {
+  //   let eve = data.filter(d => {
+  //     return d.idEvento === id;
+  //   });
+  //   const te = eve;
+  //   for (let i = 0; i < te.length; i++) {
+  //     const sa = te;
+  //     setEvento(te);
+  //   }
+  // });
+
+  // console.log(evento);
 
   return (
     <main>
       <Image src={banner} alt="detalhe-evento" />
       <section className="container conteudo-detalhe">
         <small className="data-detalhe-evento">Segunda-feira, 9 de Setembro de 2019</small>
-        <h1 className="titulo-detalhe-evento">Titulo do evento</h1>
+        <h1 className="titulo-detalhe-evento">{element.titulo}</h1>
         <div className="icon-calendar">
           <Today style={{ fontSize: 100 }} amplitude />
         </div>
@@ -25,23 +79,18 @@ export default function DetalheEvento() {
           <button className="botao-detalhe-evento-nao">Não vou</button>
           <button className="botao-detalhe-evento-bora">Bora</button>
         </div>
-        <section className="descricao-detalhe-evento">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quas, quia sed enim hic
-          rem quidem ab modi ipsum earum. Explicabo accusantium itaque vero a consectetur nisi hic
-          ducimus cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quas, quia
-          sed enim hic rem quidem ab modi ipsum earum. Explicabo accusantium itaque vero a
-          consectetur nisi hic ducimus cum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Officia quas, quia sed enim hic rem quidem ab modi ipsum earum. Explicabo accusantium
-          itaque vero a consectetur nisi hic ducimus cum.
-        </section>
+        <section className="descricao-detalhe-evento">{element.descricao}</section>
         <section className="info-horario-detalhe-evento">
           <div className="horario-detalhe-evento">
             <p>
-              Segunda-feira, 9 de Setembro de 2019
+              Data Inicio:
+              {element.dataInicio}
+              <br />
+              Data fim:
+              {element.dataFim}
               <br />
               19:30 ate 22:00
-              <br />
-A cada 2ª Segunda-feira do mês
+              <br />A cada 2ª Segunda-feira do mês
             </p>
             <span className="icon-relogio">
               <QueryBuilder />
@@ -52,9 +101,9 @@ A cada 2ª Segunda-feira do mês
             <p>
               Garoa Hacker CLube
               <br />
-              Rua Costa Carvalho, 567, Fundos -
+              Rua: {element.endereco}
               <br />
-              Pinheiros - São Paulo
+              São Paulo
             </p>
             <span className="icon-location">
               <LocationOn />
@@ -62,10 +111,27 @@ A cada 2ª Segunda-feira do mês
           </div>
         </section>
         <section className="container google-maps-detalhe">
-            <Maps />
+          <Maps />
         </section>
-        <Carousel />
       </section>
+      <section className="container section-car-detalhe">
+      <Carousel />
+      </section>
+
+      {/* <section className="container section-car-detalhe">
+        {usuarios.map(res => (
+          <div key={res.idUsuario}>
+            <Carousel />
+          </div>
+        ))}
+      </section> */}
+
+      {/* <section className="container section-carousel">
+        <h4 className="titulo-quem-vai">Quem vai ?</h4>
+        <section className="carousel-section">
+          <Carousel />
+        </section>
+      </section> */}
     </main>
   );
 }
