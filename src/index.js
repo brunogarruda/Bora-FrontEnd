@@ -2,8 +2,9 @@
 /* eslint-disable import/no-named-as-default-member */
 import React from "react";
 import ReactDOM from "react-dom";
+import PgHome from "./Test/Material/app/pages/home-page";
 import "./global.css";
-import { App } from "./App";
+// import { App } from "./App";
 // import Map from "./components/Maps/map";
 // import DetalheEvento from "./pages/DetalheEvento";
 // import {Carousel} from "./components/Carousel/Carousel";
@@ -15,4 +16,4 @@ import { App } from "./App";
 // import Teste from "./components/teste";
 // import {Signup} from "./components/Signup";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<PgHome />, document.getElementById("root"));

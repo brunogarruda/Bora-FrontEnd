@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable block-scoped-var */
 /* eslint-disable vars-on-top */
@@ -115,7 +116,13 @@ export default function DetalheEvento(paramName, path) {
         </section>
       </section>
       <section className="container section-car-detalhe">
-      <Carousel />
+      <Carousel>
+        {usuarios.map((d,i)=>(
+          <div key={i}>
+          {d.apelido}
+          </div>
+        ))}
+      </Carousel>
       </section>
 
       {/* <section className="container section-car-detalhe">

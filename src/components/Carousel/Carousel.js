@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "./components/styles/styles.css";
 import { NavigateNext, NavigateBefore } from "@material-ui/icons";
 import ItemsCarousel from "react-items-carousel";
-import usuarios from "../Eventos/data/usuariosLimit10.json";
+// import usuarios from "../Eventos/data/usuariosLimit10.json";
 
-export const Carousel = () => {
+export const Carousel = ({children}) => {
   const [activeItemIndex, setActiveItemIndex] = useState(0);
   const chevronWidth = 40;
   return (
@@ -19,8 +19,8 @@ export const Carousel = () => {
         outsideChevron
         chevronWidth={chevronWidth}
       >
-        {usuarios.map(res => (
-          <div style={{ height: 200, background: "#EEE" }}>{res.apelido}</div>
+        {children.map((Child,index) => (
+          <div style={{ height: 200, background: "#EEE" }}>{Child}</div>
         ))}
       </ItemsCarousel>
     </div>

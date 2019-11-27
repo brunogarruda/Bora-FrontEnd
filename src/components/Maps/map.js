@@ -1,3 +1,4 @@
+/* eslint-disable no-var */
 /* eslint-disable react/no-this-in-sfc */
 /* eslint-disable consistent-return */
 /* eslint-disable object-shorthand */
@@ -8,9 +9,40 @@
 /* eslint-disable no-unused-expressions */
 import React, { useState, useRef, useEffect } from "react";
 import googleMapsClient from "@google/maps";
-import { Map, Marker} from "google-maps-react";
+import { Map, Marker } from "google-maps-react";
+import axios from "axios";
 
 export default function MapModel() {
+  const [urlConsultaEndereco, setUrlConsultaEndereco] = useState("");
+  const [coordenadasEnderecos, setCoordenadasEnderecos] = useState([]);
+
+  // const consultaEndereco = ({ url }) => {
+  //   const setUrlConsultaEndereco = `https://maps.googleapis.com/maps/api/geocode/json?${url}`;
+  // };
+  var endereco = "03584040";
+
+  useEffect(() => {
+    async function carregaEnderecos() {
+      const response = axios
+        .get(
+          `https://maps.googleapis.com/maps/api/geocode/json?address=${endereco},+apelido&key=AIzaSyDTjPz7a0H6P78ccjbZHuL0fpPOY8UwQN4`
+        )
+        .then(res => {
+          console.log(res.data);
+        });
+    }
+    carregaEnderecos();
+  }, []);
+  // });
+
+  // console.log(coordenadasEnderecos);
+
+  // console.log(
+  //   "https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway"
+  // );
+
+  //   https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,
+  // +Mountain+View,+CA&key=YOUR_API_KEY
 
   const mapStyles = {
     width: "80%",
