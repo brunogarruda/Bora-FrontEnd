@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable block-scoped-var */
 /* eslint-disable no-plusplus */
 /* eslint-disable no-unused-vars */
@@ -69,11 +70,6 @@ export default function DetalheEvento() {
           </Typography>
         </Grid>
         <Grid item xs={2}>
-          <Button variant="contained" color="secondary">
-            Nao vou
-          </Button>
-        </Grid>
-        <Grid item xs={2}>
           <Button variant="contained" color="primary">
             Bora
           </Button>
@@ -95,7 +91,7 @@ export default function DetalheEvento() {
           </Paper>
         </Grid>
         {/* </Grid> */}
-        <Grid itm xs={12}>
+        <Grid item xs={12}>
           <Paper>
             <GoogleMaps />
           </Paper>

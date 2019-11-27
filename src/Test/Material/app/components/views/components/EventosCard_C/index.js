@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import { makeStyles } from "@material-ui/core/styles";
 import {
   Card,
@@ -50,13 +52,16 @@ export const CardDefault = ({ props }) => {
       <Grid item xs={12}>
         <Grid container className={classes.root} justify="center">
           {fakeData.map(value => (
-            <Card key={value} item className={classes.card}>
+            <Card key={value.idEvento} item className={classes.card}>
               <CardActionArea>
-                <CardMedia
-                  className={classes.media}
-                  image={bg}
-                  // title={titulo}
-                />
+                <Link to={`/eventos/detalhe/${value.idEvento}`}>
+                  <CardMedia
+                    className={classes.media}
+                    image={bg}
+                    // title={titulo}
+                  />
+                </Link>
+
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
                     {value.titulo}

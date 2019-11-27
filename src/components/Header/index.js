@@ -3,6 +3,8 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import React from "react";
+import { Link } from "react-router-dom";
+
 import PersonIcon from "@material-ui/icons/Person";
 import PersonAddIcon from "@material-ui/icons/PersonAdd";
 import { Header } from "./styles";
@@ -46,7 +48,8 @@ export default function NavBar() {
     <Header>
       <nav>
         <div className="logo">
-          <h4>BORA</h4>
+        <Link to='/'><h4>BORA</h4></Link>
+
         </div>
         <ul className="nav-links">
           <li>

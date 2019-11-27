@@ -1,10 +1,10 @@
 // import React, { lazy, Suspense } from "react";
 import React, { lazy, Suspense } from 'react';
-import { Router, Route, Switch, BrowserRouter } from 'react-router-dom';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import Loading from '../components/views/components/LoadingCircular_C';
 // import { NavBarComponent } from '../components/NavBarComponent';
 import Header from '../../../../components/Header';
-import { history } from '../utils/history';
-
+// import { history } from '../utils/history';
 import Footer from '../components/views/components/FooterDefault_C';
 // const Post = lazy(() => import('./components/Loading/Post'))
 const Home = lazy(() => import('../pages/home-page'));
@@ -14,7 +14,7 @@ const EditarEvento = lazy(() => import('../pages/editar-evento-page'));
 
 function WaitingComponent(Component) {
   return props => (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<Loading />}>
       <Component {...props} />
     </Suspense>
   );
@@ -23,15 +23,13 @@ function WaitingComponent(Component) {
 export const Routes = () => (
   <BrowserRouter>
     <Header />
-    <Router history={history}>
-      <Switch>
-        <Route exact path="/" component={WaitingComponent(Home)} />
-        <Route exact path="/perfil/:apelido" component={WaitingComponent(Perfil)} />
-        <Route exact path="/eventos/detalhe/:id" component={WaitingComponent(DetalheEvento)} />
-        <Route exact path="/eventos/editar/:id" component={WaitingComponent(EditarEvento)} />
-      </Switch>
-      <Footer />
-    </Router>
+    <Switch>
+      <Route exact path="/" component={WaitingComponent(Home)} />
+      <Route exact path="/perfil/:apelido" component={WaitingComponent(Perfil)} />
+      <Route exact path="/eventos/detalhe/:id" component={WaitingComponent(DetalheEvento)} />
+      <Route exact path="/eventos/editar/:id" component={WaitingComponent(EditarEvento)} />
+    </Switch>
+    <Footer />
   </BrowserRouter>
   // <BrowserRouter>
   //   <NavBarComponent />
