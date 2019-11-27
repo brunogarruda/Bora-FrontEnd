@@ -4,14 +4,16 @@
 /* eslint-disable vars-on-top */
 /* eslint-disable radix */
 /* eslint-disable no-var */
-import { Box, Button, CardMedia, Grid, Typography, Paper } from "@material-ui/core";
+import { Box, Button, CardMedia, Grid, Typography, Paper, Avatar } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { EventAvailable, Today, LocationOn, QueryBuilder } from "@material-ui/icons";
 import React from "react";
 import { useRouteMatch, useParams } from "react-router-dom";
 import bg from "../../../../../assets/bg-detalheEventos.png";
+import iconPerfil from "../../../../../assets/user.png";
 import { Carousel } from "../../components/views/components/Carousel/Carousel";
 import fakeData from "../../../../../data/EventosHomeData.json";
+import fakeData2 from "../../../../../data/usuariosLimit10.json";
 import GoogleMaps from "../../components/views/components/Maps/map";
 
 const useStyles = makeStyles({
@@ -25,8 +27,12 @@ const useStyles = makeStyles({
     height: 140
   },
   carouselGrid: {
-    position: "relative",
-    marginTop:"35%"
+    // position: "relative",
+    marginTop: "35%"
+  },
+  bigAvatar: {
+    width: 60,
+    height: 60
   }
 });
 
@@ -78,29 +84,39 @@ export default function DetalheEvento() {
         </Grid>
         <Grid item xs={2}>
           <Paper>
-            <QueryBuilder amplitude />
-            <Typography>{element.dataInicio}</Typography>
+            <Grid item xs>
+              <QueryBuilder amplitude />
+              <Typography>{element.dataInicio}</Typography>
+            </Grid>
+            <Grid item xs>
+              <LocationOn amplitude />
+              <Typography>{element.endereco}</Typography>
+            </Grid>
           </Paper>
         </Grid>
-        <Grid item xs>
-          <Paper>
-            <LocationOn amplitude />
-            <Typography>{element.endereco}</Typography>
-          </Paper>
-        </Grid>
+        {/* </Grid> */}
         <Grid itm xs={12}>
           <Paper>
             <GoogleMaps />
           </Paper>
         </Grid>
         <Grid className={classes.carouselGrid} itm xs={12}>
-          <Paper>
-            <Carousel>
-              {fakeData.map((d, i) => (
-                <div key={i}>{d.apelido}</div>
-              ))}
-            </Carousel>
-          </Paper>
+          <Carousel>
+            {fakeData2.map((d, i) => (
+              <span key={i}>
+                <Grid
+                  container
+                  direction="row"
+                  className={classes.root}
+                  justify="space-around"
+                  alignItems="center"
+                >
+                  <Avatar className={classes.bigAvatar} srcSet={iconPerfil} />
+                  <Typography>{d.apelido}</Typography>
+                </Grid>
+              </span>
+            ))}
+          </Carousel>
         </Grid>
       </Grid>
     </div>

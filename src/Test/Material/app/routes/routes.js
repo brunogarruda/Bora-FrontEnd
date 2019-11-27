@@ -1,7 +1,8 @@
 // import React, { lazy, Suspense } from "react";
 import React, { lazy, Suspense } from 'react';
 import { Router, Route, Switch, BrowserRouter } from 'react-router-dom';
-import { NavBarComponent } from '../components/NavBarComponent';
+// import { NavBarComponent } from '../components/NavBarComponent';
+import Header from '../../../../components/Header';
 import { history } from '../utils/history';
 
 import Footer from '../components/views/components/FooterDefault_C';
@@ -9,7 +10,7 @@ import Footer from '../components/views/components/FooterDefault_C';
 const Home = lazy(() => import('../pages/home-page'));
 const Perfil = lazy(() => import('../pages/perfil-page'));
 const DetalheEvento = lazy(() => import('../pages/detalhe-evento'));
-
+const EditarEvento = lazy(() => import('../pages/editar-evento-page'));
 
 function WaitingComponent(Component) {
   return props => (
@@ -21,12 +22,13 @@ function WaitingComponent(Component) {
 
 export const Routes = () => (
   <BrowserRouter>
-    <NavBarComponent />
+    <Header />
     <Router history={history}>
       <Switch>
         <Route exact path="/" component={WaitingComponent(Home)} />
         <Route exact path="/perfil/:apelido" component={WaitingComponent(Perfil)} />
         <Route exact path="/eventos/detalhe/:id" component={WaitingComponent(DetalheEvento)} />
+        <Route exact path="/eventos/editar/:id" component={WaitingComponent(EditarEvento)} />
       </Switch>
       <Footer />
     </Router>

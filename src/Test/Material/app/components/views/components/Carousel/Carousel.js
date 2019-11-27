@@ -2,13 +2,24 @@ import React, { useState } from "react";
 import "./components/styles/styles.css";
 import { NavigateNext, NavigateBefore } from "@material-ui/icons";
 import ItemsCarousel from "react-items-carousel";
+import { Paper } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
+
 // import usuarios from "../Eventos/data/usuariosLimit10.json";
 
-export const Carousel = ({children}) => {
+const useStyles = makeStyles(theme => ({
+  root: {
+    flexGrow: 1,
+  },
+}));
+
+export const Carousel = ({ children }) => {
+  const classes = useStyles();
+
   const [activeItemIndex, setActiveItemIndex] = useState(0);
   const chevronWidth = 40;
   return (
-    <div style={{ padding: `0 ${chevronWidth}px` }}>
+    <Paper className={classes.root} style={{ padding: `0 ${chevronWidth}px` }}>
       <ItemsCarousel
         requestToChangeActive={setActiveItemIndex}
         activeItemIndex={activeItemIndex}
@@ -19,11 +30,11 @@ export const Carousel = ({children}) => {
         outsideChevron
         chevronWidth={chevronWidth}
       >
-        {children.map((Child,index) => (
-          <div style={{ height: 200, background: "#EEE" }}>{Child}</div>
+        {children.map((Child, index) => (
+          <span style={{ height: 200 }}>{Child}</span>
         ))}
       </ItemsCarousel>
-    </div>
+    </Paper>
   );
 };
 
