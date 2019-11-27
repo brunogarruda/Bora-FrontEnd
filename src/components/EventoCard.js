@@ -1,6 +1,6 @@
 import React from "react";
 
-const EventoCard = props => {
+export const EventoCard = props => {
   const { nome, descricao,organizador } = props.item;
 
   return (
@@ -19,4 +19,4 @@ const EventoCard = props => {
   );
 };
 
-export default EventoCard;
+// export default EventoCard;

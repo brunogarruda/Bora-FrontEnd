@@ -2,6 +2,7 @@ import { Box, Fab, Grid, Paper, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { AccountCircle } from "@material-ui/icons";
 import React from "react";
+import CampoPesquisa from "../InputPesquisaComponent";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -67,6 +68,10 @@ const useStyles = makeStyles(theme => ({
       height: 300,
       width: 200
     }
+  },
+  inputPesquisa:{
+    position:"absolute",
+    top:"45%"
   }
 }));
 
@@ -80,6 +85,9 @@ export const Banner = () => {
           <Box fontWeight="fontWeightBold" fontSize="5em" className={classes.bannerTitulo}>
             O que voce quer fazer ?
           </Box>
+          <section className={classes.inputPesquisa}>
+            <CampoPesquisa />
+          </section>
         </Typography>
         <section style={{ display: "flex" }}>
           <Fab

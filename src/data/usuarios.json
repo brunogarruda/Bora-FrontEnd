@@ -1,0 +1,5728 @@
+[
+  {
+    "idUsuario": 1,
+    "apelido": "karleigh",
+    "nome": "Armand",
+    "email": "mauris.id.sapien@etmagnisdis.org",
+    "celular": "11-76461-2439",
+    "senha": "MAQ23MVZ9YO",
+    "eventosOrganizados": [
+      {
+        "idEvento": 86,
+        "titulo": "dictum cursus. Nunc mauris elit, dictum eu, eleifend nec, malesuada",
+        "dataInicio": "01/06/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": "True",
+        "endereco": "Ap #774-2726 Dictum Avenue",
+        "categoria": {
+          "idCategoria": 9,
+          "nome": "Ginástica",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 171,
+        "titulo": "ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": null,
+        "endereco": "4786 Ullamcorper, Avenue",
+        "categoria": {
+          "idCategoria": 3,
+          "nome": "Basquete",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 2,
+    "apelido": "Zeph Wooten",
+    "nome": "Palmer",
+    "email": "sed.sapien.Nunc@sitametornare.org",
+    "celular": "11-37891-2620",
+    "senha": "ELC71YPU5MH",
+    "eventosOrganizados": [
+      {
+        "idEvento": 76,
+        "titulo": "Vivamus nisi. Mauris nulla. Integer urna. Vivamus molestie dapibus ligula.",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": null,
+        "endereco": "3686 Luctus Road",
+        "categoria": {
+          "idCategoria": 6,
+          "nome": "Golfe",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 78,
+        "titulo": "et risus. Quisque libero lacus, varius et, euismod et, commodo",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem",
+        "senha": null,
+        "endereco": "Ap #831-1359 Hendrerit Road",
+        "categoria": {
+          "idCategoria": 15,
+          "nome": "Feiras de Tecnologias",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 4,
+            "nome": "tecnologia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 3,
+    "apelido": "Guinevere S. Travis",
+    "nome": "Porter",
+    "email": "Aliquam.erat.volutpat@arcuiaculis.com",
+    "celular": "11-75565-4251",
+    "senha": "OWK28MKS9QB",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 4,
+    "apelido": "Lois B. Rasmussen",
+    "nome": "Nevada",
+    "email": "dapibus.gravida@enim.edu",
+    "celular": "11-26564-1157",
+    "senha": "PYL18TPE6TP",
+    "eventosOrganizados": [
+      {
+        "idEvento": 63,
+        "titulo": "Nullam vitae diam. Proin dolor. Nulla semper tellus id nunc",
+        "dataInicio": "01/08/2018",
+        "dataFim": "01/09/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": null,
+        "endereco": "415-5061 Commodo Road",
+        "categoria": {
+          "idCategoria": 13,
+          "nome": "Jogos de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 5,
+    "apelido": "Joan Kennedy",
+    "nome": "Ariel",
+    "email": "nisi.Cum.sociis@consequatenim.ca",
+    "celular": "11-28924-8039",
+    "senha": "FRB29YYF2CC",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 6,
+    "apelido": "Nichole E. Calhoun",
+    "nome": "Paki",
+    "email": "quis@lectus.co.uk",
+    "celular": "11-58576-7551",
+    "senha": "DKJ25WXD3BT",
+    "eventosOrganizados": [
+      {
+        "idEvento": 14,
+        "titulo": "rutrum, justo. Praesent luctus. Curabitur egestas nunc sed libero. Proin",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": null,
+        "endereco": "8597 Amet Rd.",
+        "categoria": {
+          "idCategoria": 16,
+          "nome": "MeetUp",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 98,
+        "titulo": "nec tellus. Nunc lectus pede, ultrices a, auctor non, feugiat",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/08/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": null,
+        "endereco": "P.O. Box 407, 8289 Est Road",
+        "categoria": {
+          "idCategoria": 11,
+          "nome": "E-Sports",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 7,
+    "apelido": "Xenos K. Rosa",
+    "nome": "Allen",
+    "email": "Donec.fringilla.Donec@commodohendrerit.edu",
+    "celular": "11-72472-6884",
+    "senha": "EYP72KKW7PG",
+    "eventosOrganizados": [
+      {
+        "idEvento": 114,
+        "titulo": "ut nisi a odio semper cursus. Integer mollis. Integer tincidunt",
+        "dataInicio": "01/08/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": null,
+        "endereco": "560-8855 Adipiscing, Av.",
+        "categoria": {
+          "idCategoria": 3,
+          "nome": "Basquete",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 153,
+        "titulo": "nulla. Integer urna. Vivamus molestie dapibus ligula. Aliquam erat volutpat.",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": "True",
+        "endereco": "271-6129 Malesuada Street",
+        "categoria": {
+          "idCategoria": 16,
+          "nome": "MeetUp",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 8,
+    "apelido": "Malik L. Myers",
+    "nome": "Reese",
+    "email": "et.eros@sitametrisus.co.uk",
+    "celular": "11-97241-3502",
+    "senha": "HPT32GFT4ZG",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 9,
+    "apelido": "Mark Q. Smith",
+    "nome": "Valentine",
+    "email": "ut.odio@non.edu",
+    "celular": "11-47328-3130",
+    "senha": "KXA56DMX4XY",
+    "eventosOrganizados": [
+      {
+        "idEvento": 143,
+        "titulo": "Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque",
+        "dataInicio": "01/09/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": "True",
+        "endereco": "1258 Etiam Street",
+        "categoria": {
+          "idCategoria": 10,
+          "nome": "Boxe",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 10,
+    "apelido": "Plato O. Bernard",
+    "nome": "Justin",
+    "email": "eu.odio@massaMaurisvestibulum.ca",
+    "celular": "11-97185-0375",
+    "senha": "DGQ28ALK2YM",
+    "eventosOrganizados": [
+      {
+        "idEvento": 180,
+        "titulo": "feugiat nec, diam. Duis mi enim, condimentum eget, volutpat ornare,",
+        "dataInicio": "01/07/2018",
+        "dataFim": "01/08/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": "True",
+        "endereco": "407-6958 Ultrices. Ave",
+        "categoria": {
+          "idCategoria": 18,
+          "nome": "Encontros religiosos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 10,
+            "nome": "religioso"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 11,
+    "apelido": "Charissa Roman",
+    "nome": "Ivana",
+    "email": "natoque.penatibus@ornareelit.net",
+    "celular": "11-18764-2838",
+    "senha": "LAD97RTJ0XR",
+    "eventosOrganizados": [
+      {
+        "idEvento": 112,
+        "titulo": "consequat nec, mollis vitae, posuere at, velit. Cras lorem lorem,",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": null,
+        "endereco": "8582 Egestas. Road",
+        "categoria": {
+          "idCategoria": 3,
+          "nome": "Basquete",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 163,
+        "titulo": "ante, iaculis nec, eleifend non, dapibus rutrum, justo. Praesent luctus.",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": "True",
+        "endereco": "149-9334 Pellentesque Rd.",
+        "categoria": {
+          "idCategoria": 15,
+          "nome": "Feiras de Tecnologias",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 4,
+            "nome": "tecnologia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 12,
+    "apelido": "Kibo Compton",
+    "nome": "Orli",
+    "email": "tincidunt.adipiscing@ornare.org",
+    "celular": "11-90932-4525",
+    "senha": "LPC23LMC9WJ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 156,
+        "titulo": "lobortis risus. In mi pede, nonummy ut, molestie in, tempus",
+        "dataInicio": "01/04/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum",
+        "senha": null,
+        "endereco": "255-7145 Risus. St.",
+        "categoria": {
+          "idCategoria": 14,
+          "nome": "Feiras de Empreendedorismo",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 3,
+            "nome": "negocios"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 13,
+    "apelido": "Cheryl Aguirre",
+    "nome": "Olivia",
+    "email": "mattis.Cras@sodalespurusin.ca",
+    "celular": "11-12783-9957",
+    "senha": "MEG64VUS4PH",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 14,
+    "apelido": "Elvis U. Black",
+    "nome": "Preston",
+    "email": "Phasellus.dolor.elit@sodalespurus.net",
+    "celular": "11-66083-1872",
+    "senha": "VGZ86PXN0FL",
+    "eventosOrganizados": [
+      {
+        "idEvento": 148,
+        "titulo": "ornare. Fusce mollis. Duis sit amet diam eu dolor egestas",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "Ap #591-8999 Gravida Av.",
+        "categoria": {
+          "idCategoria": 22,
+          "nome": "Aniversario",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 15,
+    "apelido": "Naida Craig",
+    "nome": "Alexandra",
+    "email": "tempor.arcu@etmalesuadafames.ca",
+    "celular": "11-83797-8559",
+    "senha": "BZZ30RGN1RE",
+    "eventosOrganizados": [
+      {
+        "idEvento": 18,
+        "titulo": "dui, in sodales elit erat vitae risus. Duis a mi",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": null,
+        "endereco": "Ap #476-3717 Nonummy Rd.",
+        "categoria": {
+          "idCategoria": 12,
+          "nome": "Video Game",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 16,
+    "apelido": "Hedley Clark",
+    "nome": "Mannix",
+    "email": "et.magnis.dis@faucibusid.co.uk",
+    "celular": "11-57913-1124",
+    "senha": "DIZ88FZU3QD",
+    "eventosOrganizados": [
+      {
+        "idEvento": 27,
+        "titulo": "nostra, per inceptos hymenaeos. Mauris ut quam vel sapien imperdiet",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "P.O. Box 686, 9297 Nisi Av.",
+        "categoria": {
+          "idCategoria": 7,
+          "nome": "Natação",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 107,
+        "titulo": "sodales at, velit. Pellentesque ultricies dignissim lacus. Aliquam rutrum lorem",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": null,
+        "endereco": "Ap #724-1081 Est Ave",
+        "categoria": {
+          "idCategoria": 5,
+          "nome": "Baseball",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 17,
+    "apelido": "Leila Mcmahon",
+    "nome": "Neve",
+    "email": "vulputate.dui.nec@quisdiam.com",
+    "celular": "11-88731-5859",
+    "senha": "RHU39MYK6TK",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 18,
+    "apelido": "Lisandra P. Castaneda",
+    "nome": "Zahir",
+    "email": "Integer.id@suscipitnonummyFusce.edu",
+    "celular": "11-19854-2488",
+    "senha": "BYZ83VZI4OS",
+    "eventosOrganizados": [
+      {
+        "idEvento": 167,
+        "titulo": "erat neque non quam. Pellentesque habitant morbi tristique senectus et",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": null,
+        "endereco": "Ap #990-9995 Facilisis Ave",
+        "categoria": {
+          "idCategoria": 2,
+          "nome": "Vôlei",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 19,
+    "apelido": "Joel Workman",
+    "nome": "Walter",
+    "email": "amet@eratVivamusnisi.net",
+    "celular": "11-83753-6385",
+    "senha": "LMG10HLR9MZ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 70,
+        "titulo": "sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam",
+        "dataInicio": "01/08/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": "True",
+        "endereco": "376-7552 Phasellus Street",
+        "categoria": {
+          "idCategoria": 17,
+          "nome": "Palestras",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 122,
+        "titulo": "enim. Etiam imperdiet dictum magna. Ut tincidunt orci quis lectus.",
+        "dataInicio": "01/08/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": "True",
+        "endereco": "Ap #782-4251 Vestibulum Avenue",
+        "categoria": {
+          "idCategoria": 21,
+          "nome": "Role",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 8,
+            "nome": "encontros"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 20,
+    "apelido": "Ezekiel R. Jarvis",
+    "nome": "Lewis",
+    "email": "vulputate.velit.eu@sitametmetus.edu",
+    "celular": "11-38287-6086",
+    "senha": "CZR09UFP4LF",
+    "eventosOrganizados": [
+      {
+        "idEvento": 176,
+        "titulo": "eu, eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur dictum.",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum",
+        "senha": null,
+        "endereco": "Ap #487-7707 At Road",
+        "categoria": {
+          "idCategoria": 19,
+          "nome": "Baladas noturna",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 12,
+            "nome": "baladas"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 21,
+    "apelido": "Xaviera O. Nicholson",
+    "nome": "Brenden",
+    "email": "pharetra@eleifendCras.edu",
+    "celular": "11-32928-0553",
+    "senha": "ERK99HLM0LH",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 22,
+    "apelido": "Burke Jacobson",
+    "nome": "Justin",
+    "email": "Duis.ac.arcu@fames.net",
+    "celular": "11-44769-3225",
+    "senha": "LFT30ZDK0VJ",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 23,
+    "apelido": "Cailin Jarvis",
+    "nome": "Nissim",
+    "email": "sed.dictum.eleifend@necleo.org",
+    "celular": "11-90373-4166",
+    "senha": "BKS68GZC9KD",
+    "eventosOrganizados": [
+      {
+        "idEvento": 139,
+        "titulo": "sed pede. Cum sociis natoque penatibus et magnis dis parturient",
+        "dataInicio": "01/07/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": null,
+        "endereco": "P.O. Box 891, 1640 Sit Av.",
+        "categoria": {
+          "idCategoria": 24,
+          "nome": "Bares",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 166,
+        "titulo": "diam at pretium aliquet, metus urna convallis erat, eget tincidunt",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum",
+        "senha": null,
+        "endereco": "P.O. Box 301, 1466 Amet Street",
+        "categoria": {
+          "idCategoria": 2,
+          "nome": "Vôlei",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 24,
+    "apelido": "Lane Richard",
+    "nome": "Ferdinand",
+    "email": "sed.leo@purus.ca",
+    "celular": "11-41697-6574",
+    "senha": "ECN97OUU9VO",
+    "eventosOrganizados": [
+      {
+        "idEvento": 73,
+        "titulo": "Integer sem elit, pharetra ut, pharetra sed, hendrerit a, arcu.",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem",
+        "senha": "True",
+        "endereco": "P.O. Box 154, 5604 Quisque Road",
+        "categoria": {
+          "idCategoria": 23,
+          "nome": "Amigos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 79,
+        "titulo": "imperdiet dictum magna. Ut tincidunt orci quis lectus. Nullam suscipit,",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": null,
+        "endereco": "1382 Rutrum. Rd.",
+        "categoria": {
+          "idCategoria": 23,
+          "nome": "Amigos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 119,
+        "titulo": "vitae aliquam eros turpis non enim. Mauris quis turpis vitae",
+        "dataInicio": "01/04/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": "True",
+        "endereco": "7096 Mollis. Road",
+        "categoria": {
+          "idCategoria": 25,
+          "nome": "HP",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 25,
+    "apelido": "Jamal W. Underwood",
+    "nome": "Kimberley",
+    "email": "tincidunt.adipiscing.Mauris@aliquamenimnec.edu",
+    "celular": "11-73247-3627",
+    "senha": "FYN56RSQ8RE",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 26,
+    "apelido": "Bert E. Hyde",
+    "nome": "Teegan",
+    "email": "fermentum.convallis@estac.co.uk",
+    "celular": "11-90838-2763",
+    "senha": "QRU49PJV8VD",
+    "eventosOrganizados": [
+      {
+        "idEvento": 8,
+        "titulo": "magna a neque. Nullam ut nisi a odio semper cursus.",
+        "dataInicio": "01/04/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": "True",
+        "endereco": "5834 In Avenue",
+        "categoria": {
+          "idCategoria": 7,
+          "nome": "Natação",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 27,
+    "apelido": "Halee Roth",
+    "nome": "Andrew",
+    "email": "vestibulum.Mauris@arcuvel.net",
+    "celular": "11-65557-5535",
+    "senha": "ZVY98EUJ6JO",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 28,
+    "apelido": "Clark Q. Harvey",
+    "nome": "Xenos",
+    "email": "Sed.eu@ProinmiAliquam.org",
+    "celular": "11-53082-4052",
+    "senha": "RHU10LSW5NU",
+    "eventosOrganizados": [
+      {
+        "idEvento": 117,
+        "titulo": "tortor nibh sit amet orci. Ut sagittis lobortis mauris. Suspendisse",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "Ap #301-9660 Est Street",
+        "categoria": {
+          "idCategoria": 17,
+          "nome": "Palestras",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 29,
+    "apelido": "Debra Z. Mccormick",
+    "nome": "Ruby",
+    "email": "laoreet@ametconsectetuer.ca",
+    "celular": "11-15346-0508",
+    "senha": "RXD55FBW1PT",
+    "eventosOrganizados": [
+      {
+        "idEvento": 33,
+        "titulo": "dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/07/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": "True",
+        "endereco": "691-4964 Integer Street",
+        "categoria": {
+          "idCategoria": 7,
+          "nome": "Natação",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 30,
+    "apelido": "Grant Hess",
+    "nome": "Carly",
+    "email": "ante.iaculis.nec@Nullam.co.uk",
+    "celular": "11-78885-6166",
+    "senha": "GKM14VZL2OC",
+    "eventosOrganizados": [
+      {
+        "idEvento": 124,
+        "titulo": "libero. Donec consectetuer mauris id sapien. Cras dolor dolor, tempus",
+        "dataInicio": "01/12/2018",
+        "dataFim": "01/01/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "Ap #975-8452 Nec Road",
+        "categoria": {
+          "idCategoria": 15,
+          "nome": "Feiras de Tecnologias",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 4,
+            "nome": "tecnologia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 31,
+    "apelido": "Diana D. Waller",
+    "nome": "Hilary",
+    "email": "augue@nequeMorbiquis.org",
+    "celular": "11-88258-5530",
+    "senha": "CFJ41HPE9CO",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 32,
+    "apelido": "Jessica Collier",
+    "nome": "Nelle",
+    "email": "dictum@ipsumporta.com",
+    "celular": "11-42113-1578",
+    "senha": "CKO66TDJ6ND",
+    "eventosOrganizados": [
+      {
+        "idEvento": 22,
+        "titulo": "fringilla, porttitor vulputate, posuere vulputate, lacus. Cras interdum. Nunc sollicitudin",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/07/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": null,
+        "endereco": "P.O. Box 851, 3176 Morbi Road",
+        "categoria": {
+          "idCategoria": 19,
+          "nome": "Baladas noturna",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 12,
+            "nome": "baladas"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 77,
+        "titulo": "justo. Proin non massa non ante bibendum ullamcorper. Duis cursus,",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": null,
+        "endereco": "P.O. Box 709, 882 Felis Rd.",
+        "categoria": {
+          "idCategoria": 25,
+          "nome": "HP",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 33,
+    "apelido": "Eagan A. Lawrence",
+    "nome": "Hamish",
+    "email": "fringilla.est.Mauris@lacusQuisque.org",
+    "celular": "11-17856-1352",
+    "senha": "MRH49GRI2AY",
+    "eventosOrganizados": [
+      {
+        "idEvento": 136,
+        "titulo": "mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim. Sed",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": null,
+        "endereco": "P.O. Box 139, 9404 At, Rd.",
+        "categoria": {
+          "idCategoria": 14,
+          "nome": "Feiras de Empreendedorismo",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 3,
+            "nome": "negocios"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 34,
+    "apelido": "Jael V. Phelps",
+    "nome": "Tamara",
+    "email": "sagittis.placerat@et.com",
+    "celular": "11-19493-8622",
+    "senha": "ETA47GOZ1CU",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 35,
+    "apelido": "Wing G. Roth",
+    "nome": "Morgan",
+    "email": "urna@necorci.edu",
+    "celular": "11-42732-0306",
+    "senha": "SWI52XYP7ZL",
+    "eventosOrganizados": [
+      {
+        "idEvento": 75,
+        "titulo": "est mauris, rhoncus id, mollis nec, cursus a, enim. Suspendisse",
+        "dataInicio": "01/06/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": null,
+        "endereco": "P.O. Box 370, 8340 Fringilla St.",
+        "categoria": {
+          "idCategoria": 21,
+          "nome": "Role",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 8,
+            "nome": "encontros"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 36,
+    "apelido": "Lacy Pena",
+    "nome": "Rebekah",
+    "email": "fringilla.Donec.feugiat@nibhDonec.ca",
+    "celular": "11-67749-7310",
+    "senha": "MHM08KOX8ZR",
+    "eventosOrganizados": [
+      {
+        "idEvento": 54,
+        "titulo": "molestie orci tincidunt adipiscing. Mauris molestie pharetra nibh. Aliquam ornare,",
+        "dataInicio": "01/04/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum",
+        "senha": "True",
+        "endereco": "5721 Et, St.",
+        "categoria": {
+          "idCategoria": 25,
+          "nome": "HP",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 37,
+    "apelido": "Kitra V. Talley",
+    "nome": "Emerson",
+    "email": "erat@musAenean.edu",
+    "celular": "11-78631-9288",
+    "senha": "QYT49MYC4TC",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 38,
+    "apelido": "Jorden G. Ford",
+    "nome": "Nash",
+    "email": "eget@orcilacusvestibulum.ca",
+    "celular": "11-43920-7728",
+    "senha": "SCT66TNC0YP",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 39,
+    "apelido": "Ruth Cochran",
+    "nome": "Slade",
+    "email": "ipsum@ac.com",
+    "celular": "11-97617-2236",
+    "senha": "YSP86PWF3ZL",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 40,
+    "apelido": "Kiona S. Terrell",
+    "nome": "Caesar",
+    "email": "ut@facilisisSuspendissecommodo.com",
+    "celular": "11-82113-7534",
+    "senha": "USL77QLK8CS",
+    "eventosOrganizados": [
+      {
+        "idEvento": 3,
+        "titulo": "sit amet, consectetuer adipiscing elit. Etiam laoreet, libero et tristique",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/01/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": null,
+        "endereco": "155-418 Semper Avenue",
+        "categoria": {
+          "idCategoria": 7,
+          "nome": "Natação",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 41,
+    "apelido": "Chantale Hooper",
+    "nome": "Freya",
+    "email": "id.nunc.interdum@dui.co.uk",
+    "celular": "11-53962-2442",
+    "senha": "CWP57JFM2QY",
+    "eventosOrganizados": [
+      {
+        "idEvento": 104,
+        "titulo": "fermentum risus, at fringilla purus mauris a nunc. In at",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/08/2018",
+        "descricao": "Lorem ipsum",
+        "senha": "True",
+        "endereco": "Ap #529-2337 Cras Road",
+        "categoria": {
+          "idCategoria": 8,
+          "nome": "Tênis de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 137,
+        "titulo": "malesuada ut, sem. Nulla interdum. Curabitur dictum. Phasellus in felis.",
+        "dataInicio": "01/08/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": null,
+        "endereco": "Ap #567-9545 Tristique Rd.",
+        "categoria": {
+          "idCategoria": 7,
+          "nome": "Natação",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 145,
+        "titulo": "tempor erat neque non quam. Pellentesque habitant morbi tristique senectus",
+        "dataInicio": "01/07/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": null,
+        "endereco": "P.O. Box 763, 7771 Lorem, Ave",
+        "categoria": {
+          "idCategoria": 21,
+          "nome": "Role",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 8,
+            "nome": "encontros"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 42,
+    "apelido": "Zenia A. Mcclure",
+    "nome": "Grant",
+    "email": "ullamcorper@egestasDuisac.org",
+    "celular": "11-79950-3781",
+    "senha": "ZAM75VKV1EX",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 43,
+    "apelido": "Lesley Z. Farley",
+    "nome": "Scarlett",
+    "email": "eu@turpisAliquam.co.uk",
+    "celular": "11-36282-5506",
+    "senha": "JJD66YSI6VX",
+    "eventosOrganizados": [
+      {
+        "idEvento": 35,
+        "titulo": "lorem, luctus ut, pellentesque eget, dictum placerat, augue. Sed molestie.",
+        "dataInicio": "01/08/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": null,
+        "endereco": "Ap #661-3747 Commodo Rd.",
+        "categoria": {
+          "idCategoria": 21,
+          "nome": "Role",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 8,
+            "nome": "encontros"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 44,
+    "apelido": "Justin Jensen",
+    "nome": "Nathan",
+    "email": "a.enim.Suspendisse@dictumProineget.co.uk",
+    "celular": "11-15956-8243",
+    "senha": "DBZ33FFI2CM",
+    "eventosOrganizados": [
+      {
+        "idEvento": 57,
+        "titulo": "sodales elit erat vitae risus. Duis a mi fringilla mi",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": "True",
+        "endereco": "2345 Nec Street",
+        "categoria": {
+          "idCategoria": 19,
+          "nome": "Baladas noturna",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 12,
+            "nome": "baladas"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 45,
+    "apelido": "Eliana P. Ryan",
+    "nome": "Nathan",
+    "email": "lacus@Craseutellus.ca",
+    "celular": "11-90814-9818",
+    "senha": "BFI64UMN8IZ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 113,
+        "titulo": "In scelerisque scelerisque dui. Suspendisse ac metus vitae velit egestas",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum",
+        "senha": "True",
+        "endereco": "P.O. Box 681, 3149 Est Av.",
+        "categoria": {
+          "idCategoria": 21,
+          "nome": "Role",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 8,
+            "nome": "encontros"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 179,
+        "titulo": "cursus in, hendrerit consectetuer, cursus et, magna. Praesent interdum ligula",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum",
+        "senha": "True",
+        "endereco": "787-4785 Ultricies Rd.",
+        "categoria": {
+          "idCategoria": 11,
+          "nome": "E-Sports",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 46,
+    "apelido": "Micah M. Dennis",
+    "nome": "Tanek",
+    "email": "Quisque.nonummy.ipsum@mauris.com",
+    "celular": "11-74826-8287",
+    "senha": "TVL99WWT2XO",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 47,
+    "apelido": "Zenaida V. Flowers",
+    "nome": "Audrey",
+    "email": "volutpat.ornare@Phasellus.co.uk",
+    "celular": "11-59096-4406",
+    "senha": "XXM13KHB8MJ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 30,
+        "titulo": "arcu eu odio tristique pharetra. Quisque ac libero nec ligula",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": null,
+        "endereco": "893-7587 Ante Ave",
+        "categoria": {
+          "idCategoria": 15,
+          "nome": "Feiras de Tecnologias",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 4,
+            "nome": "tecnologia"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 84,
+        "titulo": "sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": "True",
+        "endereco": "Ap #269-9290 Elit. Rd.",
+        "categoria": {
+          "idCategoria": 17,
+          "nome": "Palestras",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 48,
+    "apelido": "April F. Levy",
+    "nome": "Amber",
+    "email": "nonummy@ligula.org",
+    "celular": "11-13451-1286",
+    "senha": "XHI58EJV1RM",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 49,
+    "apelido": "Jonas Ford",
+    "nome": "Phoebe",
+    "email": "gravida.non.sollicitudin@ipsumcursus.co.uk",
+    "celular": "11-31833-3827",
+    "senha": "IJN28FUD7LS",
+    "eventosOrganizados": [
+      {
+        "idEvento": 47,
+        "titulo": "sem semper erat, in consectetuer ipsum nunc id enim. Curabitur",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem",
+        "senha": "True",
+        "endereco": "3876 Dolor Ave",
+        "categoria": {
+          "idCategoria": 3,
+          "nome": "Basquete",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 97,
+        "titulo": "dolor dapibus gravida. Aliquam tincidunt, nunc ac mattis ornare, lectus",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": null,
+        "endereco": "535-2471 Elementum, Av.",
+        "categoria": {
+          "idCategoria": 8,
+          "nome": "Tênis de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 50,
+    "apelido": "Dustin D. Stanton",
+    "nome": "Gretchen",
+    "email": "montes.nascetur.ridiculus@magnisdisparturient.com",
+    "celular": "11-20640-6101",
+    "senha": "CYH16PRK5NI",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 51,
+    "apelido": "Drake I. Hays",
+    "nome": "Kerry",
+    "email": "erat.semper@maurisblandit.co.uk",
+    "celular": "11-76072-3181",
+    "senha": "CRQ20HCT9YS",
+    "eventosOrganizados": [
+      {
+        "idEvento": 190,
+        "titulo": "est arcu ac orci. Ut semper pretium neque. Morbi quis",
+        "dataInicio": "01/12/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": "True",
+        "endereco": "251-791 Nunc Av.",
+        "categoria": {
+          "idCategoria": 21,
+          "nome": "Role",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 8,
+            "nome": "encontros"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 52,
+    "apelido": "Stephanie B. Moran",
+    "nome": "Lenore",
+    "email": "interdum.ligula.eu@dignissimpharetraNam.com",
+    "celular": "11-83765-7353",
+    "senha": "LPA75FCG9LP",
+    "eventosOrganizados": [
+      {
+        "idEvento": 1,
+        "titulo": "quarta",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/01/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": null,
+        "endereco": "709-4562 Rutrum. Road",
+        "categoria": {
+          "idCategoria": 11,
+          "nome": "E-Sports",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 53,
+        "titulo": "amet orci. Ut sagittis lobortis mauris. Suspendisse aliquet molestie tellus.",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": null,
+        "endereco": "292-9964 Eu Road",
+        "categoria": {
+          "idCategoria": 25,
+          "nome": "HP",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 87,
+        "titulo": "Morbi accumsan laoreet ipsum. Curabitur consequat, lectus sit amet luctus",
+        "dataInicio": "01/12/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer",
+        "senha": null,
+        "endereco": "458 Imperdiet Road",
+        "categoria": {
+          "idCategoria": 1,
+          "nome": "futebol",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 53,
+    "apelido": "Ursula Y. Saunders",
+    "nome": "Uriah",
+    "email": "eu@risus.ca",
+    "celular": "11-58082-4507",
+    "senha": "IML24YCU8HS",
+    "eventosOrganizados": [
+      {
+        "idEvento": 159,
+        "titulo": "neque. Nullam ut nisi a odio semper cursus. Integer mollis.",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": null,
+        "endereco": "6428 Ad Street",
+        "categoria": {
+          "idCategoria": 25,
+          "nome": "HP",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 54,
+    "apelido": "Kato O. Berger",
+    "nome": "McKenzie",
+    "email": "ullamcorper.magna.Sed@loremeu.net",
+    "celular": "11-76761-2898",
+    "senha": "ASF81BNJ6FF",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 55,
+    "apelido": "Dalton Maxwell",
+    "nome": "Clinton",
+    "email": "Phasellus.dapibus@tempus.com",
+    "celular": "11-72498-6116",
+    "senha": "JQX42YKU5YD",
+    "eventosOrganizados": [
+      {
+        "idEvento": 99,
+        "titulo": "Fusce aliquet magna a neque. Nullam ut nisi a odio",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": "True",
+        "endereco": "597-3174 Mauris Road",
+        "categoria": {
+          "idCategoria": 21,
+          "nome": "Role",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 8,
+            "nome": "encontros"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 199,
+        "titulo": "lobortis. Class aptent taciti sociosqu ad litora torquent per conubia",
+        "dataInicio": "01/08/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": null,
+        "endereco": "P.O. Box 241, 1665 Magnis Street",
+        "categoria": {
+          "idCategoria": 12,
+          "nome": "Video Game",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 56,
+    "apelido": "Carlos Velasquez",
+    "nome": "Malcolm",
+    "email": "nisi@musProinvel.edu",
+    "celular": "11-12263-8416",
+    "senha": "CTV27EYT4XJ",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 57,
+    "apelido": "Serena W. Wiggins",
+    "nome": "Jacqueline",
+    "email": "aliquet.vel@et.ca",
+    "celular": "11-75472-3209",
+    "senha": "DJR72YIF7AE",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 58,
+    "apelido": "Haviva Tucker",
+    "nome": "Ross",
+    "email": "In.faucibus.Morbi@ategestasa.net",
+    "celular": "11-28730-9045",
+    "senha": "ZBQ59JAI6TZ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 100,
+        "titulo": "Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": "True",
+        "endereco": "Ap #751-6067 Mollis Road",
+        "categoria": {
+          "idCategoria": 7,
+          "nome": "Natação",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 59,
+    "apelido": "Fuller V. Greer",
+    "nome": "Yardley",
+    "email": "vulputate.ullamcorper.magna@ipsumdolorsit.co.uk",
+    "celular": "11-78121-1110",
+    "senha": "SHG56NWV0PE",
+    "eventosOrganizados": [
+      {
+        "idEvento": 59,
+        "titulo": "posuere at, velit. Cras lorem lorem, luctus ut, pellentesque eget,",
+        "dataInicio": "01/06/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem",
+        "senha": null,
+        "endereco": "754-4306 Nec Av.",
+        "categoria": {
+          "idCategoria": 18,
+          "nome": "Encontros religiosos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 10,
+            "nome": "religioso"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 60,
+    "apelido": "Clementine Mays",
+    "nome": "Donovan",
+    "email": "facilisis.facilisis@orci.net",
+    "celular": "11-87788-0331",
+    "senha": "MKC61DNB9EZ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 164,
+        "titulo": "eget mollis lectus pede et risus. Quisque libero lacus, varius",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": "True",
+        "endereco": "Ap #275-1602 Lorem Av.",
+        "categoria": {
+          "idCategoria": 13,
+          "nome": "Jogos de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 61,
+    "apelido": "Brett P. Beard",
+    "nome": "Lamar",
+    "email": "et.rutrum.non@vehicula.org",
+    "celular": "11-71931-4887",
+    "senha": "GRQ82LGZ2DQ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 146,
+        "titulo": "ullamcorper, velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/01/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer",
+        "senha": "True",
+        "endereco": "3182 Scelerisque St.",
+        "categoria": {
+          "idCategoria": 22,
+          "nome": "Aniversario",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 62,
+    "apelido": "Keely Rollins",
+    "nome": "Cullen",
+    "email": "arcu.Vestibulum@sociosqu.net",
+    "celular": "11-37857-0852",
+    "senha": "ZMX92MLH9IH",
+    "eventosOrganizados": [
+      {
+        "idEvento": 102,
+        "titulo": "risus. Donec egestas. Duis ac arcu. Nunc mauris. Morbi non",
+        "dataInicio": "01/12/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "Ap #811-3837 Vitae Rd.",
+        "categoria": {
+          "idCategoria": 22,
+          "nome": "Aniversario",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 63,
+    "apelido": "Griffin U. Booth",
+    "nome": "Hamilton",
+    "email": "non.vestibulum.nec@egetmetuseu.com",
+    "celular": "11-91919-4103",
+    "senha": "WCF78BHD0GA",
+    "eventosOrganizados": [
+      {
+        "idEvento": 110,
+        "titulo": "eget, ipsum. Donec sollicitudin adipiscing ligula. Aenean gravida nunc sed",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": "True",
+        "endereco": "446-2429 Senectus St.",
+        "categoria": {
+          "idCategoria": 11,
+          "nome": "E-Sports",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 138,
+        "titulo": "Sed nunc est, mollis non, cursus non, egestas a, dui.",
+        "dataInicio": "01/06/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": "True",
+        "endereco": "777-3181 Sociis Ave",
+        "categoria": {
+          "idCategoria": 23,
+          "nome": "Amigos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 181,
+        "titulo": "enim. Nunc ut erat. Sed nunc est, mollis non, cursus",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer",
+        "senha": null,
+        "endereco": "570-9168 Maecenas Rd.",
+        "categoria": {
+          "idCategoria": 11,
+          "nome": "E-Sports",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 64,
+    "apelido": "Buckminster K. Guthrie",
+    "nome": "Jackson",
+    "email": "ac.fermentum@Quisquenonummy.co.uk",
+    "celular": "11-75181-6719",
+    "senha": "KKO84SHK5BD",
+    "eventosOrganizados": [
+      {
+        "idEvento": 133,
+        "titulo": "vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu.",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum",
+        "senha": null,
+        "endereco": "830-9456 Libero. St.",
+        "categoria": {
+          "idCategoria": 9,
+          "nome": "Ginástica",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 178,
+        "titulo": "ligula. Aenean gravida nunc sed pede. Cum sociis natoque penatibus",
+        "dataInicio": "01/04/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": null,
+        "endereco": "P.O. Box 895, 1861 Diam St.",
+        "categoria": {
+          "idCategoria": 14,
+          "nome": "Feiras de Empreendedorismo",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 3,
+            "nome": "negocios"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 65,
+    "apelido": "Dominique E. Williams",
+    "nome": "Brielle",
+    "email": "Duis@auctorvelit.edu",
+    "celular": "11-44159-6118",
+    "senha": "AEZ26RHH4CE",
+    "eventosOrganizados": [
+      {
+        "idEvento": 17,
+        "titulo": "Curabitur ut odio vel est tempor bibendum. Donec felis orci,",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": null,
+        "endereco": "787-5256 Pharetra Rd.",
+        "categoria": {
+          "idCategoria": 13,
+          "nome": "Jogos de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 129,
+        "titulo": "metus vitae velit egestas lacinia. Sed congue, elit sed consequat",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum",
+        "senha": null,
+        "endereco": "3735 Id, Ave",
+        "categoria": {
+          "idCategoria": 14,
+          "nome": "Feiras de Empreendedorismo",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 3,
+            "nome": "negocios"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 188,
+        "titulo": "nibh. Phasellus nulla. Integer vulputate, risus a ultricies adipiscing, enim",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": null,
+        "endereco": "P.O. Box 929, 7419 Condimentum Street",
+        "categoria": {
+          "idCategoria": 1,
+          "nome": "futebol",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 66,
+    "apelido": "Hakeem Ray",
+    "nome": "Lionel",
+    "email": "ante@Praesenteunulla.co.uk",
+    "celular": "11-85267-2782",
+    "senha": "YYK95AYZ4HQ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 81,
+        "titulo": "velit. Quisque varius. Nam porttitor scelerisque neque. Nullam nisl. Maecenas",
+        "dataInicio": "01/04/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": null,
+        "endereco": "P.O. Box 732, 5565 Mauris. Rd.",
+        "categoria": {
+          "idCategoria": 16,
+          "nome": "MeetUp",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 67,
+    "apelido": "Cade Fisher",
+    "nome": "Bert",
+    "email": "semper@Curabiturvel.ca",
+    "celular": "11-11471-1721",
+    "senha": "HWC03YWG5RM",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 68,
+    "apelido": "Willa X. Wilcox",
+    "nome": "Trevor",
+    "email": "metus@lacusvestibulum.ca",
+    "celular": "11-93276-4463",
+    "senha": "JTF46NKD3OD",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 69,
+    "apelido": "Aladdin W. Mann",
+    "nome": "Joelle",
+    "email": "tortor.Integer@Duisgravida.edu",
+    "celular": "11-81263-9306",
+    "senha": "CUE68RYX5HX",
+    "eventosOrganizados": [
+      {
+        "idEvento": 50,
+        "titulo": "et pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/07/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": "True",
+        "endereco": "992 Nisi. Rd.",
+        "categoria": {
+          "idCategoria": 2,
+          "nome": "Vôlei",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 140,
+        "titulo": "velit. Sed malesuada augue ut lacus. Nulla tincidunt, neque vitae",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/07/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": "True",
+        "endereco": "P.O. Box 731, 7106 Rhoncus. Rd.",
+        "categoria": {
+          "idCategoria": 8,
+          "nome": "Tênis de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 175,
+        "titulo": "Cras vehicula aliquet libero. Integer in magna. Phasellus dolor elit,",
+        "dataInicio": "01/06/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer",
+        "senha": null,
+        "endereco": "341-9209 Sit St.",
+        "categoria": {
+          "idCategoria": 9,
+          "nome": "Ginástica",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 70,
+    "apelido": "Isaac B. Pickett",
+    "nome": "TaShya",
+    "email": "ac@tristiquepharetraQuisque.edu",
+    "celular": "11-85872-5805",
+    "senha": "ABI45LBQ7ZQ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 26,
+        "titulo": "libero lacus, varius et, euismod et, commodo at, libero. Morbi",
+        "dataInicio": "01/09/2018",
+        "dataFim": "01/06/2018",
+        "descricao": "Lorem",
+        "senha": null,
+        "endereco": "7832 Vivamus Street",
+        "categoria": {
+          "idCategoria": 19,
+          "nome": "Baladas noturna",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 12,
+            "nome": "baladas"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 108,
+        "titulo": "neque tellus, imperdiet non, vestibulum nec, euismod in, dolor. Fusce",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum",
+        "senha": null,
+        "endereco": "Ap #629-5017 Nec St.",
+        "categoria": {
+          "idCategoria": 23,
+          "nome": "Amigos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 71,
+    "apelido": "Jolene R. Finley",
+    "nome": "Carlos",
+    "email": "Morbi@neque.org",
+    "celular": "11-55942-3016",
+    "senha": "JXA31SIA9UC",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 72,
+    "apelido": "Elmo Leach",
+    "nome": "Akeem",
+    "email": "nec@Aliquamultricesiaculis.ca",
+    "celular": "11-31064-9894",
+    "senha": "BAW20QGZ0NG",
+    "eventosOrganizados": [
+      {
+        "idEvento": 82,
+        "titulo": "Duis dignissim tempor arcu. Vestibulum ut eros non enim commodo",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": "True",
+        "endereco": "2930 Condimentum. Road",
+        "categoria": {
+          "idCategoria": 25,
+          "nome": "HP",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 134,
+        "titulo": "Suspendisse sagittis. Nullam vitae diam. Proin dolor. Nulla semper tellus",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "783-4347 Nec Rd.",
+        "categoria": {
+          "idCategoria": 3,
+          "nome": "Basquete",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 73,
+    "apelido": "Julie D. Watkins",
+    "nome": "Sylvia",
+    "email": "Cum.sociis@luctus.co.uk",
+    "celular": "11-43176-1077",
+    "senha": "ZES00QOY6XN",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 74,
+    "apelido": "Felix Y. Mcclain",
+    "nome": "Alyssa",
+    "email": "sodales.purus@congue.com",
+    "celular": "11-64424-1105",
+    "senha": "DIQ31XUR4IH",
+    "eventosOrganizados": [
+      {
+        "idEvento": 32,
+        "titulo": "mi. Aliquam gravida mauris ut mi. Duis risus odio, auctor",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": null,
+        "endereco": "Ap #597-1618 Diam Rd.",
+        "categoria": {
+          "idCategoria": 9,
+          "nome": "Ginástica",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 193,
+        "titulo": "neque venenatis lacus. Etiam bibendum fermentum metus. Aenean sed pede",
+        "dataInicio": "01/04/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": null,
+        "endereco": "P.O. Box 626, 8248 Sit Rd.",
+        "categoria": {
+          "idCategoria": 23,
+          "nome": "Amigos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 75,
+    "apelido": "Leah Gardner",
+    "nome": "Isaac",
+    "email": "sagittis@tellus.co.uk",
+    "celular": "11-43778-0349",
+    "senha": "KRR04KXJ4ZX",
+    "eventosOrganizados": [
+      {
+        "idEvento": 172,
+        "titulo": "elit, a feugiat tellus lorem eu metus. In lorem. Donec",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/09/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": "True",
+        "endereco": "219-8116 Aliquet. Rd.",
+        "categoria": {
+          "idCategoria": 3,
+          "nome": "Basquete",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 76,
+    "apelido": "Yuri Leach",
+    "nome": "Joel",
+    "email": "et.lacinia.vitae@rutrumFusce.org",
+    "celular": "11-48681-4865",
+    "senha": "GIK94GRP1ND",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 77,
+    "apelido": "Alec V. Hahn",
+    "nome": "Shaine",
+    "email": "nunc@dolorNulla.net",
+    "celular": "11-97268-8506",
+    "senha": "VYI98LLD8LA",
+    "eventosOrganizados": [
+      {
+        "idEvento": 9,
+        "titulo": "dolor. Nulla semper tellus id nunc interdum feugiat. Sed nec",
+        "dataInicio": "01/09/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "Ap #267-5798 Ac Av.",
+        "categoria": {
+          "idCategoria": 7,
+          "nome": "Natação",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 24,
+        "titulo": "ac sem ut dolor dapibus gravida. Aliquam tincidunt, nunc ac",
+        "dataInicio": "01/04/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": null,
+        "endereco": "Ap #999-3038 Mauris Rd.",
+        "categoria": {
+          "idCategoria": 5,
+          "nome": "Baseball",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 174,
+        "titulo": "Proin vel nisl. Quisque fringilla euismod enim. Etiam gravida molestie",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/06/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "3791 Dapibus Ave",
+        "categoria": {
+          "idCategoria": 19,
+          "nome": "Baladas noturna",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 12,
+            "nome": "baladas"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 78,
+    "apelido": "Wade X. Torres",
+    "nome": "Tamekah",
+    "email": "nisi.Aenean.eget@pedeNuncsed.org",
+    "celular": "11-46949-6597",
+    "senha": "ASN64LRO3BF",
+    "eventosOrganizados": [
+      {
+        "idEvento": 13,
+        "titulo": "eu eros. Nam consequat dolor vitae dolor. Donec fringilla. Donec",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": null,
+        "endereco": "795-9687 Et Avenue",
+        "categoria": {
+          "idCategoria": 12,
+          "nome": "Video Game",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 79,
+    "apelido": "Blaze Curtis",
+    "nome": "Catherine",
+    "email": "sem@Integer.com",
+    "celular": "11-22959-0739",
+    "senha": "FZZ26WLM6TX",
+    "eventosOrganizados": [
+      {
+        "idEvento": 69,
+        "titulo": "velit eu sem. Pellentesque ut ipsum ac mi eleifend egestas.",
+        "dataInicio": "01/06/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum",
+        "senha": "True",
+        "endereco": "Ap #120-9893 Enim Road",
+        "categoria": {
+          "idCategoria": 25,
+          "nome": "HP",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 94,
+        "titulo": "amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": "True",
+        "endereco": "594-9558 Consectetuer Av.",
+        "categoria": {
+          "idCategoria": 23,
+          "nome": "Amigos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 80,
+    "apelido": "Olivia Cooley",
+    "nome": "Chelsea",
+    "email": "at@pharetraQuisqueac.com",
+    "celular": "11-17832-7767",
+    "senha": "ENM10IKV4LV",
+    "eventosOrganizados": [
+      {
+        "idEvento": 2,
+        "titulo": "magnis dis parturient montes, nascetur ridiculus mus. Aenean eget magna.",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": null,
+        "endereco": "8955 Nulla Street",
+        "categoria": {
+          "idCategoria": 24,
+          "nome": "Bares",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 28,
+        "titulo": "eros. Proin ultrices. Duis volutpat nunc sit amet metus. Aliquam",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": null,
+        "endereco": "8922 Sed Rd.",
+        "categoria": {
+          "idCategoria": 6,
+          "nome": "Golfe",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 81,
+    "apelido": "Lars Clay",
+    "nome": "Hayes",
+    "email": "per.conubia@ornare.edu",
+    "celular": "11-15628-7163",
+    "senha": "VWH44AUU6WO",
+    "eventosOrganizados": [
+      {
+        "idEvento": 65,
+        "titulo": "ornare lectus justo eu arcu. Morbi sit amet massa. Quisque",
+        "dataInicio": "01/04/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": "True",
+        "endereco": "P.O. Box 914, 7693 Consectetuer Road",
+        "categoria": {
+          "idCategoria": 8,
+          "nome": "Tênis de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 71,
+        "titulo": "semper. Nam tempor diam dictum sapien. Aenean massa. Integer vitae",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/07/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": null,
+        "endereco": "6645 Nunc Avenue",
+        "categoria": {
+          "idCategoria": 2,
+          "nome": "Vôlei",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 85,
+        "titulo": "Proin mi. Aliquam gravida mauris ut mi. Duis risus odio,",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": "True",
+        "endereco": "4029 Enim. Street",
+        "categoria": {
+          "idCategoria": 10,
+          "nome": "Boxe",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 82,
+    "apelido": "Elliott Y. Fletcher",
+    "nome": "Gloria",
+    "email": "Duis.elementum@estac.ca",
+    "celular": "11-31834-5783",
+    "senha": "ZBB61JDM7YI",
+    "eventosOrganizados": [
+      {
+        "idEvento": 49,
+        "titulo": "mattis semper, dui lectus rutrum urna, nec luctus felis purus",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer",
+        "senha": "True",
+        "endereco": "9787 Est Rd.",
+        "categoria": {
+          "idCategoria": 4,
+          "nome": "Tênis",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 83,
+    "apelido": "Gillian Q. Sargent",
+    "nome": "Arthur",
+    "email": "sociosqu.ad.litora@ornareegestas.co.uk",
+    "celular": "11-14785-1537",
+    "senha": "SCQ66HWB3ZW",
+    "eventosOrganizados": [
+      {
+        "idEvento": 123,
+        "titulo": "tellus lorem eu metus. In lorem. Donec elementum, lorem ut",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum",
+        "senha": "True",
+        "endereco": "P.O. Box 652, 7574 Blandit Rd.",
+        "categoria": {
+          "idCategoria": 18,
+          "nome": "Encontros religiosos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 10,
+            "nome": "religioso"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 196,
+        "titulo": "mi felis, adipiscing fringilla, porttitor vulputate, posuere vulputate, lacus. Cras",
+        "dataInicio": "01/12/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": null,
+        "endereco": "P.O. Box 577, 4087 Est Avenue",
+        "categoria": {
+          "idCategoria": 6,
+          "nome": "Golfe",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 84,
+    "apelido": "John Davidson",
+    "nome": "Piper",
+    "email": "ipsum.nunc.id@ullamcorperDuiscursus.co.uk",
+    "celular": "11-50057-2659",
+    "senha": "BDS35PFX2JE",
+    "eventosOrganizados": [
+      {
+        "idEvento": 187,
+        "titulo": "In condimentum. Donec at arcu. Vestibulum ante ipsum primis in",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": null,
+        "endereco": "Ap #982-6799 Vitae Rd.",
+        "categoria": {
+          "idCategoria": 23,
+          "nome": "Amigos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 85,
+    "apelido": "Malik N. Bailey",
+    "nome": "Demetria",
+    "email": "tortor@tincidunt.ca",
+    "celular": "11-90854-2299",
+    "senha": "YLN04ITT9XL",
+    "eventosOrganizados": [
+      {
+        "idEvento": 68,
+        "titulo": "cursus. Integer mollis. Integer tincidunt aliquam arcu. Aliquam ultrices iaculis",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum",
+        "senha": "True",
+        "endereco": "P.O. Box 398, 3149 Egestas. St.",
+        "categoria": {
+          "idCategoria": 2,
+          "nome": "Vôlei",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 86,
+    "apelido": "Theodore S. Caldwell",
+    "nome": "Hyacinth",
+    "email": "massa.Suspendisse@Sedneque.edu",
+    "celular": "11-56472-1693",
+    "senha": "SVH85VAO6NK",
+    "eventosOrganizados": [
+      {
+        "idEvento": 151,
+        "titulo": "eu dolor egestas rhoncus. Proin nisl sem, consequat nec, mollis",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem",
+        "senha": "True",
+        "endereco": "1308 Fusce Road",
+        "categoria": {
+          "idCategoria": 9,
+          "nome": "Ginástica",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 200,
+        "titulo": "nisi nibh lacinia orci, consectetuer euismod est arcu ac orci.",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": "True",
+        "endereco": "5227 Ut St.",
+        "categoria": {
+          "idCategoria": 22,
+          "nome": "Aniversario",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 87,
+    "apelido": "Erich N. Tran",
+    "nome": "Hedy",
+    "email": "tincidunt@convallisin.co.uk",
+    "celular": "11-37029-8791",
+    "senha": "LGX28LFJ3AG",
+    "eventosOrganizados": [
+      {
+        "idEvento": 64,
+        "titulo": "molestie. Sed id risus quis diam luctus lobortis. Class aptent",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/08/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": null,
+        "endereco": "5243 Enim Road",
+        "categoria": {
+          "idCategoria": 18,
+          "nome": "Encontros religiosos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 10,
+            "nome": "religioso"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 198,
+        "titulo": "urna justo faucibus lectus, a sollicitudin orci sem eget massa.",
+        "dataInicio": "01/12/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": "True",
+        "endereco": "313-7069 Pede, St.",
+        "categoria": {
+          "idCategoria": 16,
+          "nome": "MeetUp",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 88,
+    "apelido": "Emma Hendrix",
+    "nome": "Grady",
+    "email": "lacinia@augueSed.edu",
+    "celular": "11-17110-3214",
+    "senha": "SYV76DPX2KC",
+    "eventosOrganizados": [
+      {
+        "idEvento": 128,
+        "titulo": "aliquam eros turpis non enim. Mauris quis turpis vitae purus",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": "True",
+        "endereco": "468-5724 Suspendisse Street",
+        "categoria": {
+          "idCategoria": 23,
+          "nome": "Amigos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 157,
+        "titulo": "Vivamus sit amet risus. Donec egestas. Aliquam nec enim. Nunc",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/06/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": "True",
+        "endereco": "P.O. Box 254, 3369 Nam St.",
+        "categoria": {
+          "idCategoria": 13,
+          "nome": "Jogos de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 89,
+    "apelido": "Benjamin Hickman",
+    "nome": "Briar",
+    "email": "Etiam.vestibulum.massa@Mauris.edu",
+    "celular": "11-75190-6195",
+    "senha": "RXN23DED0TF",
+    "eventosOrganizados": [
+      {
+        "idEvento": 11,
+        "titulo": "consequat enim diam vel arcu. Curabitur ut odio vel est",
+        "dataInicio": "01/08/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum",
+        "senha": "True",
+        "endereco": "3847 Eros. Avenue",
+        "categoria": {
+          "idCategoria": 12,
+          "nome": "Video Game",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 16,
+        "titulo": "cursus. Nunc mauris elit, dictum eu, eleifend nec, malesuada ut,",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/08/2018",
+        "descricao": "Lorem",
+        "senha": "True",
+        "endereco": "6509 Curabitur Av.",
+        "categoria": {
+          "idCategoria": 21,
+          "nome": "Role",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 8,
+            "nome": "encontros"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 161,
+        "titulo": "turpis. In condimentum. Donec at arcu. Vestibulum ante ipsum primis",
+        "dataInicio": "01/04/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": "True",
+        "endereco": "Ap #784-5840 Egestas Av.",
+        "categoria": {
+          "idCategoria": 16,
+          "nome": "MeetUp",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 90,
+    "apelido": "Wynter Gutierrez",
+    "nome": "Denton",
+    "email": "Nam.porttitor@Sedpharetrafelis.org",
+    "celular": "11-61651-5402",
+    "senha": "IRJ37JDH2LA",
+    "eventosOrganizados": [
+      {
+        "idEvento": 152,
+        "titulo": "elit. Etiam laoreet, libero et tristique pellentesque, tellus sem mollis",
+        "dataInicio": "01/06/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": null,
+        "endereco": "519-9620 Pharetra. Avenue",
+        "categoria": {
+          "idCategoria": 18,
+          "nome": "Encontros religiosos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 10,
+            "nome": "religioso"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 185,
+        "titulo": "Duis dignissim tempor arcu. Vestibulum ut eros non enim commodo",
+        "dataInicio": "01/12/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": null,
+        "endereco": "P.O. Box 556, 2486 Ipsum Avenue",
+        "categoria": {
+          "idCategoria": 8,
+          "nome": "Tênis de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 91,
+    "apelido": "Keely Riddle",
+    "nome": "Quemby",
+    "email": "convallis.convallis@mattisCraseget.edu",
+    "celular": "11-48020-4466",
+    "senha": "KXW57LXO4NT",
+    "eventosOrganizados": [
+      {
+        "idEvento": 37,
+        "titulo": "non, luctus sit amet, faucibus ut, nulla. Cras eu tellus",
+        "dataInicio": "01/09/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": null,
+        "endereco": "226-6300 Diam Av.",
+        "categoria": {
+          "idCategoria": 3,
+          "nome": "Basquete",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 92,
+    "apelido": "Hasad Yates",
+    "nome": "Zahir",
+    "email": "a.purus@risus.org",
+    "celular": "11-62828-9344",
+    "senha": "CGJ87TUE5DN",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 93,
+    "apelido": "Mark N. Cameron",
+    "nome": "Carl",
+    "email": "tellus@Aliquamornarelibero.com",
+    "celular": "11-69757-2698",
+    "senha": "VNV53MJQ0FD",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 94,
+    "apelido": "Angela House",
+    "nome": "Jerry",
+    "email": "Donec.porttitor@malesuadavelvenenatis.edu",
+    "celular": "11-80098-8038",
+    "senha": "KER97AEC3BL",
+    "eventosOrganizados": [
+      {
+        "idEvento": 101,
+        "titulo": "sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et",
+        "dataInicio": "01/04/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "P.O. Box 713, 2124 Quis St.",
+        "categoria": {
+          "idCategoria": 4,
+          "nome": "Tênis",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 168,
+        "titulo": "nec quam. Curabitur vel lectus. Cum sociis natoque penatibus et",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/01/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": "True",
+        "endereco": "944-1155 Nulla. St.",
+        "categoria": {
+          "idCategoria": 10,
+          "nome": "Boxe",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 95,
+    "apelido": "Channing X. Chapman",
+    "nome": "Wing",
+    "email": "arcu.Sed@laoreetlibero.edu",
+    "celular": "11-76046-1310",
+    "senha": "QJJ29MTG8TW",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 96,
+    "apelido": "Amelia Z. Howell",
+    "nome": "Macaulay",
+    "email": "mollis.vitae@nibhenim.net",
+    "celular": "11-65625-6262",
+    "senha": "GSC61LLZ1TL",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 97,
+    "apelido": "Julian W. Kelley",
+    "nome": "Inga",
+    "email": "sagittis.Duis@erateget.co.uk",
+    "celular": "11-35483-7177",
+    "senha": "DBL78FBS8PV",
+    "eventosOrganizados": [
+      {
+        "idEvento": 23,
+        "titulo": "magna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/08/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": null,
+        "endereco": "4444 Quis Rd.",
+        "categoria": {
+          "idCategoria": 19,
+          "nome": "Baladas noturna",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 12,
+            "nome": "baladas"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 74,
+        "titulo": "aliquet vel, vulputate eu, odio. Phasellus at augue id ante",
+        "dataInicio": "01/12/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "497-7319 Amet Av.",
+        "categoria": {
+          "idCategoria": 18,
+          "nome": "Encontros religiosos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 10,
+            "nome": "religioso"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 98,
+    "apelido": "Charles N. Foley",
+    "nome": "Jescie",
+    "email": "egestas.rhoncus.Proin@urna.com",
+    "celular": "11-81130-2423",
+    "senha": "KSR60PPM8TT",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 99,
+    "apelido": "George Hancock",
+    "nome": "Jordan",
+    "email": "porttitor.eros.nec@cursusvestibulumMauris.org",
+    "celular": "11-71758-7074",
+    "senha": "QPC02BMT1VH",
+    "eventosOrganizados": [
+      {
+        "idEvento": 83,
+        "titulo": "euismod et, commodo at, libero. Morbi accumsan laoreet ipsum. Curabitur",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": null,
+        "endereco": "P.O. Box 504, 3369 Vel, St.",
+        "categoria": {
+          "idCategoria": 18,
+          "nome": "Encontros religiosos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 10,
+            "nome": "religioso"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 100,
+    "apelido": "Amethyst Atkins",
+    "nome": "Felix",
+    "email": "lorem.semper.auctor@tinciduntnuncac.com",
+    "celular": "11-47499-9871",
+    "senha": "YCC02IBK9IG",
+    "eventosOrganizados": [
+      {
+        "idEvento": 130,
+        "titulo": "tempor augue ac ipsum. Phasellus vitae mauris sit amet lorem",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": null,
+        "endereco": "P.O. Box 849, 3228 Est St.",
+        "categoria": {
+          "idCategoria": 12,
+          "nome": "Video Game",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 101,
+    "apelido": "Timon R. Burks",
+    "nome": "Miranda",
+    "email": "eu@nisl.ca",
+    "celular": "11-78817-8912",
+    "senha": "EWU86UHY2TZ",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 102,
+    "apelido": "Maggy W. Porter",
+    "nome": "Blythe",
+    "email": "arcu@at.edu",
+    "celular": "11-70934-5563",
+    "senha": "CXR33FOW8IV",
+    "eventosOrganizados": [
+      {
+        "idEvento": 55,
+        "titulo": "magnis dis parturient montes, nascetur ridiculus mus. Donec dignissim magna",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": null,
+        "endereco": "Ap #855-318 Dictum Road",
+        "categoria": {
+          "idCategoria": 8,
+          "nome": "Tênis de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 103,
+    "apelido": "Francis England",
+    "nome": "Mallory",
+    "email": "Pellentesque.habitant@duiSuspendisseac.edu",
+    "celular": "11-19692-8597",
+    "senha": "GSV35CNO1HV",
+    "eventosOrganizados": [
+      {
+        "idEvento": 126,
+        "titulo": "mi eleifend egestas. Sed pharetra, felis eget varius ultrices, mauris",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": "True",
+        "endereco": "P.O. Box 906, 9442 Mollis. Av.",
+        "categoria": {
+          "idCategoria": 18,
+          "nome": "Encontros religiosos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 10,
+            "nome": "religioso"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 155,
+        "titulo": "tempor augue ac ipsum. Phasellus vitae mauris sit amet lorem",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": "True",
+        "endereco": "666-6604 Vulputate, Street",
+        "categoria": {
+          "idCategoria": 18,
+          "nome": "Encontros religiosos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 10,
+            "nome": "religioso"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 104,
+    "apelido": "Sean C. Hooper",
+    "nome": "Ann",
+    "email": "ac.mattis@vestibulum.com",
+    "celular": "11-59818-0802",
+    "senha": "YCJ55VUO8BR",
+    "eventosOrganizados": [
+      {
+        "idEvento": 20,
+        "titulo": "eu nulla at sem molestie sodales. Mauris blandit enim consequat",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": "True",
+        "endereco": "P.O. Box 409, 8859 Aenean St.",
+        "categoria": {
+          "idCategoria": 20,
+          "nome": "Noturno",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 12,
+            "nome": "baladas"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 105,
+    "apelido": "Hoyt C. Fleming",
+    "nome": "Maryam",
+    "email": "ac.libero.nec@augue.co.uk",
+    "celular": "11-84547-9640",
+    "senha": "EWL60MNU4IY",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 106,
+    "apelido": "Kessie N. Durham",
+    "nome": "Kuame",
+    "email": "ipsum.cursus@Sed.org",
+    "celular": "11-60632-4990",
+    "senha": "JMY86BHR3TS",
+    "eventosOrganizados": [
+      {
+        "idEvento": 186,
+        "titulo": "lectus justo eu arcu. Morbi sit amet massa. Quisque porttitor",
+        "dataInicio": "01/12/2018",
+        "dataFim": "01/08/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": "True",
+        "endereco": "P.O. Box 480, 9770 Mauris Av.",
+        "categoria": {
+          "idCategoria": 16,
+          "nome": "MeetUp",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 107,
+    "apelido": "Martha U. Morales",
+    "nome": "Xander",
+    "email": "pellentesque@ac.co.uk",
+    "celular": "11-33319-0308",
+    "senha": "ZLG06AGO3WB",
+    "eventosOrganizados": [
+      {
+        "idEvento": 10,
+        "titulo": "dolor, nonummy ac, feugiat non, lobortis quis, pede. Suspendisse dui.",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/07/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "P.O. Box 818, 6093 Fermentum Ave",
+        "categoria": {
+          "idCategoria": 16,
+          "nome": "MeetUp",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 108,
+    "apelido": "Francesca Ayala",
+    "nome": "Dana",
+    "email": "at.egestas@rutrum.org",
+    "celular": "11-43550-6476",
+    "senha": "LMI32MEK0JL",
+    "eventosOrganizados": [
+      {
+        "idEvento": 92,
+        "titulo": "eleifend. Cras sed leo. Cras vehicula aliquet libero. Integer in",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer",
+        "senha": "True",
+        "endereco": "Ap #737-9446 Quis, Av.",
+        "categoria": {
+          "idCategoria": 24,
+          "nome": "Bares",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 109,
+    "apelido": "Rogan Barnes",
+    "nome": "Michael",
+    "email": "Donec@vitae.co.uk",
+    "celular": "11-70550-2849",
+    "senha": "ZGU21HHC4HJ",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 110,
+    "apelido": "Ryder C. Simpson",
+    "nome": "Jaden",
+    "email": "Vivamus@nonummy.com",
+    "celular": "11-79727-0257",
+    "senha": "HXD13TKY3QX",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 111,
+    "apelido": "Kuame Carroll",
+    "nome": "Margaret",
+    "email": "pede@semperNamtempor.edu",
+    "celular": "11-45464-6136",
+    "senha": "ZGX64GEG0XV",
+    "eventosOrganizados": [
+      {
+        "idEvento": 191,
+        "titulo": "aliquet vel, vulputate eu, odio. Phasellus at augue id ante",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem",
+        "senha": null,
+        "endereco": "946-7194 Mattis Street",
+        "categoria": {
+          "idCategoria": 23,
+          "nome": "Amigos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 112,
+    "apelido": "September Flores",
+    "nome": "Gay",
+    "email": "pellentesque.tellus@ornareIn.com",
+    "celular": "11-14145-7580",
+    "senha": "TVF63FTJ6DI",
+    "eventosOrganizados": [
+      {
+        "idEvento": 4,
+        "titulo": "vel nisl. Quisque fringilla euismod enim. Etiam gravida molestie arcu.",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/09/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": "True",
+        "endereco": "P.O. Box 495, 222 Velit Street",
+        "categoria": {
+          "idCategoria": 1,
+          "nome": "futebol",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 113,
+    "apelido": "Harriet Munoz",
+    "nome": "Dalton",
+    "email": "et.ultrices.posuere@nuncsed.edu",
+    "celular": "11-52275-1199",
+    "senha": "XJW83NPL2MW",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 114,
+    "apelido": "Zorita York",
+    "nome": "Tasha",
+    "email": "pharetra@pedeblandit.co.uk",
+    "celular": "11-77034-0121",
+    "senha": "MDQ57CTD6NJ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 118,
+        "titulo": "justo. Proin non massa non ante bibendum ullamcorper. Duis cursus,",
+        "dataInicio": "01/12/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": "True",
+        "endereco": "9421 Est, Ave",
+        "categoria": {
+          "idCategoria": 12,
+          "nome": "Video Game",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 115,
+    "apelido": "Leroy W. Marquez",
+    "nome": "Samuel",
+    "email": "eros.non.enim@rhoncusNullam.ca",
+    "celular": "11-92077-3521",
+    "senha": "BPO17QEQ9WW",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 116,
+    "apelido": "Bruno Puckett",
+    "nome": "Odette",
+    "email": "scelerisque.scelerisque.dui@lectusa.com",
+    "celular": "11-31254-7814",
+    "senha": "YQC73WEE3VC",
+    "eventosOrganizados": [
+      {
+        "idEvento": 58,
+        "titulo": "congue a, aliquet vel, vulputate eu, odio. Phasellus at augue",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "P.O. Box 421, 1598 Auctor Ave",
+        "categoria": {
+          "idCategoria": 17,
+          "nome": "Palestras",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 116,
+        "titulo": "luctus sit amet, faucibus ut, nulla. Cras eu tellus eu",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/08/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": "True",
+        "endereco": "P.O. Box 624, 8276 In Avenue",
+        "categoria": {
+          "idCategoria": 23,
+          "nome": "Amigos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 154,
+        "titulo": "lectus quis massa. Mauris vestibulum, neque sed dictum eleifend, nunc",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/08/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": null,
+        "endereco": "Ap #688-7752 Pede, Av.",
+        "categoria": {
+          "idCategoria": 4,
+          "nome": "Tênis",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 170,
+        "titulo": "Ut sagittis lobortis mauris. Suspendisse aliquet molestie tellus. Aenean egestas",
+        "dataInicio": "01/07/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": "True",
+        "endereco": "Ap #605-2605 Ipsum. Av.",
+        "categoria": {
+          "idCategoria": 7,
+          "nome": "Natação",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 117,
+    "apelido": "Scarlett Pitts",
+    "nome": "Maxine",
+    "email": "Aliquam.erat@vitaealiquet.com",
+    "celular": "11-98821-8486",
+    "senha": "CYS74ZHM3MQ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 90,
+        "titulo": "metus. Aliquam erat volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh.",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": "True",
+        "endereco": "7860 Justo Rd.",
+        "categoria": {
+          "idCategoria": 16,
+          "nome": "MeetUp",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 118,
+    "apelido": "Madeson Hewitt",
+    "nome": "Jesse",
+    "email": "egestas.rhoncus.Proin@nonloremvitae.org",
+    "celular": "11-15925-6602",
+    "senha": "AVB55HZN4FS",
+    "eventosOrganizados": [
+      {
+        "idEvento": 6,
+        "titulo": "ligula tortor, dictum eu, placerat eget, venenatis a, magna. Lorem",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem",
+        "senha": "True",
+        "endereco": "Ap #978-3344 Egestas. Street",
+        "categoria": {
+          "idCategoria": 12,
+          "nome": "Video Game",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 119,
+    "apelido": "Inga Rodriguez",
+    "nome": "Trevor",
+    "email": "leo.Morbi.neque@nuncidenim.com",
+    "celular": "11-91667-6791",
+    "senha": "XTJ91BWE3MW",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 120,
+    "apelido": "Nyssa W. Heath",
+    "nome": "Debra",
+    "email": "eu.nulla.at@at.com",
+    "celular": "11-62468-1020",
+    "senha": "PNL87GBQ2LM",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 121,
+    "apelido": "Ezekiel Gonzalez",
+    "nome": "William",
+    "email": "orci@dapibusligulaAliquam.co.uk",
+    "celular": "11-52927-9002",
+    "senha": "PNG02EUK0QR",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 122,
+    "apelido": "Callie Vaughan",
+    "nome": "Deacon",
+    "email": "amet.risus@mattisInteger.com",
+    "celular": "11-10618-1904",
+    "senha": "CYH87KUJ8UT",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 123,
+    "apelido": "Aidan I. Simon",
+    "nome": "Samson",
+    "email": "risus.Morbi.metus@diamluctus.ca",
+    "celular": "11-10492-7366",
+    "senha": "MNG98EBG7PP",
+    "eventosOrganizados": [
+      {
+        "idEvento": 34,
+        "titulo": "lorem vitae odio sagittis semper. Nam tempor diam dictum sapien.",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": "True",
+        "endereco": "P.O. Box 758, 9746 Ac Street",
+        "categoria": {
+          "idCategoria": 10,
+          "nome": "Boxe",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 124,
+    "apelido": "Colorado Davis",
+    "nome": "Brennan",
+    "email": "Curabitur.dictum@quislectusNullam.org",
+    "celular": "11-18211-7387",
+    "senha": "FLF28GOZ1KU",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 125,
+    "apelido": "Tanner Brooks",
+    "nome": "John",
+    "email": "mauris@ultriciesdignissim.co.uk",
+    "celular": "11-33961-1857",
+    "senha": "WIM23HWM3XH",
+    "eventosOrganizados": [
+      {
+        "idEvento": 44,
+        "titulo": "purus. Duis elementum, dui quis accumsan convallis, ante lectus convallis",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/06/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": "True",
+        "endereco": "3553 Urna, Rd.",
+        "categoria": {
+          "idCategoria": 25,
+          "nome": "HP",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 66,
+        "titulo": "semper tellus id nunc interdum feugiat. Sed nec metus facilisis",
+        "dataInicio": "01/06/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "P.O. Box 163, 9910 Mauris Road",
+        "categoria": {
+          "idCategoria": 10,
+          "nome": "Boxe",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 88,
+        "titulo": "neque sed dictum eleifend, nunc risus varius orci, in consequat",
+        "dataInicio": "01/04/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": null,
+        "endereco": "416-5483 Dui, Avenue",
+        "categoria": {
+          "idCategoria": 20,
+          "nome": "Noturno",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 12,
+            "nome": "baladas"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 141,
+        "titulo": "Sed eu eros. Nam consequat dolor vitae dolor. Donec fringilla.",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": "True",
+        "endereco": "4259 Ipsum. Road",
+        "categoria": {
+          "idCategoria": 21,
+          "nome": "Role",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 8,
+            "nome": "encontros"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 126,
+    "apelido": "Stephen E. Finley",
+    "nome": "Grace",
+    "email": "odio.sagittis@tempor.edu",
+    "celular": "11-21352-9765",
+    "senha": "TIV35MKC5ZW",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 127,
+    "apelido": "Blossom I. Hogan",
+    "nome": "Boris",
+    "email": "amet.faucibus.ut@maurissit.org",
+    "celular": "11-36350-1926",
+    "senha": "OBG29PVM8WW",
+    "eventosOrganizados": [
+      {
+        "idEvento": 197,
+        "titulo": "ac mattis ornare, lectus ante dictum mi, ac mattis velit",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": null,
+        "endereco": "169-9845 Eu, Street",
+        "categoria": {
+          "idCategoria": 15,
+          "nome": "Feiras de Tecnologias",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 4,
+            "nome": "tecnologia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 128,
+    "apelido": "Chastity W. Schneider",
+    "nome": "Howard",
+    "email": "semper.rutrum.Fusce@laciniavitaesodales.edu",
+    "celular": "11-62046-4090",
+    "senha": "NJF57SRV9VE",
+    "eventosOrganizados": [
+      {
+        "idEvento": 96,
+        "titulo": "augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed,",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer",
+        "senha": null,
+        "endereco": "Ap #769-8995 Vivamus Av.",
+        "categoria": {
+          "idCategoria": 21,
+          "nome": "Role",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 8,
+            "nome": "encontros"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 129,
+    "apelido": "Keaton Hart",
+    "nome": "Gavin",
+    "email": "a.ultricies@antebibendum.co.uk",
+    "celular": "11-60088-2981",
+    "senha": "GBG30ADJ3KE",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 130,
+    "apelido": "Ignatius S. Conrad",
+    "nome": "Scott",
+    "email": "lacus@quam.edu",
+    "celular": "11-93848-6150",
+    "senha": "CCD04ZZS1GQ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 45,
+        "titulo": "Sed eu eros. Nam consequat dolor vitae dolor. Donec fringilla.",
+        "dataInicio": "01/07/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": null,
+        "endereco": "Ap #831-6236 Eleifend St.",
+        "categoria": {
+          "idCategoria": 7,
+          "nome": "Natação",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 120,
+        "titulo": "lorem tristique aliquet. Phasellus fermentum convallis ligula. Donec luctus aliquet",
+        "dataInicio": "01/06/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "7728 Lorem St.",
+        "categoria": {
+          "idCategoria": 24,
+          "nome": "Bares",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 160,
+        "titulo": "non, lobortis quis, pede. Suspendisse dui. Fusce diam nunc, ullamcorper",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": "True",
+        "endereco": "P.O. Box 478, 2259 Tempor Ave",
+        "categoria": {
+          "idCategoria": 19,
+          "nome": "Baladas noturna",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 12,
+            "nome": "baladas"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 131,
+    "apelido": "Xenos D. Knowles",
+    "nome": "Ulysses",
+    "email": "elit.sed.consequat@Suspendisseac.com",
+    "celular": "11-24294-1256",
+    "senha": "FFS63BXD9MD",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 132,
+    "apelido": "Devin French",
+    "nome": "Rashad",
+    "email": "Integer.vulputate.risus@blandit.com",
+    "celular": "11-86389-8167",
+    "senha": "JXH06VSZ1VL",
+    "eventosOrganizados": [
+      {
+        "idEvento": 125,
+        "titulo": "libero. Proin mi. Aliquam gravida mauris ut mi. Duis risus",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum",
+        "senha": "True",
+        "endereco": "Ap #365-5461 Nibh St.",
+        "categoria": {
+          "idCategoria": 23,
+          "nome": "Amigos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 133,
+    "apelido": "Joel C. Rice",
+    "nome": "Idola",
+    "email": "eu.eros.Nam@lectusjusto.co.uk",
+    "celular": "11-43521-7989",
+    "senha": "AYY19QFY4FL",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 134,
+    "apelido": "Dennis Roth",
+    "nome": "Arden",
+    "email": "lobortis.augue.scelerisque@imperdietdictum.ca",
+    "celular": "11-30964-8449",
+    "senha": "WAR77ZOA0XV",
+    "eventosOrganizados": [
+      {
+        "idEvento": 165,
+        "titulo": "pellentesque, tellus sem mollis dui, in sodales elit erat vitae",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/07/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": null,
+        "endereco": "Ap #132-8436 A St.",
+        "categoria": {
+          "idCategoria": 14,
+          "nome": "Feiras de Empreendedorismo",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 3,
+            "nome": "negocios"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 135,
+    "apelido": "Felix J. Odom",
+    "nome": "Barrett",
+    "email": "nibh.enim@magna.co.uk",
+    "celular": "11-25919-2506",
+    "senha": "UZD61ALA0ZJ",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 136,
+    "apelido": "Irma Rose",
+    "nome": "Yoshio",
+    "email": "tempor.bibendum.Donec@magnaSed.edu",
+    "celular": "11-28915-1459",
+    "senha": "GHR31COB3ZP",
+    "eventosOrganizados": [
+      {
+        "idEvento": 36,
+        "titulo": "feugiat. Sed nec metus facilisis lorem tristique aliquet. Phasellus fermentum",
+        "dataInicio": "01/09/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum",
+        "senha": "True",
+        "endereco": "P.O. Box 465, 9814 Enim Rd.",
+        "categoria": {
+          "idCategoria": 15,
+          "nome": "Feiras de Tecnologias",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 4,
+            "nome": "tecnologia"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 48,
+        "titulo": "bibendum. Donec felis orci, adipiscing non, luctus sit amet, faucibus",
+        "dataInicio": "01/07/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": "True",
+        "endereco": "P.O. Box 386, 6724 Turpis Ave",
+        "categoria": {
+          "idCategoria": 1,
+          "nome": "futebol",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 189,
+        "titulo": "Donec dignissim magna a tortor. Nunc commodo auctor velit. Aliquam",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": "True",
+        "endereco": "P.O. Box 836, 6915 Ornare Avenue",
+        "categoria": {
+          "idCategoria": 9,
+          "nome": "Ginástica",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 137,
+    "apelido": "Molly E. Gay",
+    "nome": "Melanie",
+    "email": "mattis@CurabiturdictumPhasellus.org",
+    "celular": "11-16466-4523",
+    "senha": "ROW72IWO9JZ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 51,
+        "titulo": "Donec at arcu. Vestibulum ante ipsum primis in faucibus orci",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum",
+        "senha": "True",
+        "endereco": "Ap #745-9574 Dui Avenue",
+        "categoria": {
+          "idCategoria": 12,
+          "nome": "Video Game",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 127,
+        "titulo": "Nam ligula elit, pretium et, rutrum non, hendrerit id, ante.",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": "True",
+        "endereco": "P.O. Box 829, 3170 Aenean Rd.",
+        "categoria": {
+          "idCategoria": 15,
+          "nome": "Feiras de Tecnologias",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 4,
+            "nome": "tecnologia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 138,
+    "apelido": "Uriel A. Morin",
+    "nome": "Hu",
+    "email": "Sed@sagittis.net",
+    "celular": "11-21165-8888",
+    "senha": "MIJ92TVJ0PG",
+    "eventosOrganizados": [
+      {
+        "idEvento": 173,
+        "titulo": "luctus vulputate, nisi sem semper erat, in consectetuer ipsum nunc",
+        "dataInicio": "01/04/2018",
+        "dataFim": "01/07/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": "True",
+        "endereco": "7578 Consequat Av.",
+        "categoria": {
+          "idCategoria": 13,
+          "nome": "Jogos de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 139,
+    "apelido": "Katell E. Briggs",
+    "nome": "Maya",
+    "email": "neque@Nullamscelerisque.net",
+    "celular": "11-55992-0247",
+    "senha": "IWD86FQF5WP",
+    "eventosOrganizados": [
+      {
+        "idEvento": 60,
+        "titulo": "felis eget varius ultrices, mauris ipsum porta elit, a feugiat",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/07/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "658-5914 Et Rd.",
+        "categoria": {
+          "idCategoria": 11,
+          "nome": "E-Sports",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 140,
+    "apelido": "Gemma Mccarthy",
+    "nome": "Priscilla",
+    "email": "ultricies.ligula.Nullam@orciDonec.net",
+    "celular": "11-78267-5957",
+    "senha": "ADP99ZSQ0FJ",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 141,
+    "apelido": "Nasim Reilly",
+    "nome": "Clark",
+    "email": "nec.luctus@fermentum.edu",
+    "celular": "11-46758-9916",
+    "senha": "TOR90UBR5DF",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 142,
+    "apelido": "Burton Mays",
+    "nome": "Olga",
+    "email": "Aliquam@nonantebibendum.org",
+    "celular": "11-37842-8106",
+    "senha": "UMH57TBZ7PT",
+    "eventosOrganizados": [
+      {
+        "idEvento": 109,
+        "titulo": "a nunc. In at pede. Cras vulputate velit eu sem.",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum",
+        "senha": null,
+        "endereco": "953-5505 Cras Ave",
+        "categoria": {
+          "idCategoria": 25,
+          "nome": "HP",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 143,
+    "apelido": "Jemima Medina",
+    "nome": "Price",
+    "email": "risus@auctorodio.edu",
+    "celular": "11-54481-4889",
+    "senha": "PZY10GCS1CJ",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 144,
+    "apelido": "Holly Oliver",
+    "nome": "Leonard",
+    "email": "dapibus@varius.org",
+    "celular": "11-13914-0536",
+    "senha": "DSA08HBN6UK",
+    "eventosOrganizados": [
+      {
+        "idEvento": 105,
+        "titulo": "interdum feugiat. Sed nec metus facilisis lorem tristique aliquet. Phasellus",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": "True",
+        "endereco": "284 Diam Rd.",
+        "categoria": {
+          "idCategoria": 8,
+          "nome": "Tênis de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 145,
+    "apelido": "Wesley S. Sherman",
+    "nome": "Lawrence",
+    "email": "at.libero.Morbi@rutrumlorem.ca",
+    "celular": "11-81295-9558",
+    "senha": "RRQ46VSB9FT",
+    "eventosOrganizados": [
+      {
+        "idEvento": 149,
+        "titulo": "Suspendisse commodo tincidunt nibh. Phasellus nulla. Integer vulputate, risus a",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer",
+        "senha": null,
+        "endereco": "Ap #261-6653 Eleifend Av.",
+        "categoria": {
+          "idCategoria": 21,
+          "nome": "Role",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 8,
+            "nome": "encontros"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 158,
+        "titulo": "eros. Nam consequat dolor vitae dolor. Donec fringilla. Donec feugiat",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/07/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": null,
+        "endereco": "Ap #626-6695 Ipsum Avenue",
+        "categoria": {
+          "idCategoria": 5,
+          "nome": "Baseball",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 146,
+    "apelido": "Stewart W. Hinton",
+    "nome": "Edan",
+    "email": "cubilia.Curae@venenatisa.net",
+    "celular": "11-81330-1718",
+    "senha": "YAU45OZF1OR",
+    "eventosOrganizados": [
+      {
+        "idEvento": 19,
+        "titulo": "ac sem ut dolor dapibus gravida. Aliquam tincidunt, nunc ac",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": null,
+        "endereco": "950-6412 Id, Road",
+        "categoria": {
+          "idCategoria": 22,
+          "nome": "Aniversario",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 91,
+        "titulo": "amet ornare lectus justo eu arcu. Morbi sit amet massa.",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer",
+        "senha": "True",
+        "endereco": "635-3526 Dui, Av.",
+        "categoria": {
+          "idCategoria": 14,
+          "nome": "Feiras de Empreendedorismo",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 3,
+            "nome": "negocios"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 106,
+        "titulo": "lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at",
+        "dataInicio": "01/12/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem",
+        "senha": null,
+        "endereco": "986-4146 Ut, St.",
+        "categoria": {
+          "idCategoria": 23,
+          "nome": "Amigos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 147,
+    "apelido": "Virginia B. Conner",
+    "nome": "Marvin",
+    "email": "ac.libero.nec@Donecegestas.org",
+    "celular": "11-31574-9142",
+    "senha": "YRB57GEY5YI",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 148,
+    "apelido": "Jesse G. Valenzuela",
+    "nome": "Jenna",
+    "email": "ornare.sagittis@tristique.org",
+    "celular": "11-92411-6395",
+    "senha": "XTS35TYM7GA",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 149,
+    "apelido": "Tasha A. Holder",
+    "nome": "Geoffrey",
+    "email": "libero.Integer@ultrices.com",
+    "celular": "11-59343-9634",
+    "senha": "VPB80KBW8ZF",
+    "eventosOrganizados": [
+      {
+        "idEvento": 61,
+        "titulo": "mauris. Integer sem elit, pharetra ut, pharetra sed, hendrerit a,",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": "True",
+        "endereco": "Ap #873-5305 Phasellus St.",
+        "categoria": {
+          "idCategoria": 1,
+          "nome": "futebol",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 150,
+    "apelido": "Hop S. Willis",
+    "nome": "Davis",
+    "email": "fermentum.metus@consequatdolor.net",
+    "celular": "11-68446-7115",
+    "senha": "MAC50CCV6EY",
+    "eventosOrganizados": [
+      {
+        "idEvento": 5,
+        "titulo": "vitae, orci. Phasellus dapibus quam quis diam. Pellentesque habitant morbi",
+        "dataInicio": "01/08/2018",
+        "dataFim": "01/06/2018",
+        "descricao": "Lorem ipsum",
+        "senha": "True",
+        "endereco": "Ap #282-2179 Ultricies Road",
+        "categoria": {
+          "idCategoria": 6,
+          "nome": "Golfe",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 151,
+    "apelido": "Dawn I. Hodges",
+    "nome": "Jamal",
+    "email": "mauris.sapien.cursus@semperdui.org",
+    "celular": "11-22497-6683",
+    "senha": "MMQ56LWC9VY",
+    "eventosOrganizados": [
+      {
+        "idEvento": 12,
+        "titulo": "pede, ultrices a, auctor non, feugiat nec, diam. Duis mi",
+        "dataInicio": "01/06/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": "True",
+        "endereco": "124-5342 Lobortis Road",
+        "categoria": {
+          "idCategoria": 15,
+          "nome": "Feiras de Tecnologias",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 4,
+            "nome": "tecnologia"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 41,
+        "titulo": "ac orci. Ut semper pretium neque. Morbi quis urna. Nunc",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": "True",
+        "endereco": "381-7151 Odio Avenue",
+        "categoria": {
+          "idCategoria": 19,
+          "nome": "Baladas noturna",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 12,
+            "nome": "baladas"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 152,
+    "apelido": "Allegra F. Gilliam",
+    "nome": "Shelly",
+    "email": "Curabitur@idmollis.org",
+    "celular": "11-12566-5079",
+    "senha": "DSO27ZEJ8CN",
+    "eventosOrganizados": [
+      {
+        "idEvento": 95,
+        "titulo": "tincidunt aliquam arcu. Aliquam ultrices iaculis odio. Nam interdum enim",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/08/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": null,
+        "endereco": "886-7785 Vehicula. Rd.",
+        "categoria": {
+          "idCategoria": 21,
+          "nome": "Role",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 8,
+            "nome": "encontros"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 153,
+    "apelido": "Damon Beard",
+    "nome": "Fitzgerald",
+    "email": "nibh.lacinia@ullamcorperDuis.ca",
+    "celular": "11-48395-2877",
+    "senha": "LIP70OUL2XN",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 154,
+    "apelido": "Ulla B. Joseph",
+    "nome": "Lacota",
+    "email": "tristique@et.org",
+    "celular": "11-28261-7116",
+    "senha": "TCN79IRJ5OT",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 155,
+    "apelido": "Evangeline Q. Shannon",
+    "nome": "Giselle",
+    "email": "bibendum.ullamcorper@enimmitempor.com",
+    "celular": "11-81428-0081",
+    "senha": "XHA36ZWY0HQ",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 156,
+    "apelido": "Moses W. Owens",
+    "nome": "Chanda",
+    "email": "In.faucibus@Aliquamerat.com",
+    "celular": "11-11221-6759",
+    "senha": "NMZ59ZQQ7DP",
+    "eventosOrganizados": [
+      {
+        "idEvento": 144,
+        "titulo": "sem ut dolor dapibus gravida. Aliquam tincidunt, nunc ac mattis",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/01/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": null,
+        "endereco": "2282 Porttitor Road",
+        "categoria": {
+          "idCategoria": 7,
+          "nome": "Natação",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 157,
+    "apelido": "Risa Hewitt",
+    "nome": "Dillon",
+    "email": "a.nunc.In@sagittis.ca",
+    "celular": "11-38086-5431",
+    "senha": "KYK92HAY7TE",
+    "eventosOrganizados": [
+      {
+        "idEvento": 162,
+        "titulo": "turpis vitae purus gravida sagittis. Duis gravida. Praesent eu nulla",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/01/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "893-9032 Iaculis Rd.",
+        "categoria": {
+          "idCategoria": 4,
+          "nome": "Tênis",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 158,
+    "apelido": "May Cunningham",
+    "nome": "Dale",
+    "email": "sem@suscipitestac.com",
+    "celular": "11-11522-3116",
+    "senha": "PHQ22JQU4LS",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 159,
+    "apelido": "Shaeleigh Z. Barton",
+    "nome": "Lyle",
+    "email": "parturient.montes.nascetur@ultriciesadipiscingenim.org",
+    "celular": "11-59029-1562",
+    "senha": "XQG13WKG5CC",
+    "eventosOrganizados": [
+      {
+        "idEvento": 184,
+        "titulo": "in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod est",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/01/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": "True",
+        "endereco": "Ap #472-8350 Auctor, Ave",
+        "categoria": {
+          "idCategoria": 21,
+          "nome": "Role",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 8,
+            "nome": "encontros"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 160,
+    "apelido": "Samson I. Blair",
+    "nome": "Basia",
+    "email": "aliquet.metus@vitaeerat.net",
+    "celular": "11-77239-7076",
+    "senha": "ZJT73MQO2EB",
+    "eventosOrganizados": [
+      {
+        "idEvento": 25,
+        "titulo": "aliquet odio. Etiam ligula tortor, dictum eu, placerat eget, venenatis",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/01/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": null,
+        "endereco": "Ap #371-2426 Aliquam Rd.",
+        "categoria": {
+          "idCategoria": 11,
+          "nome": "E-Sports",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 161,
+    "apelido": "Noelle F. Holland",
+    "nome": "Charde",
+    "email": "ultricies.dignissim@mollisIntegertincidunt.org",
+    "celular": "11-95891-9277",
+    "senha": "YBL24USE7BU",
+    "eventosOrganizados": [
+      {
+        "idEvento": 132,
+        "titulo": "purus gravida sagittis. Duis gravida. Praesent eu nulla at sem",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/07/2018",
+        "descricao": "Lorem ipsum",
+        "senha": null,
+        "endereco": "642 Sit Street",
+        "categoria": {
+          "idCategoria": 10,
+          "nome": "Boxe",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 194,
+        "titulo": "ultricies adipiscing, enim mi tempor lorem, eget mollis lectus pede",
+        "dataInicio": "01/12/2018",
+        "dataFim": "01/01/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "282-3069 Nunc Rd.",
+        "categoria": {
+          "idCategoria": 17,
+          "nome": "Palestras",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 162,
+    "apelido": "Graham Abbott",
+    "nome": "Mohammad",
+    "email": "erat.Vivamus@sem.com",
+    "celular": "11-44511-5148",
+    "senha": "RYJ40RES5IA",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 163,
+    "apelido": "Autumn J. Webb",
+    "nome": "Jared",
+    "email": "non.sapien@magnis.net",
+    "celular": "11-25711-0625",
+    "senha": "HPD34GGH8GE",
+    "eventosOrganizados": [
+      {
+        "idEvento": 39,
+        "titulo": "posuere, enim nisl elementum purus, accumsan interdum libero dui nec",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": "True",
+        "endereco": "441-7340 Mauris Street",
+        "categoria": {
+          "idCategoria": 3,
+          "nome": "Basquete",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 103,
+        "titulo": "tempus non, lacinia at, iaculis quis, pede. Praesent eu dui.",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer",
+        "senha": null,
+        "endereco": "Ap #353-6370 Ipsum. Av.",
+        "categoria": {
+          "idCategoria": 16,
+          "nome": "MeetUp",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 135,
+        "titulo": "erat eget ipsum. Suspendisse sagittis. Nullam vitae diam. Proin dolor.",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": null,
+        "endereco": "918-2086 In St.",
+        "categoria": {
+          "idCategoria": 21,
+          "nome": "Role",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 8,
+            "nome": "encontros"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 164,
+    "apelido": "Megan James",
+    "nome": "Zachary",
+    "email": "a@acmattis.co.uk",
+    "celular": "11-17739-6364",
+    "senha": "LNL81YMD7AR",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 165,
+    "apelido": "Declan X. Le",
+    "nome": "Nathaniel",
+    "email": "Mauris.nulla@dolorQuisquetincidunt.co.uk",
+    "celular": "11-17632-1866",
+    "senha": "NKA26WQV9GO",
+    "eventosOrganizados": [
+      {
+        "idEvento": 93,
+        "titulo": "tincidunt, neque vitae semper egestas, urna justo faucibus lectus, a",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/12/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": null,
+        "endereco": "Ap #868-8686 Nulla. Rd.",
+        "categoria": {
+          "idCategoria": 12,
+          "nome": "Video Game",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 166,
+    "apelido": "Iola Garza",
+    "nome": "Duncan",
+    "email": "Quisque.porttitor.eros@mauris.net",
+    "celular": "11-92335-1865",
+    "senha": "RVU63MFC9YN",
+    "eventosOrganizados": [
+      {
+        "idEvento": 111,
+        "titulo": "Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales purus,",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": "True",
+        "endereco": "P.O. Box 819, 305 Imperdiet Avenue",
+        "categoria": {
+          "idCategoria": 15,
+          "nome": "Feiras de Tecnologias",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 4,
+            "nome": "tecnologia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 167,
+    "apelido": "Molly Phillips",
+    "nome": "Derek",
+    "email": "Donec.at@anteNuncmauris.org",
+    "celular": "11-17097-8713",
+    "senha": "DBK83YXM0UX",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 168,
+    "apelido": "Jarrod Daugherty",
+    "nome": "Nyssa",
+    "email": "ipsum.cursus.vestibulum@mollis.co.uk",
+    "celular": "11-99416-2799",
+    "senha": "QTG61IQG4HE",
+    "eventosOrganizados": [
+      {
+        "idEvento": 131,
+        "titulo": "tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget",
+        "dataInicio": "01/12/2018",
+        "dataFim": "01/06/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "P.O. Box 473, 4663 Et, St.",
+        "categoria": {
+          "idCategoria": 2,
+          "nome": "Vôlei",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 169,
+    "apelido": "Leonard Vaughan",
+    "nome": "Jarrod",
+    "email": "Fusce.aliquam.enim@senectuset.co.uk",
+    "celular": "11-11738-2136",
+    "senha": "YHP09ZDF8YW",
+    "eventosOrganizados": [
+      {
+        "idEvento": 38,
+        "titulo": "Sed nulla ante, iaculis nec, eleifend non, dapibus rutrum, justo.",
+        "dataInicio": "01/08/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": null,
+        "endereco": "208-6365 In, Road",
+        "categoria": {
+          "idCategoria": 12,
+          "nome": "Video Game",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 43,
+        "titulo": "tempor lorem, eget mollis lectus pede et risus. Quisque libero",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/08/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": "True",
+        "endereco": "430-3745 Tempor Ave",
+        "categoria": {
+          "idCategoria": 2,
+          "nome": "Vôlei",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 170,
+    "apelido": "Samuel Drake",
+    "nome": "Iola",
+    "email": "risus.In.mi@enim.com",
+    "celular": "11-14225-6261",
+    "senha": "ZFS05DEF3AY",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 171,
+    "apelido": "Melanie Horn",
+    "nome": "Shad",
+    "email": "neque.sed@Aliquamnec.co.uk",
+    "celular": "11-15747-8264",
+    "senha": "RKE79DXF4EZ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 121,
+        "titulo": "volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh. Phasellus nulla. Integer",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/01/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": null,
+        "endereco": "458-9226 Placerat. Rd.",
+        "categoria": {
+          "idCategoria": 4,
+          "nome": "Tênis",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 142,
+        "titulo": "Class aptent taciti sociosqu ad litora torquent per conubia nostra,",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/04/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "621-7287 Vel Street",
+        "categoria": {
+          "idCategoria": 13,
+          "nome": "Jogos de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 172,
+    "apelido": "Quentin L. Kirby",
+    "nome": "Sara",
+    "email": "arcu.imperdiet.ullamcorper@blanditmattisCras.net",
+    "celular": "11-78289-3758",
+    "senha": "YDD95GKV7XA",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 173,
+    "apelido": "Abbot Potts",
+    "nome": "Noah",
+    "email": "magnis.dis@Phaselluslibero.edu",
+    "celular": "11-41846-2681",
+    "senha": "BVL19EFQ1BC",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 174,
+    "apelido": "Kay Calhoun",
+    "nome": "Hillary",
+    "email": "venenatis.vel.faucibus@et.edu",
+    "celular": "11-21017-8364",
+    "senha": "PJQ26WGX9ZZ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 182,
+        "titulo": "semper pretium neque. Morbi quis urna. Nunc quis arcu vel",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/06/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": "True",
+        "endereco": "Ap #502-9515 Turpis Av.",
+        "categoria": {
+          "idCategoria": 19,
+          "nome": "Baladas noturna",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 12,
+            "nome": "baladas"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 175,
+    "apelido": "Riley Vang",
+    "nome": "Oscar",
+    "email": "sit.amet@fermentum.ca",
+    "celular": "11-52723-2800",
+    "senha": "EBY53CMD3QA",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 176,
+    "apelido": "Lydia P. Middleton",
+    "nome": "Thane",
+    "email": "sit.amet@Donec.edu",
+    "celular": "11-37617-4353",
+    "senha": "SRS92CYB5VE",
+    "eventosOrganizados": [
+      {
+        "idEvento": 115,
+        "titulo": "lobortis mauris. Suspendisse aliquet molestie tellus. Aenean egestas hendrerit neque.",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/09/2018",
+        "descricao": "Lorem ipsum dolor sit amet,",
+        "senha": "True",
+        "endereco": "P.O. Box 528, 4645 Interdum. Av.",
+        "categoria": {
+          "idCategoria": 10,
+          "nome": "Boxe",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 177,
+    "apelido": "Benjamin Mendez",
+    "nome": "Buckminster",
+    "email": "fringilla@afelisullamcorper.co.uk",
+    "celular": "11-88236-2368",
+    "senha": "QKI31PKB4JG",
+    "eventosOrganizados": [
+      {
+        "idEvento": 62,
+        "titulo": "in, hendrerit consectetuer, cursus et, magna. Praesent interdum ligula eu",
+        "dataInicio": "01/12/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": "True",
+        "endereco": "536-8652 Cursus Street",
+        "categoria": {
+          "idCategoria": 9,
+          "nome": "Ginástica",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 177,
+        "titulo": "in, cursus et, eros. Proin ultrices. Duis volutpat nunc sit",
+        "dataInicio": "01/04/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": "True",
+        "endereco": "Ap #188-4293 Id, Road",
+        "categoria": {
+          "idCategoria": 16,
+          "nome": "MeetUp",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 178,
+    "apelido": "Jordan M. Arnold",
+    "nome": "Andrew",
+    "email": "est.Nunc.ullamcorper@mus.edu",
+    "celular": "11-23630-9889",
+    "senha": "LVC56ROF6VO",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 179,
+    "apelido": "Mohammad H. Gould",
+    "nome": "Damian",
+    "email": "ipsum@Maurisvel.ca",
+    "celular": "11-36772-9450",
+    "senha": "REX21EPJ2PY",
+    "eventosOrganizados": [
+      {
+        "idEvento": 183,
+        "titulo": "libero est, congue a, aliquet vel, vulputate eu, odio. Phasellus",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": null,
+        "endereco": "227-3148 Lacus, St.",
+        "categoria": {
+          "idCategoria": 21,
+          "nome": "Role",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 8,
+            "nome": "encontros"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 180,
+    "apelido": "Colby Carlson",
+    "nome": "May",
+    "email": "in@quamPellentesquehabitant.org",
+    "celular": "11-35471-1371",
+    "senha": "HTJ59NPY1ZL",
+    "eventosOrganizados": [
+      {
+        "idEvento": 147,
+        "titulo": "purus mauris a nunc. In at pede. Cras vulputate velit",
+        "dataInicio": "01/09/2018",
+        "dataFim": "01/07/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": null,
+        "endereco": "Ap #379-3774 Vel Rd.",
+        "categoria": {
+          "idCategoria": 13,
+          "nome": "Jogos de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 181,
+    "apelido": "Philip J. Robinson",
+    "nome": "Charity",
+    "email": "at.pede@accumsanconvallisante.ca",
+    "celular": "11-90431-3503",
+    "senha": "ZOP33OIF6GC",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 182,
+    "apelido": "Hall Z. Estes",
+    "nome": "Wynne",
+    "email": "quam.a.felis@amet.com",
+    "celular": "11-39895-4771",
+    "senha": "NGZ46ROO0MW",
+    "eventosOrganizados": [
+      {
+        "idEvento": 40,
+        "titulo": "pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper,",
+        "dataInicio": "01/06/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": "True",
+        "endereco": "Ap #142-3310 Dapibus Ave",
+        "categoria": {
+          "idCategoria": 10,
+          "nome": "Boxe",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 183,
+    "apelido": "Damian Frank",
+    "nome": "Shelley",
+    "email": "sed.consequat@quisdiam.co.uk",
+    "celular": "11-84246-0631",
+    "senha": "RNQ63LYL1OI",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 184,
+    "apelido": "Barrett Russo",
+    "nome": "Hashim",
+    "email": "Donec.porttitor@a.net",
+    "celular": "11-72958-6555",
+    "senha": "MLP57QZC0RU",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 185,
+    "apelido": "Rama C. Wynn",
+    "nome": "Cynthia",
+    "email": "placerat.Cras@mollis.ca",
+    "celular": "11-97020-5613",
+    "senha": "YMY67ESN6GN",
+    "eventosOrganizados": [
+      {
+        "idEvento": 46,
+        "titulo": "ornare, libero at auctor ullamcorper, nisl arcu iaculis enim, sit",
+        "dataInicio": "01/08/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur sed",
+        "senha": "True",
+        "endereco": "436 Per Road",
+        "categoria": {
+          "idCategoria": 25,
+          "nome": "HP",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 89,
+        "titulo": "sodales. Mauris blandit enim consequat purus. Maecenas libero est, congue",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": "True",
+        "endereco": "868-7863 Neque Avenue",
+        "categoria": {
+          "idCategoria": 24,
+          "nome": "Bares",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 195,
+        "titulo": "nec ante. Maecenas mi felis, adipiscing fringilla, porttitor vulputate, posuere",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/03/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": null,
+        "endereco": "P.O. Box 793, 3237 Aenean Ave",
+        "categoria": {
+          "idCategoria": 3,
+          "nome": "Basquete",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 186,
+    "apelido": "Gregory Q. Giles",
+    "nome": "Cairo",
+    "email": "a@variuseteuismod.net",
+    "celular": "11-93040-4667",
+    "senha": "CJF04YAK3AL",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 187,
+    "apelido": "Zachary D. Walker",
+    "nome": "Cole",
+    "email": "auctor.quis@loremegetmollis.com",
+    "celular": "11-60498-5501",
+    "senha": "RXU03ZVI3MJ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 31,
+        "titulo": "eu, euismod ac, fermentum vel, mauris. Integer sem elit, pharetra",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/07/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "P.O. Box 925, 8985 Quisque St.",
+        "categoria": {
+          "idCategoria": 9,
+          "nome": "Ginástica",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 188,
+    "apelido": "John Long",
+    "nome": "Quynn",
+    "email": "quam.elementum.at@elitAliquamauctor.org",
+    "celular": "11-84798-9542",
+    "senha": "SUE33AFQ9NU",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 189,
+    "apelido": "Skyler V. Davidson",
+    "nome": "Rooney",
+    "email": "tincidunt.pede.ac@aliquetmagna.co.uk",
+    "celular": "11-51874-2714",
+    "senha": "KYX57NJX3QA",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 190,
+    "apelido": "Ali Y. Puckett",
+    "nome": "Leah",
+    "email": "magna@cursusnonegestas.ca",
+    "celular": "11-61584-5232",
+    "senha": "CIL58SZX8IJ",
+    "eventosOrganizados": [
+      {
+        "idEvento": 21,
+        "titulo": "nascetur ridiculus mus. Proin vel nisl. Quisque fringilla euismod enim.",
+        "dataInicio": "01/07/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum",
+        "senha": null,
+        "endereco": "7444 Consectetuer Road",
+        "categoria": {
+          "idCategoria": 13,
+          "nome": "Jogos de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 2,
+            "nome": "jogos"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 29,
+        "titulo": "suscipit nonummy. Fusce fermentum fermentum arcu. Vestibulum ante ipsum primis",
+        "dataInicio": "01/08/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum",
+        "senha": "True",
+        "endereco": "P.O. Box 621, 257 Erat Street",
+        "categoria": {
+          "idCategoria": 18,
+          "nome": "Encontros religiosos",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 10,
+            "nome": "religioso"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 72,
+        "titulo": "ultrices posuere cubilia Curae, Donec tincidunt. Donec vitae erat vel",
+        "dataInicio": "01/01/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "senha": "True",
+        "endereco": "Ap #293-7014 Mi, Avenue",
+        "categoria": {
+          "idCategoria": 7,
+          "nome": "Natação",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 191,
+    "apelido": "Buckminster Warner",
+    "nome": "Driscoll",
+    "email": "Donec.tincidunt@vitae.edu",
+    "celular": "11-86094-1706",
+    "senha": "KTB63XTV3WO",
+    "eventosOrganizados": [
+      {
+        "idEvento": 52,
+        "titulo": "a felis ullamcorper viverra. Maecenas iaculis aliquet diam. Sed diam",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum dolor sit",
+        "senha": null,
+        "endereco": "6440 Consequat Street",
+        "categoria": {
+          "idCategoria": 22,
+          "nome": "Aniversario",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 56,
+        "titulo": "ut eros non enim commodo hendrerit. Donec porttitor tellus non",
+        "dataInicio": "01/02/2018",
+        "dataFim": "01/02/2018",
+        "descricao": "Lorem ipsum",
+        "senha": "True",
+        "endereco": "Ap #397-3282 A St.",
+        "categoria": {
+          "idCategoria": 4,
+          "nome": "Tênis",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 192,
+    "apelido": "Adrian F. Williamson",
+    "nome": "Kylan",
+    "email": "ac.metus@duiinsodales.ca",
+    "celular": "11-33565-9828",
+    "senha": "FDP10ZIW7AN",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 193,
+    "apelido": "Roth Blevins",
+    "nome": "William",
+    "email": "a@tempuslorem.com",
+    "celular": "11-55593-6703",
+    "senha": "KWP44WRV4PD",
+    "eventosOrganizados": [
+      {
+        "idEvento": 67,
+        "titulo": "imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non,",
+        "dataInicio": "01/07/2018",
+        "dataFim": "01/06/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": "True",
+        "endereco": "P.O. Box 902, 1790 Eget St.",
+        "categoria": {
+          "idCategoria": 8,
+          "nome": "Tênis de Mesa",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 194,
+    "apelido": "Keefe N. Marks",
+    "nome": "Ginger",
+    "email": "urna@penatibus.edu",
+    "celular": "11-73489-9828",
+    "senha": "MJA39PTD6FB",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 195,
+    "apelido": "Stuart S. Bird",
+    "nome": "Zelda",
+    "email": "tempor@amet.edu",
+    "celular": "11-98983-4257",
+    "senha": "SFA81CTX4FF",
+    "eventosOrganizados": [
+      {
+        "idEvento": 7,
+        "titulo": "dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus.",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/09/2018",
+        "descricao": "Lorem",
+        "senha": null,
+        "endereco": "Ap #414-5141 Egestas. Av.",
+        "categoria": {
+          "idCategoria": 4,
+          "nome": "Tênis",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 196,
+    "apelido": "Roth Noble",
+    "nome": "Maile",
+    "email": "dui@mi.com",
+    "celular": "11-29331-3721",
+    "senha": "ALL54AJJ4VT",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 197,
+    "apelido": "Harper Reilly",
+    "nome": "Jakeem",
+    "email": "dictum@tinciduntaliquam.net",
+    "celular": "11-37415-3195",
+    "senha": "CEF39QLE1DA",
+    "eventosOrganizados": [
+      {
+        "idEvento": 15,
+        "titulo": "dui. Fusce diam nunc, ullamcorper eu, euismod ac, fermentum vel,",
+        "dataInicio": "01/07/2018",
+        "dataFim": "01/06/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer",
+        "senha": "True",
+        "endereco": "Ap #596-8777 Convallis Street",
+        "categoria": {
+          "idCategoria": 25,
+          "nome": "HP",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 9,
+            "nome": "bares"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 150,
+        "titulo": "Etiam bibendum fermentum metus. Aenean sed pede nec ante blandit",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/10/2018",
+        "descricao": "Lorem ipsum dolor",
+        "senha": "True",
+        "endereco": "P.O. Box 829, 2879 Eu St.",
+        "categoria": {
+          "idCategoria": 16,
+          "nome": "MeetUp",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 6,
+            "nome": "workshop"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 198,
+    "apelido": "Julian Bridges",
+    "nome": "Chancellor",
+    "email": "at.arcu.Vestibulum@mi.org",
+    "celular": "11-46370-7438",
+    "senha": "XNM48BUD0VT",
+    "eventosOrganizados": [
+      {
+        "idEvento": 42,
+        "titulo": "ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/01/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur",
+        "senha": null,
+        "endereco": "Ap #170-471 Scelerisque, Rd.",
+        "categoria": {
+          "idCategoria": 5,
+          "nome": "Baseball",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 80,
+        "titulo": "lectus, a sollicitudin orci sem eget massa. Suspendisse eleifend. Cras",
+        "dataInicio": "01/05/2018",
+        "dataFim": "01/09/2018",
+        "descricao": "Lorem",
+        "senha": null,
+        "endereco": "Ap #192-6311 Nunc Ave",
+        "categoria": {
+          "idCategoria": 9,
+          "nome": "Ginástica",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 1,
+            "nome": "esportes"
+          }
+        },
+        "participantes": []
+      },
+      {
+        "idEvento": 192,
+        "titulo": "euismod et, commodo at, libero. Morbi accumsan laoreet ipsum. Curabitur",
+        "dataInicio": "01/10/2018",
+        "dataFim": "01/08/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer",
+        "senha": null,
+        "endereco": "Ap #802-6180 Duis Avenue",
+        "categoria": {
+          "idCategoria": 19,
+          "nome": "Baladas noturna",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 12,
+            "nome": "baladas"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 199,
+    "apelido": "Brynne R. Sampson",
+    "nome": "Christen",
+    "email": "nisi@commodohendreritDonec.ca",
+    "celular": "11-33461-0456",
+    "senha": "LPI04GWV7BB",
+    "eventosOrganizados": [],
+    "eventosQueParticipo": null
+  },
+  {
+    "idUsuario": 200,
+    "apelido": "Sydnee F. Owens",
+    "nome": "Shafira",
+    "email": "Suspendisse.sagittis.Nullam@dignissimmagnaa.edu",
+    "celular": "11-92859-2760",
+    "senha": "INM54CGW2LI",
+    "eventosOrganizados": [
+      {
+        "idEvento": 169,
+        "titulo": "amet, consectetuer adipiscing elit. Aliquam auctor, velit eget laoreet posuere,",
+        "dataInicio": "01/03/2018",
+        "dataFim": "01/05/2018",
+        "descricao": "Lorem ipsum dolor sit amet, consectetuer adipiscing",
+        "senha": "True",
+        "endereco": "6675 Odio. Ave",
+        "categoria": {
+          "idCategoria": 22,
+          "nome": "Aniversario",
+          "tipoDeCategoria": {
+            "idTipoCategoria": 11,
+            "nome": "familia"
+          }
+        },
+        "participantes": []
+      }
+    ],
+    "eventosQueParticipo": null
+  }
+]

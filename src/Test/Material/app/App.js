@@ -1,6 +1,7 @@
+/* eslint-disable import/named */
 import React from "react";
-import PaginaHome from "./pages/home-page";
+import { Routes } from "./routes/routes";
 
-export default function App() {
-  return <PaginaHome />;
-}
+export const App = () => {
+  return <Routes />;
+};

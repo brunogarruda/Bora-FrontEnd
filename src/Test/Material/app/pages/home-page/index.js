@@ -1,12 +1,13 @@
 import React from "react";
-import { NavBarComponent } from "../../components/NavBarComponent";
 import { Banner } from "../../components/BannerComponent";
+import { CardDefault } from "../../components/views/components/EventosCard_C";
+
 
 export default function HomePage() {
   return (
     <>
-      <NavBarComponent />
       <Banner />
+      <CardDefault />
     </>
   );
 }
