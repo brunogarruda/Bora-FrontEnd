@@ -67,7 +67,7 @@ export const CardDefault = ({ props }) => {
                     {value.titulo}
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
-                    {props}
+                    {value.dataInicio}
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
                     {props}

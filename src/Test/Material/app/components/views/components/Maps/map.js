@@ -1,3 +1,5 @@
+/* eslint-disable prefer-const */
+/* eslint-disable no-const-assign */
 /* eslint-disable no-var */
 /* eslint-disable react/no-this-in-sfc */
 /* eslint-disable consistent-return */
@@ -12,48 +14,38 @@ import googleMapsClient from "@google/maps";
 import { Map, Marker } from "google-maps-react";
 import axios from "axios";
 import { Grid, Paper } from "@material-ui/core";
+import fakeData from "../../../../../../../data/enderecos.json";
 
 export default function MapModel() {
-  const [urlConsultaEndereco, setUrlConsultaEndereco] = useState("");
   const [coordenadasEnderecos, setCoordenadasEnderecos] = useState([]);
-
-  // const consultaEndereco = ({ url }) => {
-  //   const setUrlConsultaEndereco = `https://maps.googleapis.com/maps/api/geocode/json?${url}`;
-  // };
-  var endereco = "03584040";
+  const [geo, setGeo] = useState({
+    latitude: "",
+    longitude: ""
+  });
+  var response = [];
+  fakeData.map(res => response.push(res.endereco));
 
   useEffect(() => {
     async function carregaEnderecos() {
-      const response = axios
-        .get(
-          `https://maps.googleapis.com/maps/api/geocode/json?address=${endereco},+apelido&key=AIzaSyDTjPz7a0H6P78ccjbZHuL0fpPOY8UwQN4`
-        )
-        .then(res => {
-          console.log(res.data);
-        });
+      response.forEach(e =>
+        axios
+          .get(
+            `https://maps.googleapis.com/maps/api/geocode/json?address=${e},+apelido&key=AIzaSyDTjPz7a0H6P78ccjbZHuL0fpPOY8UwQN4`
+          )
+          .then(rrr => {
+            let dd = coordenadasEnderecos;
+            dd.push(rrr.data.results);
+            setCoordenadasEnderecos(dd);
+          })
+      );
     }
     carregaEnderecos();
   }, []);
-  // });
-
-  // console.log(coordenadasEnderecos);
-
-  // console.log(
-  //   "https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway"
-  // );
-
-  //   https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,
-  // +Mountain+View,+CA&key=YOUR_API_KEY
 
   const mapStyles = {
     width: "80%",
     height: "50%"
   };
-
-  const [geo, setGeo] = useState({
-    latitude: "",
-    longitude: ""
-  });
 
   const geoLocation = window.navigator.geolocation.getCurrentPosition(positon => {
     setGeo({
@@ -63,11 +55,23 @@ export default function MapModel() {
     });
   });
 
+  console.log(coordenadasEnderecos);
+
+  // useEffect(() => {
+  //   function teste() {
+  //     const da = dados;
+  //     console.log(da);
+  //     // da.forEach(et=>console.log(et));
+  //   }
+  //   teste();
+  // });
+
   const MapsClient = () =>
     googleMapsClient.createClient({
       key: "AIzaSyDTjPz7a0H6P78ccjbZHuL0fpPOY8UwQN4",
       Promise: Promise
     });
+  MapsClient();
 
   return (
     <Grid container justify>
@@ -79,6 +83,16 @@ export default function MapModel() {
           initialCenter={{ lat: -23.5521232, lng: -46.6375192 }}
         >
           <Marker position={{ lat: geo.latitude, lng: geo.longitude }} />
+          {coordenadasEnderecos.map(value => (
+            // console.log(value)
+            <Marker
+              key={value}
+              position={{
+                lat: value[0].geometry.location.lat,
+                lng: value[0].geometry.location.lng
+              }}
+            />
+          ))}
         </Map>
       </Paper>
     </Grid>

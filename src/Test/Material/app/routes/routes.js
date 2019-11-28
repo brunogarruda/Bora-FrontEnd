@@ -5,6 +5,7 @@ import Loading from '../components/views/components/LoadingCircular_C';
 // import { NavBarComponent } from '../components/NavBarComponent';
 import Header from '../../../../components/Header';
 // import { history } from '../utils/history';
+// import Footer2 from '../../'
 import Footer from '../components/views/components/FooterDefault_C';
 // const Post = lazy(() => import('./components/Loading/Post'))
 const Home = lazy(() => import('../pages/home-page'));

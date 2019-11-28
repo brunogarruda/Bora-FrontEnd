@@ -1,0 +1,38 @@
+[
+  {
+    "idEvento": 142,
+    "titulo": "onubia nostra,",
+    "dataInicio": "01/05/2018",
+    "dataFim": "01/04/2018",
+    "descricao": "Lorem ipsum dolor",
+    "senha": "True",
+    "endereco": "rua valença do minho 159",
+    "categoria": {
+      "idCategoria": 13,
+      "nome": "Jogos de Mesa",
+      "tipoDeCategoria": {
+        "idTipoCategoria": 2,
+        "nome": "jogos"
+      }
+    },
+    "participantes": []
+  },
+  {
+    "idEvento": 175,
+    "titulo": "us dolor elit,",
+    "dataInicio": "01/06/2018",
+    "dataFim": "01/10/2018",
+    "descricao": "Lorem ipsum dolor sit amet, consectetuer",
+    "senha": null,
+    "endereco": "rua morobixaba 657",
+    "categoria": {
+      "idCategoria": 9,
+      "nome": "Ginástica",
+      "tipoDeCategoria": {
+        "idTipoCategoria": 1,
+        "nome": "esportes"
+      }
+    },
+    "participantes": []
+  }
+]
