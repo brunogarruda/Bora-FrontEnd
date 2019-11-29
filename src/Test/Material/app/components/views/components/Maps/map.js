@@ -30,7 +30,7 @@ export default function MapModel() {
       response.forEach(e =>
         axios
           .get(
-            `https://maps.googleapis.com/maps/api/geocode/json?address=${e},+apelido&key=AIzaSyDTjPz7a0H6P78ccjbZHuL0fpPOY8UwQN4`
+            `https://maps.googleapis.com/maps/api/geocode/json?address=${e},+apelido&key=${process.env.REACT_APP_GOOGLE_API_KEY}`
           )
           .then(rrr => {
             let dd = coordenadasEnderecos;
@@ -68,7 +68,7 @@ export default function MapModel() {
 
   const MapsClient = () =>
     googleMapsClient.createClient({
-      key: "AIzaSyDTjPz7a0H6P78ccjbZHuL0fpPOY8UwQN4",
+      key: `${process.env.REACT_APP_GOOGLE_API_KEY}`,
       Promise: Promise
     });
   MapsClient();
