@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { IconButton, Paper, InputBase } from "@material-ui/core";
 import { Search } from "@material-ui/icons";
-import axios from 'axios'
-import { CardMongo } from '../views/components/EventosCard_C'
-import EventoCardList from '../views/components/EventosCard_C/components/EventoCardList'
+import axios from "axios";
+import { CardMongo } from "../views/components/EventosCard_C";
+import EventoCardList from "../views/components/EventosCard_C/components/EventoCardList";
 
 
 const useStyles = makeStyles(theme => ({
@@ -39,26 +39,26 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default () => {
-  const [eventos, setEventos] = useState([])
-  const [value, setValue] = useState("")
+  const [eventos, setEventos] = useState([]);
+  const [value, setValue] = useState("");
 
 
   const classes = useStyles();
 
   const search = async val => {
-    const resposta = await axios(`http://localhost:8080/gateway/pesquisa/v1/api/eventos/pesquisa/${val}`)
-    const eventosList = await resposta.data
-    console.log(eventosList)
-    setEventos(eventosList)
-  }
+    const resposta = await axios(`http://localhost:8080/gateway/pesquisa/v1/api/eventos/pesquisa/${val}`);
+    const eventosList = await resposta.data;
+    console.log(eventosList);
+    setEventos(eventosList);
+  };
 
   const onHandleChange = async e => {
-    search(e.target.value)
+    search(e.target.value);
     setValue({
       ...value,
       [e.target.name]: e.target.value
-    })
-  }
+    });
+  };
 
   // const get = () => {
   //   let eve = <h1>Nenhum evento</h1>;

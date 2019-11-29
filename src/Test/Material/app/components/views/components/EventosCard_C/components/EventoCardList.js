@@ -1,5 +1,6 @@
-import { CardDefault } from '../'
-import React from 'react'
+import React from "react";
+import { CardDefault } from "..";
+
 const EventoCardList = ({ list }) => {
   let cards = <h3>Loading...</h3>;
 

@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import { NavigateNext, NavigateBefore } from "@material-ui/icons";
 
 import { Link } from "react-router-dom";
-import Pagination from 'pagination-react-hooks';
+import Pagination from "pagination-react-hooks";
 import { makeStyles } from "@material-ui/core/styles";
-import { api } from '../../../../../../../services/api'
-import './styles/main.css'
+import { api } from "../../../../../../../services/api";
+import "./styles/main.css";
 import {
   Card,
   Grid,
@@ -47,15 +47,15 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export const CardDefault = ({ props }) => {
-  const [evento, setEvento] = useState([])
+  const [evento, setEvento] = useState([]);
   const [load, setLoad] = useState(false);
-  const [error, setError] = useState('');
+  const [error, setError] = useState("");
 
   useEffect(() => {
     api.get("eventos").then(res => {
-      setEvento(res.data)
-    })
-  }, [])
+      setEvento(res.data);
+    });
+  }, []);
 
   const classes = useStyles();
   const show = (value) => (
@@ -92,14 +92,14 @@ export const CardDefault = ({ props }) => {
         <CardActions>
           <Button size="small" color="primary">
             Participar
-                </Button>
+          </Button>
           {/* <Button size="small" color="primary">
             Learn More
                 </Button> */}
         </CardActions>
       </Card>
     </Grid>
-  )
+  );
 
   return (
     <Grid container>
@@ -147,5 +147,5 @@ export const CardMongo = ({ props }) => {
 
       ))}
     </>
-  )
-}
+  );
+};
