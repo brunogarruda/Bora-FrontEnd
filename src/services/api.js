@@ -13,6 +13,7 @@ import { getToken } from "./auth";
 //     "Content-Type": "application/json"
 //   }
 // });
+<<<<<<< HEAD
 export const api = axios.create({
   baseURL: "http://localhost:8080/",
   headers: {
@@ -26,6 +27,10 @@ export const api = axios.create({
 });
 // export const api = axios.create({
 //   baseURL: "http://localhost:8080/",
+=======
+// export const api = axios.create({
+//   baseURL: "http://localhost:8080/v1/api/",
+>>>>>>> 275f0c943660a9c40aac24f7875aa684ec65e53a
 //   headers: {
 //     "Access-Control-Allow-Origin": "*",
 //     "Access-Control-Allow-Methods": "DELETE, POST, GET, OPTIONS",
@@ -49,3 +54,15 @@ export const api = axios.create({
 //   }
 //   return config;
 // });
+
+export const api = axios.create({
+  baseURL: "http://localhost:8080/gateway/eventos/v1/api/",
+  headers: {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+    "Access-Control-Allow-Credentials": true,
+    "crossorigin": true,
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  }
+});

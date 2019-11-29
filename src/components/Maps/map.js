@@ -67,7 +67,7 @@
 
 //   const MapsClient = () =>
 //     googleMapsClient.createClient({
-//       key: "AIzaSyDTjPz7a0H6P78ccjbZHuL0fpPOY8UwQN4",
+//       key: "",
 //       Promise: Promise
 //     });
 

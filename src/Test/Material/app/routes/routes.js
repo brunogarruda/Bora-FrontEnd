@@ -5,8 +5,15 @@ import Loading from '../components/views/components/LoadingCircular_C';
 import { NavBarComponent } from '../components/NavBarComponent';
 // import NavBarComponent from '../../../../components/Header';
 // import { history } from '../utils/history';
+<<<<<<< HEAD
 import Footer from '../components/views/components/FooterDefault_C';
 import { isAuthenticated } from '../services/auth';
+=======
+// import Footer2 from '../../'
+// import Footer from '../components/views/components/FooterDefault_C';
+import Footer from '../../../../components/Footer/';
+// const Post = lazy(() => import('./components/Loading/Post'))
+>>>>>>> 275f0c943660a9c40aac24f7875aa684ec65e53a
 const Home = lazy(() => import('../pages/home-page'));
 const Perfil = lazy(() => import('../pages/perfil-page'));
 const DetalheEvento = lazy(() => import('../pages/detalhe-evento'));
