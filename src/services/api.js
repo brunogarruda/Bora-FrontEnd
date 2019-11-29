@@ -14,13 +14,24 @@ import { getToken } from "./auth";
 //   }
 // });
 export const api = axios.create({
-  baseURL: "http://localhost:8080/v1/api/",
+  baseURL: "http://localhost:8080/",
   headers: {
     "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "DELETE, POST, GET, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+    "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+    "Access-Control-Allow-Credentials": true,
+    "crossorigin": true,
+    "Accept": "application/json",
+    "Content-Type": "application/json"
   }
 });
+// export const api = axios.create({
+//   baseURL: "http://localhost:8080/",
+//   headers: {
+//     "Access-Control-Allow-Origin": "*",
+//     "Access-Control-Allow-Methods": "DELETE, POST, GET, OPTIONS",
+//     "Access-Control-Allow-Headers": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+//   }
+// });
 
 // headers: {
 //   "Access-Control-Allow-Origin": "*",

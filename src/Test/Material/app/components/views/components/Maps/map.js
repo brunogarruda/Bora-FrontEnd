@@ -16,7 +16,7 @@ import axios from "axios";
 import { Grid, Paper } from "@material-ui/core";
 import fakeData from "../../../../../../../data/enderecos.json";
 
-export default function MapModel() {
+export default function MapModel({ children }) {
   const [coordenadasEnderecos, setCoordenadasEnderecos] = useState([]);
   const [geo, setGeo] = useState({
     latitude: "",

@@ -69,11 +69,12 @@ const useStyles = makeStyles(theme => ({
   },
   buttonPronto: {
     width: "480%",
-    marginLeft:"50%"
-  },tituloPag:{
-    fontSize:"2em",
-    color:"#FF7200",
-    fontWeight:"bold"
+    marginLeft: "50%"
+  },
+  tituloPag: {
+    fontSize: "2em",
+    color: "#FF7200",
+    fontWeight: "bold"
   }
 }));
 
@@ -95,11 +96,8 @@ export default function EditarEventoPage(props) {
       <CardMedia className={classes.media} image={bg} title="Contemplative Reptile" />
 
       <Grid container className={classes.root} justify="space-around">
-        <Typography
-          className={classes.tituloPag}
-        >
-Gostaria de mexer em alguma informação do seu evento
-
+        <Typography className={classes.tituloPag}>
+          Gostaria de mexer em alguma informação do seu evento
         </Typography>
         <FormControl>
           <InputLabel htmlFor="titulo">Titulo do Evento: </InputLabel>

@@ -280,10 +280,16 @@ export const ModalCadastro = ({ open, close }) => {
   // );
 
   const onSubmit = async () => {
-    await api.post('auth/v1/api/usuarios', register).then(res => {
+    await api.post('v1/api/usuarios', register).then(res => {
       console.log(res.data);
     });
   };
+
+  // const onSubmit = async () => {
+  //   await api.post('auth/v1/api/usuarios', register).then(res => {
+  //     console.log(res.data);
+  //   });
+  // };
 
   const erros = () => {
     // const boxMsgErro = document.querySelector(".box-msg-erro");
