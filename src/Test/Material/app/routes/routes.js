@@ -6,7 +6,8 @@ import Loading from '../components/views/components/LoadingCircular_C';
 import Header from '../../../../components/Header';
 // import { history } from '../utils/history';
 // import Footer2 from '../../'
-import Footer from '../components/views/components/FooterDefault_C';
+// import Footer from '../components/views/components/FooterDefault_C';
+import Footer from '../../../../components/Footer/';
 // const Post = lazy(() => import('./components/Loading/Post'))
 const Home = lazy(() => import('../pages/home-page'));
 const Perfil = lazy(() => import('../pages/perfil-page'));

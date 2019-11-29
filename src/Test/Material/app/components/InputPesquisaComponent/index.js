@@ -1,7 +1,11 @@
-import React from "react";
-import {  makeStyles } from "@material-ui/core/styles";
-import { IconButton, Paper, InputBase} from "@material-ui/core";
+import React, { useState } from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import { IconButton, Paper, InputBase } from "@material-ui/core";
 import { Search } from "@material-ui/icons";
+import axios from 'axios'
+import { CardMongo } from '../views/components/EventosCard_C'
+import EventoCardList from '../views/components/EventosCard_C/components/EventoCardList'
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -35,17 +39,52 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default () => {
+  const [eventos, setEventos] = useState([])
+  const [value, setValue] = useState("")
+
+
   const classes = useStyles();
+
+  const search = async val => {
+    const resposta = await axios(`http://localhost:8080/gateway/pesquisa/v1/api/eventos/pesquisa/${val}`)
+    const eventosList = await resposta.data
+    console.log(eventosList)
+    setEventos(eventosList)
+  }
+
+  const onHandleChange = async e => {
+    search(e.target.value)
+    setValue({
+      ...value,
+      [e.target.name]: e.target.value
+    })
+  }
+
+  // const get = () => {
+  //   let eve = <h1>Nenhum evento</h1>;
+  //   if (eventos) {
+  //     eve = <EventoCardList list={eventos} />
+  //   }
+
+  //   return eve;
+  // }
+
+
   return (
-    <Paper component="form" className={classes.root}>
-      <InputBase
-        className={classes.input}
-        placeholder="Pesquisar eventos em Bora"
-        inputProps={{ "aria-label": "search google maps" }}
-      />
-      <IconButton className={classes.iconButton} aria-label="search">
-        <Search />
-      </IconButton>
-    </Paper>
+    <>
+      <Paper component="form" className={classes.root}>
+        <InputBase
+          name="pesquisa"
+          onChange={e => onHandleChange(e)}
+          className={classes.input}
+          placeholder="Pesquisar eventos em Bora"
+          inputProps={{ "aria-label": "search google maps" }}
+        />
+        <IconButton className={classes.iconButton} aria-label="search">
+          <Search />
+        </IconButton>
+      </Paper>
+      <CardMongo props={value} />
+    </>
   );
 };
