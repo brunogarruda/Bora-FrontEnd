@@ -10,20 +10,28 @@ import { NavLink, Redirect } from "react-router-dom";
 import { api } from "../../../services";
 
 export default () => {
-  const { register, handleSubmit, errors } = useForm();
-  const [valido, setValido] = useState(false);
+    const { register, handleSubmit, errors } = useForm();
+    const [valido, setValido] = useState(false);
+    const [repetido, setRepetido] = useState('');
 
-  const onSubmit = (data) => {
-    api.post("usuarios", data).then((respo) => {
-      if (respo.status === 201) {
-        setValido(true);
-      }
-    });
-  };
-  return (
+    const onSubmit = (data) => {
+        api.post("usuarios", data).then((respo) => {
+            if (respo.status === 201) {
+                setValido(true);
+                console.log(respo);
+                alert("Cadastrado com sucesso");
+            } 
+        })
+        .catch((err) => {
+            setRepetido("Usuário ou email já cadastrado");
+          });
+        ;
+    };
+   
+    return (
         <Container>
             <div className="container">
-                {valido ? <Redirect to="/" /> : null}
+                {valido ? <Redirect to="/login" /> : null}
                 <Card>
                     <h4 className="center-align">Bem vindo, crie uma conta</h4>
                     <div className="row">
@@ -36,23 +44,23 @@ export default () => {
                                             account_circle
                                         </i>
                                         <input
-                                          className="validate"
-                                          type="text"
-                                          name="apelido"
-                                          id="apelido"
-                                          ref={register({
-                                              required:
+                                            className="validate"
+                                            type="text"
+                                            name="apelido"
+                                            id="apelido"
+                                            ref={register({
+                                                required:
                                                     "Escolha um apelido legal para voce ser conhecido mais facilmente",
-                                              maxLength: {
-                                                value: 20,
-                                                message:
+                                                maxLength: {
+                                                    value: 20,
+                                                    message:
                                                         "Tamanho maximo é 20"
-                                              },
-                                              minLength: {
-                                                value: 2,
-                                                message:
+                                                },
+                                                minLength: {
+                                                    value: 2,
+                                                    message:
                                                         "Tamanho minimo é 2, voce consegue"
-                                              }
+                                                }
                                             })}
                                         />
                                         <label htmlFor="apelido">
@@ -71,23 +79,23 @@ export default () => {
                                             email
                                         </i>
                                         <input
-                                          className="validate"
-                                          type="email"
-                                          name="email"
-                                          id="email"
-                                          ref={register({
-                                              required:
+                                            className="validate"
+                                            type="email"
+                                            name="email"
+                                            id="email"
+                                            ref={register({
+                                                required:
                                                     "É necessario o email, pode ser util no futuro",
-                                              pattern: {
-                                                value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
-                                                message:
+                                                pattern: {
+                                                    value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+                                                    message:
                                                         "Acho que seu email nao esta correto, tente novamente"
-                                              },
-                                              maxlength: {
-                                                value: 30,
-                                                message:
+                                                },
+                                                maxlength: {
+                                                    value: 30,
+                                                    message:
                                                         "Que email é esse, escolha um menor"
-                                              }
+                                                }
                                             })}
                                         />
                                         <label htmlFor="email">
@@ -107,19 +115,19 @@ export default () => {
                                             lock
                                         </i>
                                         <input
-                                          className="validate"
-                                          type="password"
-                                          name="senha"
-                                          maxLength="15"
-                                          id="senha"
-                                          ref={register({
-                                              required:
+                                            className="validate"
+                                            type="password"
+                                            name="senha"
+                                            maxLength="15"
+                                            id="senha"
+                                            ref={register({
+                                                required:
                                                     "Sem senha, voce nao consegue se logar",
-                                              maxlength: {
-                                                value: 15,
-                                                message:
+                                                maxlength: {
+                                                    value: 15,
+                                                    message:
                                                         "Tamanho maximo para a senha 15 digitos"
-                                              }
+                                                }
                                             })}
                                         />
                                         <label htmlFor="senha">
@@ -142,19 +150,27 @@ export default () => {
                                         </a>
                                     </label>
                                 </div>
-
+                                <div className="row">
+                                    <div className="input-field col s6 m6 l6">
+                                        {repetido && (
+                                            <p className="margin medium-small">
+                                                {repetido}
+                                            </p>
+                                        )}
+                                    </div>
+                                </div>
                                 <br />
                                 <center>
                                     <div className="row">
                                         <button
-                                          disabled={
+                                            disabled={
                                                 errors.apelido
                                                 || errors.email
                                                 || errors.senha
                                             }
-                                          type="submit"
-                                          name="btn_login"
-                                          className="col s12 btn btn-large waves-effect indigo"
+                                            type="submit"
+                                            name="btn_login"
+                                            className="col s12 btn btn-large waves-effect indigo"
                                         >
                                             Acessar
                                         </button>
@@ -178,5 +194,5 @@ export default () => {
             </Modal> */}
             </div>
         </Container>
-  );
+    );
 };
