@@ -1,0 +1,183 @@
+.conteudo-detalhe {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  padding: 3%;
+  position: relative;
+}
+
+.titulo-detalhe-evento {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 57px;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 4;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-calendar {
+  display: grid;
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.data-detalhe-evento {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  display: flex;
+  margin-top: -20%;
+  grid-column-end: 4;
+  padding: 16%;
+  margin-left: 8%;
+}
+.botao-detalhe-evento-nao {
+  width: 50%;
+}
+
+.botao-detalhe-evento-bora {
+  width: 50%;
+}
+
+.descricao-detalhe-evento {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  margin-left: -15%;
+  text-align: justify;
+}
+
+.info-horario-detalhe-evento {
+  grid-row-start: 2;
+  grid-column-start: 4;
+  padding: 20%;
+  grid-column-end: 6;
+}
+.icon-location {
+  margin-left: -109%;
+}
+
+.icon-relogio {
+  margin-left: -120%;
+}
+.horario-detalhe-evento {
+  display: flex;
+  align-items: center;
+}
+
+.local-detalhe-evento {
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.google-maps-detalhe {
+  grid-row-start: 3;
+}
+.carousel-section {
+  grid-row-start: 2;
+}
+
+.section-car-detalhe{
+  position: relative;
+  margin-top: 19%;
+  padding: 2%;
+}
+
+.titulo-quem-vai {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #2f004b;
+
+  mix-blend-mode: normal;
+}
+
+/* .titulo-editar-evento {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+.img-banner {
+  position: absolute;
+  width: 1367px;
+  height: 342px;
+  left: 3px;
+  top: 94px;
+} */
+
+/*.form-group {
+    margin: 0 6vh 4vh 0;
+}
+*/
+
+/* config padrão */
+
+/* label, input {
+    margin: 0;
+}
+
+.groupinput {
+    margin-bottom: 2.5vh;
+}
+
+.label-form {
+    margin-top: 2vh;
+}
+
+.inputForm {
+    margin-bottom: 2px;
+}
+
+.title-form {
+    margin-top: 2vh;
+    color: #FF7200;
+}
+/* fim config padrao     */
+
+/* .form-group {
+    max-height: auto;
+}
+
+.botao-pronto {
+    background: linear-gradient(to right,#6AC2E9,#5A25CB);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    width: 45%;
+    height: 38px;
+    border-radius: 2px;
+    margin-left: 5%;
+}
+
+.botao-deixa-pra-la {
+    background: #000;
+    color: white;
+    width: 45%;
+    height: 38px;
+    border-radius: 2px;
+    margin-right: 5%;
+
+}
+
+.groupinputButton {
+    margin-bottom: 8vh;
+}
+
+#div-senha{
+    display: none;
+} */
